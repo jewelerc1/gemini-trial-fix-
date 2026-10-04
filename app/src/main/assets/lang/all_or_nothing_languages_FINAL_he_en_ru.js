@@ -1,0 +1,4746 @@
+window.ALL_OR_NOTHING_LANG_PACK = {
+  "meta": {
+    "name": "All or Nothing multilingual pack",
+    "phase": 3,
+    "languages": [
+      "he",
+      "en",
+      "ru"
+    ],
+    "note": "Final multilingual pack: Hebrew source + English + Russian. Pair deck contains the 130 real existing pair cards only; blank pair placeholders were removed. Use stable IDs for per-player no-repeat history."
+  },
+  "ui": {
+    "app_title": {
+      "he": "הכל או כלום",
+      "en": "All or Nothing",
+      "ru": "Всё или ничего"
+    },
+    "language": {
+      "he": "שפה",
+      "en": "Language",
+      "ru": "Язык"
+    },
+    "hebrew": {
+      "he": "עברית",
+      "en": "Hebrew",
+      "ru": "Иврит"
+    },
+    "english": {
+      "he": "אנגלית",
+      "en": "English",
+      "ru": "Английский"
+    },
+    "russian": {
+      "he": "רוסית",
+      "en": "Russian",
+      "ru": "Русский"
+    },
+    "all": {
+      "he": "הכל",
+      "en": "All",
+      "ru": "Всё"
+    },
+    "nothing": {
+      "he": "כלום",
+      "en": "Nothing",
+      "ru": "Ничего"
+    },
+    "wheel": {
+      "he": "גלגל",
+      "en": "Wheel",
+      "ru": "Колесо"
+    },
+    "bold_task": {
+      "he": "משימה נועזת",
+      "en": "Bold Task",
+      "ru": "Смелое задание"
+    },
+    "truth_or_dare": {
+      "he": "אמת או חובה",
+      "en": "Truth or Dare",
+      "ru": "Правда или действие"
+    },
+    "pair": {
+      "he": "זוג",
+      "en": "Pair",
+      "ru": "Пара"
+    },
+    "swap": {
+      "he": "החלפה",
+      "en": "Swap",
+      "ru": "Обмен"
+    },
+    "luck": {
+      "he": "מזל",
+      "en": "Luck",
+      "ru": "Удача"
+    },
+    "choose_player": {
+      "he": "בחירת שחקן",
+      "en": "Choose Player",
+      "ru": "Выбор игрока"
+    },
+    "immunity": {
+      "he": "חסינות",
+      "en": "Immunity",
+      "ru": "Иммунитет"
+    },
+    "extra_turn": {
+      "he": "תור נוסף",
+      "en": "Extra Turn",
+      "ru": "Дополнительный ход"
+    },
+    "lose_turn": {
+      "he": "הפסד תור",
+      "en": "Lose a Turn",
+      "ru": "Пропуск хода"
+    },
+    "start": {
+      "he": "התחלה",
+      "en": "Start",
+      "ru": "Старт"
+    },
+    "new_game": {
+      "he": "משחק חדש",
+      "en": "New Game",
+      "ru": "Новая игра"
+    },
+    "copyright": {
+      "he": "© 2026 רועי ג׳רי חן · כל הזכויות שמורות",
+      "en": "© 2026 Roy Jerry Chen · All rights reserved",
+      "ru": "© 2026 Рой Джерри Чен · Все права защищены"
+    },
+    "choose_player_board": {
+      "he": "בחר שחקן",
+      "en": "Choose Player",
+      "ru": "Выбери игрока"
+    },
+    "swap_places": {
+      "he": "החלפת מקום",
+      "en": "Swap Places",
+      "ru": "Обмен местами"
+    },
+    "move_forward_2": {
+      "he": "זוז 2 קדימה",
+      "en": "Move Forward 2",
+      "ru": "Вперёд на 2"
+    },
+    "move_back_3": {
+      "he": "זוז 3 אחורה",
+      "en": "Move Back 3",
+      "ru": "Назад на 3"
+    },
+    "return_to_start": {
+      "he": "חזרה להתחלה",
+      "en": "Return to Start",
+      "ru": "Вернуться на старт"
+    },
+    "roll_dice": {
+      "he": "זרוק קוביות",
+      "en": "Roll Dice",
+      "ru": "Бросить кости"
+    },
+    "ready_to_roll": {
+      "he": "מוכן לזריקה",
+      "en": "Ready to roll",
+      "ru": "Готов к броску"
+    },
+    "voice_on": {
+      "he": "קול פעיל",
+      "en": "Voice On",
+      "ru": "Голос включён"
+    },
+    "voice_off": {
+      "he": "קול כבוי",
+      "en": "Voice Off",
+      "ru": "Голос выключен"
+    },
+    "heat_warmup": {
+      "he": "חימום",
+      "en": "Warm-up",
+      "ru": "Разминка"
+    },
+    "heat_touch": {
+      "he": "מגע",
+      "en": "Touch",
+      "ru": "Прикосновения"
+    },
+    "heat_bold": {
+      "he": "נועז",
+      "en": "Bold",
+      "ru": "Смело"
+    },
+    "heat_extreme": {
+      "he": "אקסטרים",
+      "en": "Extreme",
+      "ru": "Экстрим"
+    },
+    "truth": {
+      "he": "אמת",
+      "en": "Truth",
+      "ru": "Правда"
+    },
+    "dare": {
+      "he": "חובה",
+      "en": "Dare",
+      "ru": "Действие"
+    },
+    "straight": {
+      "he": "סטרייט",
+      "en": "Straight",
+      "ru": "Гетеро"
+    },
+    "gay_lesbian": {
+      "he": "גיי / לסבית",
+      "en": "Gay / Lesbian",
+      "ru": "Гей / Лесбиянка"
+    },
+    "bi_mixed": {
+      "he": "בי / מעורב",
+      "en": "Bi / Mixed",
+      "ru": "Би / Смешанный"
+    },
+    "male": {
+      "he": "גבר",
+      "en": "Male",
+      "ru": "Мужчина"
+    },
+    "female": {
+      "he": "אישה",
+      "en": "Female",
+      "ru": "Женщина"
+    },
+    "players": {
+      "he": "שחקנים",
+      "en": "Players",
+      "ru": "Игроки"
+    },
+    "round": {
+      "he": "סיבוב",
+      "en": "Round",
+      "ru": "Раунд"
+    },
+    "turn": {
+      "he": "תור",
+      "en": "Turn",
+      "ru": "Ход"
+    }
+  },
+  "all_cards": [
+    {
+      "id": "all_001",
+      "he": "עשה כניסה סקסית לחדר כאילו כולם מסתכלים רק עליך.",
+      "en": "Make a sexy entrance into the room as if everyone is watching only you.",
+      "ru": "Сделай сексуальный выход в комнату так, будто все смотрят только на тебя."
+    },
+    {
+      "id": "all_002",
+      "he": "בחר משתתף ונשק אותו נשיקה ממושכת.",
+      "en": "Choose a player and give them a long kiss.",
+      "ru": "Выбери игрока и поцелуй его долгим поцелуем."
+    },
+    {
+      "id": "all_003",
+      "he": "עשה ריקוד חושני של 30 שניות מול כולם.",
+      "en": "Do a sensual 30-second dance in front of everyone.",
+      "ru": "Исполни чувственный танец в течение 30 секунд перед всеми."
+    },
+    {
+      "id": "all_004",
+      "he": "בחר משתתף ושב צמוד אליו עד התור הבא.",
+      "en": "Choose a player and sit pressed close to them until your next turn.",
+      "ru": "Выбери игрока и сядь вплотную к нему до своего следующего хода."
+    },
+    {
+      "id": "all_005",
+      "he": "לחש למשתתף שמושך אותך מה היית רוצה שיקרה ביניכם הערב.",
+      "en": "Whisper to the player you are attracted to what you would like to happen between you tonight.",
+      "ru": "Шепни игроку, который тебя привлекает, что бы ты хотел, чтобы произошло между вами сегодня вечером."
+    },
+    {
+      "id": "all_006",
+      "he": "בחר משתתף ותן לו נשיקה בצוואר.",
+      "en": "Choose a player and kiss them on the neck.",
+      "ru": "Выбери игрока и поцелуй его в шею."
+    },
+    {
+      "id": "all_007",
+      "he": "עשה מסלול דוגמנות סקסי מול כולם.",
+      "en": "Do a sexy runway walk in front of everyone.",
+      "ru": "Пройдись перед всеми как по подиуму в сексуальной манере."
+    },
+    {
+      "id": "all_008",
+      "he": "בחר משתתף והחזק איתו קשר עין ממרחק אפס במשך 30 שניות.",
+      "en": "Choose a player and hold eye contact from inches away for 30 seconds.",
+      "ru": "Выбери игрока и удерживай с ним зрительный контакт почти вплотную 30 секунд."
+    },
+    {
+      "id": "all_009",
+      "he": "בחר משתתף ורקוד איתו צמוד במשך 30 שניות.",
+      "en": "Choose a player and dance closely with them for 30 seconds.",
+      "ru": "Выбери игрока и танцуй с ним вплотную 30 секунд."
+    },
+    {
+      "id": "all_010",
+      "he": "שתה צ'ייסר אחד והקדש אותו למשתתף שהכי מושך אותך.",
+      "en": "Take a shot and dedicate it to the player you find most attractive.",
+      "ru": "Выпей шот и посвяти его игроку, который привлекает тебя больше всего."
+    },
+    {
+      "id": "all_011",
+      "he": "הורד אביזר לבוש אחד והשאר אותו בצד עד סוף הסיבוב.",
+      "en": "Remove one clothing accessory and leave it off until the end of the round.",
+      "ru": "Сними один аксессуар одежды и оставь его снятым до конца раунда."
+    },
+    {
+      "id": "all_012",
+      "he": "בחר משתתף ושב על הברכיים שלו עד התור הבא.",
+      "en": "Choose a player and sit on their lap until your next turn.",
+      "ru": "Выбери игрока и сядь к нему на колени до своего следующего хода."
+    },
+    {
+      "id": "all_013",
+      "he": "עשה סטריפטיז קצר של 20 שניות.",
+      "en": "Do a short 20-second striptease.",
+      "ru": "Сделай короткий стриптиз в течение 20 секунд."
+    },
+    {
+      "id": "all_014",
+      "he": "בחר משתתף ותן לו נשיקה על הכתף.",
+      "en": "Choose a player and kiss them on the shoulder.",
+      "ru": "Выбери игрока и поцелуй его в плечо."
+    },
+    {
+      "id": "all_015",
+      "he": "רקד מול המשתתף שבחרת כאילו אתם לבד בחדר.",
+      "en": "Dance in front of the player you chose as if the two of you were alone.",
+      "ru": "Танцуй перед выбранным игроком так, будто вы одни в комнате."
+    },
+    {
+      "id": "all_016",
+      "he": "בחר משתתף ותן לו חיבוק ארוך ואיטי.",
+      "en": "Choose a player and give them a long, slow hug.",
+      "ru": "Выбери игрока и обними его долго и медленно."
+    },
+    {
+      "id": "all_017",
+      "he": "בחר משתתף ונשק אותו על הלחי קרוב לפה.",
+      "en": "Choose a player and kiss them on the cheek, close to the lips.",
+      "ru": "Выбери игрока и поцелуй его в щёку рядом с губами."
+    },
+    {
+      "id": "all_018",
+      "he": "הסר פריט לבוש חיצוני אחד.",
+      "en": "Remove one outer item of clothing.",
+      "ru": "Сними один предмет верхней одежды."
+    },
+    {
+      "id": "all_019",
+      "he": "בחר משתתף ותן לו לאחוז לך במותניים בזמן ריקוד.",
+      "en": "Choose a player and let them hold your waist while you dance.",
+      "ru": "Выбери игрока и позволь ему держать тебя за талию во время танца."
+    },
+    {
+      "id": "all_020",
+      "he": "עשה 20 שניות של פוזות חושניות מול כולם.",
+      "en": "Do 20 seconds of sensual poses in front of everyone.",
+      "ru": "Покажи 20 секунд чувственных поз перед всеми."
+    },
+    {
+      "id": "all_021",
+      "he": "בחר משתתף והצמד אליו מצח למצח ל-20 שניות.",
+      "en": "Choose a player and press your forehead to theirs for 20 seconds.",
+      "ru": "Выбери игрока и прижмись лбом к его лбу на 20 секунд."
+    },
+    {
+      "id": "all_022",
+      "he": "עשה לאפ-דאנס קצר מעל הבגדים למשתתף שבחרת.",
+      "en": "Give the player you chose a short lap dance over clothing.",
+      "ru": "Сделай выбранному игроку короткий lap dance поверх одежды."
+    },
+    {
+      "id": "all_023",
+      "he": "בחר משתתף ונשק אותו על היד ואז על הלחי.",
+      "en": "Choose a player and kiss their hand, then their cheek.",
+      "ru": "Выбери игрока и поцелуй его руку, а затем щёку."
+    },
+    {
+      "id": "all_024",
+      "he": "שתה צ'ייסר ואז עשה ריקוד סקסי של 20 שניות.",
+      "en": "Take a shot, then do a 20-second sexy dance.",
+      "ru": "Выпей шот, затем исполни сексуальный танец в течение 20 секунд."
+    },
+    {
+      "id": "all_025",
+      "he": "בחר משתתף ושב מולו קרוב מאוד במשך דקה.",
+      "en": "Choose a player and sit very close in front of them for one minute.",
+      "ru": "Выбери игрока и сядь очень близко напротив него на одну минуту."
+    },
+    {
+      "id": "all_026",
+      "he": "הסר שכבת לבוש אחת.",
+      "en": "Remove one layer of clothing.",
+      "ru": "Сними один слой одежды."
+    },
+    {
+      "id": "all_027",
+      "he": "בחר משתתף ורקוד איתו כשהידיים על המותניים.",
+      "en": "Choose a player and dance with them with your hands on their waist.",
+      "ru": "Выбери игрока и танцуй с ним, держа руки на его талии."
+    },
+    {
+      "id": "all_028",
+      "he": "עשה סטריפטיז איטי של 30 שניות בלי לעצור את המוזיקה.",
+      "en": "Do a slow 30-second striptease without stopping the music.",
+      "ru": "Сделай медленный стриптиз в течение 30 секунд, не останавливая музыку."
+    },
+    {
+      "id": "all_029",
+      "he": "בחר משתתף ותן לו נשיקה של 5 שניות.",
+      "en": "Choose a player and give them a five-second kiss.",
+      "ru": "Выбери игрока и поцелуй его в течение пяти секунд."
+    },
+    {
+      "id": "all_030",
+      "he": "עמוד מול כולם והדגם איך אתה מפלרטט כשאתה ממש רוצה מישהו.",
+      "en": "Stand in front of everyone and show how you flirt when you really want someone.",
+      "ru": "Встань перед всеми и покажи, как ты флиртуешь, когда действительно хочешь кого-то."
+    },
+    {
+      "id": "all_031",
+      "he": "בחר משתתף והעבר יד לאט לאורך הזרוע שלו.",
+      "en": "Choose a player and slowly run your hand along their arm.",
+      "ru": "Выбери игрока и медленно проведи рукой вдоль его руки."
+    },
+    {
+      "id": "all_032",
+      "he": "בחר משתתף ותן לו עיסוי כתפיים של 30 שניות.",
+      "en": "Choose a player and give them a 30-second shoulder massage.",
+      "ru": "Выбери игрока и сделай ему массаж плеч в течение 30 секунд."
+    },
+    {
+      "id": "all_033",
+      "he": "בחר משתתף וקבל ממנו עיסוי כתפיים של 30 שניות.",
+      "en": "Choose a player and receive a 30-second shoulder massage from them.",
+      "ru": "Выбери игрока и получи от него массаж плеч в течение 30 секунд."
+    },
+    {
+      "id": "all_034",
+      "he": "הסר פריט לבוש והשאר אותו על הרצפה עד סוף התור הבא.",
+      "en": "Remove one item of clothing and leave it on the floor until the end of your next turn.",
+      "ru": "Сними один предмет одежды и оставь его на полу до конца своего следующего хода."
+    },
+    {
+      "id": "all_035",
+      "he": "בחר משתתף ולחש לו את המחמאה הכי נועזת שלך.",
+      "en": "Choose a player and whisper your boldest compliment to them.",
+      "ru": "Выбери игрока и прошепчи ему свой самый смелый комплимент."
+    },
+    {
+      "id": "all_036",
+      "he": "בחר משתתף ורקוד איתו צמוד בלי לדבר במשך 30 שניות.",
+      "en": "Choose a player and dance closely with them in silence for 30 seconds.",
+      "ru": "Выбери игрока и танцуй с ним вплотную молча в течение 30 секунд."
+    },
+    {
+      "id": "all_037",
+      "he": "עשה מופע קצר כאילו אתה רקדן במועדון למבוגרים.",
+      "en": "Put on a short performance as if you were an adult-club dancer.",
+      "ru": "Устрой короткое выступление так, будто ты танцор в клубе для взрослых."
+    },
+    {
+      "id": "all_038",
+      "he": "בחר משתתף ותן לו נשיקה במצח ואז נשיקה בלחי.",
+      "en": "Choose a player and kiss them on the forehead, then on the cheek.",
+      "ru": "Выбери игрока и поцелуй его в лоб, а затем в щёку."
+    },
+    {
+      "id": "all_039",
+      "he": "שתה צ'ייסר והישאר צמוד למשתתף שבחרת עד התור הבא.",
+      "en": "Take a shot and stay pressed close to the player you chose until your next turn.",
+      "ru": "Выпей шот и оставайся вплотную к выбранному игроку до своего следующего хода."
+    },
+    {
+      "id": "all_040",
+      "he": "הסר שני אביזרים או פריטי לבוש חיצוניים.",
+      "en": "Remove two accessories or outer items of clothing.",
+      "ru": "Сними два аксессуара или два предмета верхней одежды."
+    },
+    {
+      "id": "all_041",
+      "he": "עשה סטריפטיז של 45 שניות והסר פריט לבוש אחד.",
+      "en": "Do a 45-second striptease and remove one item of clothing.",
+      "ru": "Сделай стриптиз в течение 45 секунд и сними один предмет одежды."
+    },
+    {
+      "id": "all_042",
+      "he": "בחר משתתף ובצע מולו לאפ-דאנס של 30 שניות מעל הבגדים.",
+      "en": "Choose a player and give them a 30-second lap dance over clothing.",
+      "ru": "Выбери игрока и сделай ему lap dance поверх одежды в течение 30 секунд."
+    },
+    {
+      "id": "all_043",
+      "he": "בחר משתתף ונשק אותו נשיקה ארוכה.",
+      "en": "Choose a player and give them a long kiss.",
+      "ru": "Выбери игрока и поцелуй его долгим поцелуем."
+    },
+    {
+      "id": "all_044",
+      "he": "בחר משתתף ורקוד איתו צמוד במשך דקה.",
+      "en": "Choose a player and dance closely with them for one minute.",
+      "ru": "Выбери игрока и танцуй с ним вплотную одну минуту."
+    },
+    {
+      "id": "all_045",
+      "he": "הסר שני פריטי לבוש חיצוניים.",
+      "en": "Remove two outer items of clothing.",
+      "ru": "Сними два предмета верхней одежды."
+    },
+    {
+      "id": "all_046",
+      "he": "בחר משתתף ושב על הברכיים שלו עד סוף הסיבוב.",
+      "en": "Choose a player and sit on their lap until the end of the round.",
+      "ru": "Выбери игрока и сядь к нему на колени до конца раунда."
+    },
+    {
+      "id": "all_047",
+      "he": "שתה צ'ייסר מגופו של משתתף מאזור הכתף או הבטן.",
+      "en": "Drink a shot from a player's shoulder or stomach.",
+      "ru": "Выпей шот с плеча или живота игрока."
+    },
+    {
+      "id": "all_048",
+      "he": "בחר משתתף ונשק אותו בצוואר.",
+      "en": "Choose a player and kiss them on the neck.",
+      "ru": "Выбери игрока и поцелуй его в шею."
+    },
+    {
+      "id": "all_049",
+      "he": "עשה סטריפטיז עד להלבשה תחתונה אם עדיין לא הגעת אליה.",
+      "en": "Strip down to your underwear if you are not already there.",
+      "ru": "Разденься до нижнего белья, если ты ещё не дошёл до этого уровня."
+    },
+    {
+      "id": "all_050",
+      "he": "בחר משתתף ותן לו עיסוי גב של דקה.",
+      "en": "Choose a player and give them a one-minute back massage.",
+      "ru": "Выбери игрока и сделай ему массаж спины в течение одной минуты."
+    },
+    {
+      "id": "all_051",
+      "he": "בחר משתתף וקבל ממנו עיסוי גב של דקה.",
+      "en": "Choose a player and receive a one-minute back massage from them.",
+      "ru": "Выбери игрока и получи от него массаж спины в течение одной минуты."
+    },
+    {
+      "id": "all_052",
+      "he": "רקד מול כולם במשך דקה כאילו אתה מופיע במועדון למבוגרים.",
+      "en": "Dance in front of everyone for one minute as if you were performing in an adult club.",
+      "ru": "Танцуй перед всеми одну минуту так, будто выступаешь в клубе для взрослых."
+    },
+    {
+      "id": "all_053",
+      "he": "בחר משתתף ונשק אותו על הכתף, הצוואר והלחי.",
+      "en": "Choose a player and kiss their shoulder, neck, and cheek.",
+      "ru": "Выбери игрока и поцелуй его в плечо, шею и щёку."
+    },
+    {
+      "id": "all_054",
+      "he": "הסר פריט לבוש אחד בכל פעם שהקבוצה סופרת מ-5 עד 1.",
+      "en": "Remove one item of clothing each time the group counts down from five to one.",
+      "ru": "Снимай по одному предмету одежды каждый раз, когда группа считает от пяти до одного."
+    },
+    {
+      "id": "all_055",
+      "he": "בחר משתתף ורקוד איתו כשהגוף שלכם צמוד במשך 30 שניות.",
+      "en": "Choose a player and dance with your bodies pressed together for 30 seconds.",
+      "ru": "Выбери игрока и танцуй с ним, прижавшись телом к телу, 30 секунд."
+    },
+    {
+      "id": "all_056",
+      "he": "עשה לאפ-דאנס לשני משתתפים, 15 שניות לכל אחד.",
+      "en": "Give two players a lap dance, 15 seconds each.",
+      "ru": "Сделай lap dance двум игрокам — по 15 секунд каждому."
+    },
+    {
+      "id": "all_057",
+      "he": "בחר משתתף ושב עליו בזמן שאתה לוחש לו מחמאה נועזת.",
+      "en": "Choose a player and sit on them while whispering a bold compliment.",
+      "ru": "Выбери игрока и сядь на него, шепча ему смелый комплимент."
+    },
+    {
+      "id": "all_058",
+      "he": "הסר פריט לבוש והשאר אותו מחוץ למשחק עד הסוף.",
+      "en": "Remove one item of clothing and keep it off for the rest of the game.",
+      "ru": "Сними один предмет одежды и не надевай его до конца игры."
+    },
+    {
+      "id": "all_059",
+      "he": "בחר משתתף ונשק אותו פעמיים, פעם קצרה ופעם ארוכה.",
+      "en": "Choose a player and kiss them twice: once briefly and once for longer.",
+      "ru": "Выбери игрока и поцелуй его дважды: один раз коротко и один раз долго."
+    },
+    {
+      "id": "all_060",
+      "he": "שתה צ'ייסר ואז עשה סטריפטיז של 30 שניות.",
+      "en": "Take a shot, then do a 30-second striptease.",
+      "ru": "Выпей шот, затем сделай стриптиз в течение 30 секунд."
+    },
+    {
+      "id": "all_061",
+      "he": "בחר משתתף ועשה איתו ריקוד איטי צמוד של דקה.",
+      "en": "Choose a player and do a slow, close one-minute dance with them.",
+      "ru": "Выбери игрока и исполни с ним медленный тесный танец в течение одной минуты."
+    },
+    {
+      "id": "all_062",
+      "he": "עמוד מול משתתף שבחרת ותן לו מבט מפתה במשך 30 שניות בלי לדבר.",
+      "en": "Stand in front of the player you chose and give them a seductive look for 30 seconds without speaking.",
+      "ru": "Встань перед выбранным игроком и смотри на него соблазнительно 30 секунд, не говоря ни слова."
+    },
+    {
+      "id": "all_063",
+      "he": "בחר משתתף והצמד אליו את הגוף במהלך ריקוד של 20 שניות.",
+      "en": "Choose a player and press your body close to theirs during a 20-second dance.",
+      "ru": "Выбери игрока и прижмись к нему телом во время 20-секундного танца."
+    },
+    {
+      "id": "all_064",
+      "he": "הסר פריט לבוש והשב אותו רק אחרי שני תורים.",
+      "en": "Remove one item of clothing and put it back on only after two turns.",
+      "ru": "Сними один предмет одежды и надень его обратно только через два хода."
+    },
+    {
+      "id": "all_065",
+      "he": "בחר משתתף ותן לו נשיקה ליד האוזן.",
+      "en": "Choose a player and kiss them near the ear.",
+      "ru": "Выбери игрока и поцелуй его рядом с ухом."
+    },
+    {
+      "id": "all_066",
+      "he": "בחר משתתף ורקוד מולו כשהוא יושב.",
+      "en": "Choose a player and dance in front of them while they remain seated.",
+      "ru": "Выбери игрока и танцуй перед ним, пока он сидит."
+    },
+    {
+      "id": "all_067",
+      "he": "עשה סטריפטיז איטי עד להורדת שני פריטי לבוש.",
+      "en": "Do a slow striptease until you have removed two items of clothing.",
+      "ru": "Сделай медленный стриптиз, сняв два предмета одежды."
+    },
+    {
+      "id": "all_068",
+      "he": "בחר משתתף ושכב לידו או שב לצדו צמוד במשך דקה.",
+      "en": "Choose a player and lie beside them or sit tightly next to them for one minute.",
+      "ru": "Выбери игрока и ляг рядом с ним или сядь вплотную на одну минуту."
+    },
+    {
+      "id": "all_069",
+      "he": "שתה צ'ייסר מהבטן של משתתף.",
+      "en": "Drink a shot from a player's stomach.",
+      "ru": "Выпей шот с живота игрока."
+    },
+    {
+      "id": "all_070",
+      "he": "בחר משתתף ונשק אותו בצוואר במשך כמה שניות.",
+      "en": "Choose a player and kiss their neck for a few seconds.",
+      "ru": "Выбери игрока и целуй его шею несколько секунд."
+    },
+    {
+      "id": "all_071",
+      "he": "רקד עם משתתף כשיד אחת על המותניים שלו במשך דקה.",
+      "en": "Dance with a player for one minute with one hand on their waist.",
+      "ru": "Танцуй с игроком одну минуту, держа одну руку на его талии."
+    },
+    {
+      "id": "all_072",
+      "he": "הסר פריט לבוש עליון חיצוני.",
+      "en": "Remove one outer upper-body item of clothing.",
+      "ru": "Сними один верхний предмет одежды."
+    },
+    {
+      "id": "all_073",
+      "he": "בחר משתתף ועשה לו ריקוד פרטי של 30 שניות.",
+      "en": "Choose a player and give them a 30-second private dance.",
+      "ru": "Выбери игрока и исполни для него приватный танец в течение 30 секунд."
+    },
+    {
+      "id": "all_074",
+      "he": "בחר משתתף ושב על הברכיים שלו בזמן שהוא מחזיק לך במותניים.",
+      "en": "Choose a player and sit on their lap while they hold your waist.",
+      "ru": "Выбери игрока и сядь к нему на колени, пока он держит тебя за талию."
+    },
+    {
+      "id": "all_075",
+      "he": "עשה סטריפטיז קצר והשלך את הפריט שהורדת לעבר המשתתף שבחרת.",
+      "en": "Do a short striptease and toss the item you removed toward the player you chose.",
+      "ru": "Сделай короткий стриптиз и брось снятый предмет одежды в сторону выбранного игрока."
+    },
+    {
+      "id": "all_076",
+      "he": "בחר משתתף ונשק אותו לאורך קו הלסת.",
+      "en": "Choose a player and kiss them along the jawline.",
+      "ru": "Выбери игрока и поцелуй его вдоль линии челюсти."
+    },
+    {
+      "id": "all_077",
+      "he": "שתה צ'ייסר ואז נשק משתתף שבחרת.",
+      "en": "Take a shot, then kiss the player you chose.",
+      "ru": "Выпей шот, затем поцелуй выбранного игрока."
+    },
+    {
+      "id": "all_078",
+      "he": "בחר משתתף והישאר מחובק איתו עד התור הבא.",
+      "en": "Choose a player and remain in an embrace with them until your next turn.",
+      "ru": "Выбери игрока и оставайся с ним в объятиях до своего следующего хода."
+    },
+    {
+      "id": "all_079",
+      "he": "הסר שני פריטי לבוש והשאר אחד מהם מחוץ למשחק עד הסוף.",
+      "en": "Remove two items of clothing and keep one of them off for the rest of the game.",
+      "ru": "Сними два предмета одежды и оставь один из них снятым до конца игры."
+    },
+    {
+      "id": "all_080",
+      "he": "עשה ריקוד צמוד עם המשתתף שמולך במשך 45 שניות.",
+      "en": "Do a 45-second close dance with the player opposite you.",
+      "ru": "Исполни тесный танец с игроком напротив тебя в течение 45 секунд."
+    },
+    {
+      "id": "all_081",
+      "he": "עשה סטריפטיז מלא של דקה עד להלבשה תחתונה.",
+      "en": "Do a full one-minute striptease down to your underwear.",
+      "ru": "Сделай полный стриптиз в течение одной минуты до нижнего белья."
+    },
+    {
+      "id": "all_082",
+      "he": "בחר משתתף ותן לו לאפ-דאנס של דקה מעל הבגדים.",
+      "en": "Choose a player and give them a one-minute lap dance over clothing.",
+      "ru": "Выбери игрока и сделай ему lap dance поверх одежды в течение одной минуты."
+    },
+    {
+      "id": "all_083",
+      "he": "שתה צ'ייסר מהבטן של משתתף ואז נשק אותו.",
+      "en": "Drink a shot from a player's stomach, then kiss them.",
+      "ru": "Выпей шот с живота игрока, затем поцелуй его."
+    },
+    {
+      "id": "all_084",
+      "he": "בחר משתתף ונשק אותו נשיקה ממושכת בצוואר.",
+      "en": "Choose a player and give them a long kiss on the neck.",
+      "ru": "Выбери игрока и долго целуй его в шею."
+    },
+    {
+      "id": "all_085",
+      "he": "הסר שלושה פריטי לבוש או עד להלבשה תחתונה.",
+      "en": "Remove three items of clothing or strip down to your underwear.",
+      "ru": "Сними три предмета одежды или разденься до нижнего белья."
+    },
+    {
+      "id": "all_086",
+      "he": "בחר משתתף ושב עליו במשך דקה בזמן ריקוד איטי.",
+      "en": "Choose a player and sit on them for one minute during a slow dance.",
+      "ru": "Выбери игрока и сядь на него на одну минуту во время медленного танца."
+    },
+    {
+      "id": "all_087",
+      "he": "רקד עירום חלקית מול כולם במשך 45 שניות.",
+      "en": "Dance partially nude in front of everyone for 45 seconds.",
+      "ru": "Танцуй частично обнажённым перед всеми в течение 45 секунд."
+    },
+    {
+      "id": "all_088",
+      "he": "בחר משתתף ונשק אותו מהכתף לצוואר.",
+      "en": "Choose a player and kiss them from the shoulder up to the neck.",
+      "ru": "Выбери игрока и целуй его от плеча к шее."
+    },
+    {
+      "id": "all_089",
+      "he": "עשה סטריפטיז כשהקבוצה סופרת לאחור מ-30.",
+      "en": "Do a striptease while the group counts down from 30.",
+      "ru": "Сделай стриптиз, пока группа считает в обратном порядке от 30."
+    },
+    {
+      "id": "all_090",
+      "he": "שתה צ'ייסר מהכתף או הבטן של משתתף כשהוא בלי חולצה.",
+      "en": "Drink a shot from a player's shoulder or stomach while they are shirtless.",
+      "ru": "Выпей шот с плеча или живота игрока, когда он без рубашки."
+    },
+    {
+      "id": "all_091",
+      "he": "בחר משתתף ורקוד מולו כשהוא יושב ואתה צמוד אליו.",
+      "en": "Choose a player and dance in front of them while they are seated, staying close to them.",
+      "ru": "Выбери игрока и танцуй перед ним, пока он сидит, оставаясь близко к нему."
+    },
+    {
+      "id": "all_092",
+      "he": "הסר פריט לבוש תחתון חיצוני אחד אם אתה לובש שכבות.",
+      "en": "Remove one outer lower-body item of clothing if you are wearing layers.",
+      "ru": "Сними один внешний предмет одежды с нижней части тела, если на тебе несколько слоёв."
+    },
+    {
+      "id": "all_093",
+      "he": "בחר משתתף ונשק אותו בצוואר במשך 10 שניות.",
+      "en": "Choose a player and kiss their neck for 10 seconds.",
+      "ru": "Выбери игрока и целуй его шею 10 секунд."
+    },
+    {
+      "id": "all_094",
+      "he": "עשה ריקוד פרטי של דקה למשתתף שבחרת.",
+      "en": "Give the player you chose a one-minute private dance.",
+      "ru": "Исполни для выбранного игрока приватный танец в течение одной минуты."
+    },
+    {
+      "id": "all_095",
+      "he": "הסר שני פריטי לבוש והשאר אותם מחוץ למשחק עד הסוף.",
+      "en": "Remove two items of clothing and keep them off for the rest of the game.",
+      "ru": "Сними два предмета одежды и не надевай их до конца игры."
+    },
+    {
+      "id": "all_096",
+      "he": "בחר משתתף ושב צמוד אליו כשהרגליים שלכם נוגעות במשך דקה.",
+      "en": "Choose a player and sit tightly beside them with your legs touching for one minute.",
+      "ru": "Выбери игрока и сядь вплотную рядом с ним так, чтобы ваши ноги соприкасались, на одну минуту."
+    },
+    {
+      "id": "all_097",
+      "he": "שתה צ'ייסר ואז עשה סטריפטיז של 45 שניות.",
+      "en": "Take a shot, then do a 45-second striptease.",
+      "ru": "Выпей шот, затем сделай стриптиз в течение 45 секунд."
+    },
+    {
+      "id": "all_098",
+      "he": "בחר משתתף ורקוד איתו צמוד מאוד במשך דקה.",
+      "en": "Choose a player and dance very closely with them for one minute.",
+      "ru": "Выбери игрока и танцуй с ним очень близко одну минуту."
+    },
+    {
+      "id": "all_099",
+      "he": "עשה סטריפטיז עד שאתה נשאר רק בלבוש תחתון.",
+      "en": "Strip down until you are wearing only underwear.",
+      "ru": "Разденься так, чтобы на тебе осталось только нижнее бельё."
+    },
+    {
+      "id": "all_100",
+      "he": "בחר משתתף ותן לו נשיקה ארוכה ואז נשיקה בצוואר.",
+      "en": "Choose a player and give them a long kiss, followed by a kiss on the neck.",
+      "ru": "Выбери игрока и поцелуй его долгим поцелуем, а затем в шею."
+    },
+    {
+      "id": "all_101",
+      "he": "הסר פריט לבוש בכל 10 שניות במשך חצי דקה.",
+      "en": "Remove one item of clothing every 10 seconds for half a minute.",
+      "ru": "Снимай по одному предмету одежды каждые 10 секунд в течение получаса минуты."
+    },
+    {
+      "id": "all_102",
+      "he": "בחר משתתף ובצע מולו ריקוד חושני של דקה.",
+      "en": "Choose a player and perform a one-minute sensual dance in front of them.",
+      "ru": "Выбери игрока и исполни перед ним чувственный танец в течение одной минуты."
+    },
+    {
+      "id": "all_103",
+      "he": "שתה צ'ייסר מגופו של משתתף מאזור לא אינטימי שהוא מציג.",
+      "en": "Drink a shot from a non-intimate part of a player's body that they present.",
+      "ru": "Выпей шот с неинтимной части тела игрока, которую он покажет."
+    },
+    {
+      "id": "all_104",
+      "he": "בחר משתתף ונשק אותו באזור הצוואר והכתף.",
+      "en": "Choose a player and kiss them around the neck and shoulder.",
+      "ru": "Выбери игрока и поцелуй его в области шеи и плеча."
+    },
+    {
+      "id": "all_105",
+      "he": "עשה לאפ-דאנס מעל הבגדים ואז הישאר על הברכיים שלו עד סוף התור.",
+      "en": "Give a lap dance over clothing, then stay on their lap until the end of the turn.",
+      "ru": "Сделай lap dance поверх одежды, затем останься у него на коленях до конца хода."
+    },
+    {
+      "id": "all_106",
+      "he": "הסר שלוש שכבות לבוש אם יש.",
+      "en": "Remove three layers of clothing if you have them.",
+      "ru": "Сними три слоя одежды, если они на тебе есть."
+    },
+    {
+      "id": "all_107",
+      "he": "בחר משתתף ועשה לו מסאז' גב וצוואר של דקה.",
+      "en": "Choose a player and give them a one-minute back and neck massage.",
+      "ru": "Выбери игрока и сделай ему массаж спины и шеи в течение одной минуты."
+    },
+    {
+      "id": "all_108",
+      "he": "בחר משתתף וקבל ממנו מסאז' גב וצוואר של דקה.",
+      "en": "Choose a player and receive a one-minute back and neck massage from them.",
+      "ru": "Выбери игрока и получи от него массаж спины и шеи в течение одной минуты."
+    },
+    {
+      "id": "all_109",
+      "he": "עשה סטריפטיז של דקה מול משתתף אחד בלבד.",
+      "en": "Do a one-minute striptease for only one player.",
+      "ru": "Сделай стриптиз в течение одной минуты только для одного игрока."
+    },
+    {
+      "id": "all_110",
+      "he": "שתה צ'ייסר ואז נשק את המשתתף שהכי מושך אותך.",
+      "en": "Take a shot, then kiss the player you find most attractive.",
+      "ru": "Выпей шот, затем поцелуй игрока, который привлекает тебя больше всего."
+    },
+    {
+      "id": "all_111",
+      "he": "בחר משתתף ורקוד איתו כשהוא מחזיק אותך במותניים.",
+      "en": "Choose a player and dance with them while they hold your waist.",
+      "ru": "Выбери игрока и танцуй с ним, пока он держит тебя за талию."
+    },
+    {
+      "id": "all_112",
+      "he": "הסר פריט לבוש והשאר אותו אצל משתתף אחר עד סוף המשחק.",
+      "en": "Remove one item of clothing and leave it with another player until the end of the game.",
+      "ru": "Сними один предмет одежды и оставь его у другого игрока до конца игры."
+    },
+    {
+      "id": "all_113",
+      "he": "עשה ריקוד חושני מול כל הקבוצה במשך דקה.",
+      "en": "Do a one-minute sensual dance in front of the whole group.",
+      "ru": "Исполни чувственный танец перед всей группой в течение одной минуты."
+    },
+    {
+      "id": "all_114",
+      "he": "בחר משתתף ונשק אותו לאורך קו הלסת והצוואר.",
+      "en": "Choose a player and kiss them along the jawline and neck.",
+      "ru": "Выбери игрока и поцелуй его вдоль линии челюсти и шеи."
+    },
+    {
+      "id": "all_115",
+      "he": "שתה צ'ייסר מהבטן של משתתף בלי להשתמש בידיים.",
+      "en": "Drink a shot from a player's stomach without using your hands.",
+      "ru": "Выпей шот с живота игрока без помощи рук."
+    },
+    {
+      "id": "all_116",
+      "he": "עשה סטריפטיז עד להלבשה תחתונה ואז רקוד 30 שניות.",
+      "en": "Strip down to your underwear, then dance for 30 seconds.",
+      "ru": "Разденься до нижнего белья, затем танцуй 30 секунд."
+    },
+    {
+      "id": "all_117",
+      "he": "בחר משתתף ושב עליו במהלך ריקוד של 30 שניות.",
+      "en": "Choose a player and sit on them during a 30-second dance.",
+      "ru": "Выбери игрока и сядь на него во время 30-секундного танца."
+    },
+    {
+      "id": "all_118",
+      "he": "הסר שני פריטי לבוש ולא תלבש אותם שוב עד סוף המשחק.",
+      "en": "Remove two items of clothing and do not put them back on for the rest of the game.",
+      "ru": "Сними два предмета одежды и не надевай их снова до конца игры."
+    },
+    {
+      "id": "all_119",
+      "he": "בחר משתתף ותן לו ריקוד פרטי צמוד של 45 שניות.",
+      "en": "Choose a player and give them a close 45-second private dance.",
+      "ru": "Выбери игрока и исполни для него тесный приватный танец в течение 45 секунд."
+    },
+    {
+      "id": "all_120",
+      "he": "שתה צ'ייסר ואז הסר פריט לבוש.",
+      "en": "Take a shot, then remove one item of clothing.",
+      "ru": "Выпей шот, затем сними один предмет одежды."
+    },
+    {
+      "id": "all_121",
+      "he": "בחר משתתף ונשק אותו נשיקה ארוכה מול כולם.",
+      "en": "Choose a player and give them a long kiss in front of everyone.",
+      "ru": "Выбери игрока и поцелуй его долгим поцелуем перед всеми."
+    },
+    {
+      "id": "all_122",
+      "he": "עשה סטריפטיז איטי כשאתה שומר קשר עין עם משתתף שבחרת.",
+      "en": "Do a slow striptease while maintaining eye contact with the player you chose.",
+      "ru": "Сделай медленный стриптиз, сохраняя зрительный контакт с выбранным игроком."
+    },
+    {
+      "id": "all_123",
+      "he": "הסר פריט לבוש עליון והשאר אותו מחוץ למשחק.",
+      "en": "Remove an upper-body item of clothing and keep it off for the rest of the game.",
+      "ru": "Сними верхний предмет одежды и не надевай его до конца игры."
+    },
+    {
+      "id": "all_124",
+      "he": "בחר משתתף ורקוד איתו צמוד כשהקבוצה סופרת עד 30.",
+      "en": "Choose a player and dance closely with them while the group counts to 30.",
+      "ru": "Выбери игрока и танцуй с ним вплотную, пока группа считает до 30."
+    },
+    {
+      "id": "all_125",
+      "he": "שתה צ'ייסר מהכתף של משתתף ואז תן לו נשיקה בצוואר.",
+      "en": "Drink a shot from a player's shoulder, then kiss them on the neck.",
+      "ru": "Выпей шот с плеча игрока, затем поцелуй его в шею."
+    },
+    {
+      "id": "all_126",
+      "he": "עשה ריקוד במינימום לבוש מול כולם במשך 45 שניות.",
+      "en": "Dance in minimal clothing in front of everyone for 45 seconds.",
+      "ru": "Танцуй перед всеми в минимальном количестве одежды в течение 45 секунд."
+    },
+    {
+      "id": "all_127",
+      "he": "בחר משתתף ושב עליו עד סוף הסיבוב.",
+      "en": "Choose a player and sit on them until the end of the round.",
+      "ru": "Выбери игрока и сядь на него до конца раунда."
+    },
+    {
+      "id": "all_128",
+      "he": "הסר פריט לבוש נוסף בכל פעם שמישהו אומר את שמך עד התור הבא.",
+      "en": "Remove another item of clothing every time someone says your name until your next turn.",
+      "ru": "Снимай ещё один предмет одежды каждый раз, когда кто-то произносит твоё имя, до следующего хода."
+    },
+    {
+      "id": "all_129",
+      "he": "בחר משתתף ותן לו לאפ-דאנס של דקה מעל הבגדים.",
+      "en": "Choose a player and give them a one-minute lap dance over clothing.",
+      "ru": "Выбери игрока и сделай ему lap dance поверх одежды в течение одной минуты."
+    },
+    {
+      "id": "all_130",
+      "he": "עשה סטריפטיז של דקה, סיים בנשיקה למשתתף שבחרת.",
+      "en": "Do a one-minute striptease and finish with a kiss for the player you chose.",
+      "ru": "Сделай стриптиз в течение одной минуты и закончи поцелуем выбранного игрока."
+    },
+    {
+      "id": "all_131",
+      "he": "עליך להוריד פריט לבוש ולהישאר כך עד סוף המשחק.",
+      "en": "You must remove one item of clothing and remain that way until the end of the game.",
+      "ru": "Ты должен снять один предмет одежды и оставаться так до конца игры."
+    },
+    {
+      "id": "all_132",
+      "he": "עליך להראות למשתתפים את איבר מינך.",
+      "en": "You must show the other players your genitals.",
+      "ru": "Ты должен показать другим игрокам свои гениталии."
+    },
+    {
+      "id": "all_133",
+      "he": "בחר משתתף ונשק אותו צרפתית בחושניות.",
+      "en": "Choose a player and French-kiss them sensually.",
+      "ru": "Выбери игрока и чувственно поцелуй его по-французски."
+    },
+    {
+      "id": "all_134",
+      "he": "בחר משתתף ולקק לו את הפטמות.",
+      "en": "Choose a player and lick their nipples.",
+      "ru": "Выбери игрока и оближи его соски."
+    },
+    {
+      "id": "all_135",
+      "he": "בחר משתתף ולקק לו את האוזן והצוואר בחושניות.",
+      "en": "Choose a player and sensually lick their ear and neck.",
+      "ru": "Выбери игрока и чувственно оближи его ухо и шею."
+    },
+    {
+      "id": "all_136",
+      "he": "בחר משתתף ותן לו פליק בטוסיק.",
+      "en": "Choose a player and give them a playful smack on the butt.",
+      "ru": "Выбери игрока и игриво шлёпни его по ягодицам."
+    },
+    {
+      "id": "all_137",
+      "he": "אונן מול כל המשתתפים.",
+      "en": "Masturbate in front of all the players.",
+      "ru": "Мастурбируй перед всеми игроками."
+    },
+    {
+      "id": "all_138",
+      "he": "בצע ריקוד לאפדנס על אחד המשתתפים לבחירתך.",
+      "en": "Give one player of your choice a lap dance.",
+      "ru": "Сделай lap dance одному игроку по своему выбору."
+    },
+    {
+      "id": "all_139",
+      "he": "אונן לאחד המשתתפים לבחירתך.",
+      "en": "Masturbate one player of your choice.",
+      "ru": "Мастурбируй одному игроку по своему выбору."
+    },
+    {
+      "id": "all_140",
+      "he": "הדגם למשתתפים איך אתה נאנח באורגזמה.",
+      "en": "Show the players how you moan during orgasm.",
+      "ru": "Покажи игрокам, как ты стонешь во время оргазма."
+    },
+    {
+      "id": "all_141",
+      "he": "שאל את אחד המשתתפים לבחירתך שאלה חופשית.",
+      "en": "Ask any player you choose one unrestricted question.",
+      "ru": "Задай любому выбранному игроку один свободный вопрос."
+    },
+    {
+      "id": "all_142",
+      "he": "התפשט ותישאר רק בהלבשה תחתונה.",
+      "en": "Undress and remain only in your underwear.",
+      "ru": "Разденься и останься только в нижнем белье."
+    },
+    {
+      "id": "all_143",
+      "he": "בחר משתתף ותאמר לו ליד כולם איך היית מענג אותו.",
+      "en": "Choose a player and tell them in front of everyone how you would pleasure them.",
+      "ru": "Выбери игрока и расскажи ему при всех, как бы ты доставлял ему удовольствие."
+    },
+    {
+      "id": "all_144",
+      "he": "עשה סטריפטיז עד לעירום מלא.",
+      "en": "Do a striptease all the way to full nudity.",
+      "ru": "Сделай стриптиз до полной наготы."
+    },
+    {
+      "id": "all_145",
+      "he": "בחר משתתף ורד לו ליד כולם.",
+      "en": "Choose a player and perform oral sex on them in front of everyone.",
+      "ru": "Выбери игрока и сделай ему оральный секс перед всеми."
+    },
+    {
+      "id": "all_146",
+      "he": "בחר משתתף ועשה לו מסאז'.",
+      "en": "Choose a player and give them a massage.",
+      "ru": "Выбери игрока и сделай ему массаж."
+    },
+    {
+      "id": "all_147",
+      "he": "בחר משתתף שיעשה לך מסאז'.",
+      "en": "Choose a player to give you a massage.",
+      "ru": "Выбери игрока, который сделает массаж тебе."
+    },
+    {
+      "id": "all_148",
+      "he": "קום ותכין צ'ייסרים לכל המשתתפים.",
+      "en": "Get up and prepare shots for all the players.",
+      "ru": "Встань и приготовь шоты для всех игроков."
+    },
+    {
+      "id": "all_149",
+      "he": "ספר כמה פעמים הכי הרבה הגעת לאורגזמה בסקס אחד.",
+      "en": "Tell everyone the highest number of times you have orgasmed during one sexual encounter.",
+      "ru": "Расскажи, сколько максимум раз ты испытывал оргазм за один сексуальный контакт."
+    },
+    {
+      "id": "all_150",
+      "he": "ענג את אחד המשתתפים בדרך מקורית.",
+      "en": "Pleasure one of the players in an original way.",
+      "ru": "Доставь удовольствие одному из игроков оригинальным способом."
+    }
+  ],
+  "nothing_cards": [
+    {
+      "id": "nothing_001",
+      "he": "מי מהמשתתפים הכי מושך אותך כרגע?",
+      "en": "Which player do you find most attractive right now?",
+      "ru": "Кто из игроков сейчас привлекает тебя больше всего?"
+    },
+    {
+      "id": "nothing_002",
+      "he": "אם היית חייב לבחור משתתף אחד לדייט, במי היית בוחר?",
+      "en": "If you had to choose one player for a date, who would you choose?",
+      "ru": "Если бы тебе пришлось выбрать одного игрока для свидания, кого бы ты выбрал?"
+    },
+    {
+      "id": "nothing_003",
+      "he": "עם מי מהמשתתפים לדעתך יש לך הכי הרבה כימיה?",
+      "en": "Which player do you think you have the most chemistry with?",
+      "ru": "С кем из игроков, по твоему мнению, у тебя самая сильная химия?"
+    },
+    {
+      "id": "nothing_004",
+      "he": "מי מהמשתתפים נראה לך הכי מסוכן להתאהב בו?",
+      "en": "Which player seems the most dangerous to fall for?",
+      "ru": "В кого из игроков, по-твоему, опаснее всего влюбиться?"
+    },
+    {
+      "id": "nothing_005",
+      "he": "מי בחדר הכי מסוגל לגרום לך להסמיק?",
+      "en": "Who in the room is most capable of making you blush?",
+      "ru": "Кто в комнате сильнее всего способен заставить тебя покраснеть?"
+    },
+    {
+      "id": "nothing_006",
+      "he": "מי מהמשתתפים הכי מתאים לדעתך לנשיקה מושלמת?",
+      "en": "Which player seems best suited for the perfect kiss?",
+      "ru": "Кто из игроков, по-твоему, лучше всего подходит для идеального поцелуя?"
+    },
+    {
+      "id": "nothing_007",
+      "he": "מה הדבר הראשון שאתה שם לב אליו באדם שמושך אותך?",
+      "en": "What is the first thing you notice about someone you are attracted to?",
+      "ru": "На что ты в первую очередь обращаешь внимание в человеке, который тебя привлекает?"
+    },
+    {
+      "id": "nothing_008",
+      "he": "מה יותר מושך אותך: ביטחון, הומור, מראה או מסתורין?",
+      "en": "What attracts you more: confidence, humor, looks, or mystery?",
+      "ru": "Что привлекает тебя больше: уверенность, юмор, внешность или загадочность?"
+    },
+    {
+      "id": "nothing_009",
+      "he": "מה גורם לך להימשך למישהו כמעט מיד?",
+      "en": "What makes you feel attracted to someone almost immediately?",
+      "ru": "Что заставляет тебя почти мгновенно почувствовать влечение к человеку?"
+    },
+    {
+      "id": "nothing_010",
+      "he": "מה יכול לגרום למשיכה שלך להיעלם בשנייה?",
+      "en": "What can make your attraction disappear in a second?",
+      "ru": "Что может заставить твоё влечение исчезнуть за секунду?"
+    },
+    {
+      "id": "nothing_011",
+      "he": "מה סוג הפלרטוט שהכי עובד עליך?",
+      "en": "What kind of flirting works best on you?",
+      "ru": "Какой стиль флирта лучше всего действует на тебя?"
+    },
+    {
+      "id": "nothing_012",
+      "he": "מה המחמאה שהכי יכולה לגרום לך להתרגש?",
+      "en": "What compliment is most likely to excite you?",
+      "ru": "Какой комплимент сильнее всего способен тебя взволновать?"
+    },
+    {
+      "id": "nothing_013",
+      "he": "מה הדבר הכי סקסי שמישהו יכול לעשות בלי לגעת בך?",
+      "en": "What is the sexiest thing someone can do without touching you?",
+      "ru": "Что самое сексуальное человек может сделать, не прикасаясь к тебе?"
+    },
+    {
+      "id": "nothing_014",
+      "he": "מה יותר מושך אותך: קשר עין ממושך או מגע עדין?",
+      "en": "What attracts you more: prolonged eye contact or a gentle touch?",
+      "ru": "Что привлекает тебя больше: долгий зрительный контакт или лёгкое прикосновение?"
+    },
+    {
+      "id": "nothing_015",
+      "he": "מה סוג הנשיקה שאתה הכי אוהב?",
+      "en": "What type of kiss do you like most?",
+      "ru": "Какой поцелуй ты любишь больше всего?"
+    },
+    {
+      "id": "nothing_016",
+      "he": "מה הופך נשיקה לממש טובה מבחינתך?",
+      "en": "What makes a kiss really good for you?",
+      "ru": "Что делает поцелуй действительно хорошим для тебя?"
+    },
+    {
+      "id": "nothing_017",
+      "he": "מה יותר מושך אותך: אדם שמוביל או אדם שנותן לך להוביל?",
+      "en": "What attracts you more: someone who takes the lead or someone who lets you lead?",
+      "ru": "Что привлекает тебя больше: человек, который ведёт, или тот, кто позволяет вести тебе?"
+    },
+    {
+      "id": "nothing_018",
+      "he": "מי בדרך כלל עושה את הצעד הראשון אצלך?",
+      "en": "Who usually makes the first move with you?",
+      "ru": "Кто обычно делает первый шаг в твоих отношениях?"
+    },
+    {
+      "id": "nothing_019",
+      "he": "מה הדבר הכי נועז שעשית כדי למשוך מישהו?",
+      "en": "What is the boldest thing you have done to attract someone?",
+      "ru": "Что самое смелое ты делал, чтобы привлечь кого-то?"
+    },
+    {
+      "id": "nothing_020",
+      "he": "מה הדבר הכי נועז שמישהו עשה כדי למשוך אותך?",
+      "en": "What is the boldest thing someone has done to attract you?",
+      "ru": "Что самое смелое кто-то делал, чтобы привлечь тебя?"
+    },
+    {
+      "id": "nothing_021",
+      "he": "מה הסיטואציה הכי פלרטטנית שחווית אי פעם?",
+      "en": "What is the most flirtatious situation you have ever experienced?",
+      "ru": "Какая самая флиртующая ситуация была в твоей жизни?"
+    },
+    {
+      "id": "nothing_022",
+      "he": "האם יצא לך להתאהב במישהו שלא ציפית להימשך אליו?",
+      "en": "Have you ever fallen for someone you never expected to be attracted to?",
+      "ru": "Ты когда-нибудь влюблялся в человека, к которому совсем не ожидал почувствовать влечение?"
+    },
+    {
+      "id": "nothing_023",
+      "he": "מה הדבר הכי לא צפוי שמושך אותך באדם?",
+      "en": "What unexpected thing can attract you to someone?",
+      "ru": "Какая неожиданная черта может привлечь тебя в человеке?"
+    },
+    {
+      "id": "nothing_024",
+      "he": "מה התכונה שהכי מדליקה אותך באופי של מישהו?",
+      "en": "What personality trait turns you on the most?",
+      "ru": "Какая черта характера возбуждает тебя больше всего?"
+    },
+    {
+      "id": "nothing_025",
+      "he": "מה המראה שהכי מושך אותך בדרך כלל?",
+      "en": "What kind of look do you usually find most attractive?",
+      "ru": "Какая внешность обычно привлекает тебя сильнее всего?"
+    },
+    {
+      "id": "nothing_026",
+      "he": "מה יותר חשוב לך בכימיה: מתח, הומור או מגע?",
+      "en": "What matters most to you in chemistry: tension, humor, or touch?",
+      "ru": "Что для тебя важнее в химии: напряжение, юмор или прикосновения?"
+    },
+    {
+      "id": "nothing_027",
+      "he": "מה הדבר שאתה הכי אוהב בשלב שלפני הנשיקה הראשונה?",
+      "en": "What do you love most about the moment before a first kiss?",
+      "ru": "Что тебе больше всего нравится в моменте перед первым поцелуем?"
+    },
+    {
+      "id": "nothing_028",
+      "he": "מה הדבר שהכי מלחיץ אותך בדייט ראשון?",
+      "en": "What makes you most nervous on a first date?",
+      "ru": "Что сильнее всего нервирует тебя на первом свидании?"
+    },
+    {
+      "id": "nothing_029",
+      "he": "מה הסימן שאתה נותן כשאתה ממש רוצה שמישהו ינשק אותך?",
+      "en": "What signal do you give when you really want someone to kiss you?",
+      "ru": "Какой сигнал ты подаёшь, когда очень хочешь, чтобы тебя поцеловали?"
+    },
+    {
+      "id": "nothing_030",
+      "he": "מה הסימן שאתה מחפש כדי לדעת שמישהו רוצה אותך?",
+      "en": "What signal do you look for to know that someone wants you?",
+      "ru": "Какой сигнал ты ищешь, чтобы понять, что кто-то хочет тебя?"
+    },
+    {
+      "id": "nothing_031",
+      "he": "אם מישהו בחדר היה מבקש ממך דייט עכשיו, מי היית רוצה שזה יהיה?",
+      "en": "If someone in the room asked you out right now, who would you want it to be?",
+      "ru": "Если бы кто-то в комнате прямо сейчас пригласил тебя на свидание, кого бы ты хотел услышать?"
+    },
+    {
+      "id": "nothing_032",
+      "he": "מי מהמשתתפים נראה לך הכי רומנטי?",
+      "en": "Which player seems the most romantic?",
+      "ru": "Кто из игроков кажется тебе самым романтичным?"
+    },
+    {
+      "id": "nothing_033",
+      "he": "מי מהמשתתפים נראה לך הכי שובב?",
+      "en": "Which player seems the most playful?",
+      "ru": "Кто из игроков кажется тебе самым игривым?"
+    },
+    {
+      "id": "nothing_034",
+      "he": "מי מהמשתתפים נראה לך הכי נועז?",
+      "en": "Which player seems the boldest?",
+      "ru": "Кто из игроков кажется тебе самым смелым?"
+    },
+    {
+      "id": "nothing_035",
+      "he": "מי מהמשתתפים נראה לך הכי ביישן למרות שהוא לא באמת כזה?",
+      "en": "Which player seems the shyest even though they probably are not?",
+      "ru": "Кто из игроков кажется самым стеснительным, хотя на самом деле это не так?"
+    },
+    {
+      "id": "nothing_036",
+      "he": "מי מהמשתתפים לדעתך הכי טוב בפלרטוט?",
+      "en": "Which player do you think is best at flirting?",
+      "ru": "Кто из игроков, по-твоему, лучше всех умеет флиртовать?"
+    },
+    {
+      "id": "nothing_037",
+      "he": "מי בחדר נראה לך הכי קשה להשגה?",
+      "en": "Who in the room seems the hardest to get?",
+      "ru": "Кто в комнате кажется самым труднодоступным?"
+    },
+    {
+      "id": "nothing_038",
+      "he": "מי בחדר נראה לך הכי קל לקרוא מבחינת משיכה?",
+      "en": "Who in the room seems easiest to read when they are attracted to someone?",
+      "ru": "Кого в комнате легче всего прочитать, когда он испытывает влечение?"
+    },
+    {
+      "id": "nothing_039",
+      "he": "מי מהמשתתפים היית רוצה להכיר יותר לעומק?",
+      "en": "Which player would you like to get to know more deeply?",
+      "ru": "Кого из игроков ты хотел бы узнать глубже?"
+    },
+    {
+      "id": "nothing_040",
+      "he": "מי מהמשתתפים לדעתך יודע בדיוק איזה רושם הוא עושה?",
+      "en": "Which player do you think knows exactly what impression they make?",
+      "ru": "Кто из игроков, по-твоему, точно знает, какое впечатление производит?"
+    },
+    {
+      "id": "nothing_041",
+      "he": "מה הפנטזיה הרומנטית הכי חזקה שהיית רוצה לחוות?",
+      "en": "What is the strongest romantic fantasy you would like to experience?",
+      "ru": "Какую самую сильную романтическую фантазию ты хотел бы воплотить?"
+    },
+    {
+      "id": "nothing_042",
+      "he": "מה הסיטואציה הכי נועזת שאתה יכול לדמיין לדייט?",
+      "en": "What is the boldest setting you can imagine for a date?",
+      "ru": "Какую самую смелую обстановку для свидания ты можешь представить?"
+    },
+    {
+      "id": "nothing_043",
+      "he": "מה המקום הכי לא צפוי שבו היית רוצה לקבל נשיקה?",
+      "en": "What is the most unexpected place where you would like to be kissed?",
+      "ru": "В каком самом неожиданном месте ты хотел бы получить поцелуй?"
+    },
+    {
+      "id": "nothing_044",
+      "he": "מה הדבר הכי ספונטני שהיית מוכן לעשות בדייט מוצלח?",
+      "en": "What is the most spontaneous thing you would be willing to do on a great date?",
+      "ru": "Что самое спонтанное ты готов сделать на удачном свидании?"
+    },
+    {
+      "id": "nothing_045",
+      "he": "האם היית מעדיף ערב אינטימי בבית או לילה פרוע בחוץ?",
+      "en": "Would you prefer an intimate evening at home or a wild night out?",
+      "ru": "Ты бы предпочёл интимный вечер дома или безумную ночь вне дома?"
+    },
+    {
+      "id": "nothing_046",
+      "he": "מה יותר מגרה אותך: ציפייה ארוכה או ספונטניות?",
+      "en": "What excites you more: long anticipation or spontaneity?",
+      "ru": "Что возбуждает тебя больше: долгое ожидание или спонтанность?"
+    },
+    {
+      "id": "nothing_047",
+      "he": "מה יותר מושך אותך: ריקוד צמוד או שיחה עמוקה?",
+      "en": "What attracts you more: close dancing or a deep conversation?",
+      "ru": "Что привлекает тебя больше: тесный танец или глубокий разговор?"
+    },
+    {
+      "id": "nothing_048",
+      "he": "מה יותר מושך אותך: אדם ישיר או אדם שמרמז?",
+      "en": "What attracts you more: someone direct or someone who hints?",
+      "ru": "Что привлекает тебя больше: прямой человек или тот, кто намекает?"
+    },
+    {
+      "id": "nothing_049",
+      "he": "מה הדבר שהכי חשוב לך לפני שאתה נהיה אינטימי עם מישהו?",
+      "en": "What matters most to you before becoming intimate with someone?",
+      "ru": "Что для тебя важнее всего перед тем, как стать с кем-то интимнее?"
+    },
+    {
+      "id": "nothing_050",
+      "he": "מה הגבול שהכי חשוב לך שבן או בת זוג יכבדו?",
+      "en": "What boundary is most important for a partner to respect?",
+      "ru": "Какую границу для тебя особенно важно, чтобы партнёр уважал?"
+    },
+    {
+      "id": "nothing_051",
+      "he": "מה לדעתך הופך ערב רגיל לערב מאוד נועז?",
+      "en": "What do you think can turn an ordinary evening into a very bold one?",
+      "ru": "Что, по-твоему, превращает обычный вечер в очень смелый?"
+    },
+    {
+      "id": "nothing_052",
+      "he": "מה היית רוצה לנסות בדייט שמעולם לא ניסית?",
+      "en": "What would you like to try on a date that you have never tried before?",
+      "ru": "Что ты хотел бы попробовать на свидании, чего никогда раньше не пробовал?"
+    },
+    {
+      "id": "nothing_053",
+      "he": "מה הדבר הכי בלתי צפוי שעשית בעקבות משיכה חזקה?",
+      "en": "What is the most unexpected thing you have done because of strong attraction?",
+      "ru": "Что самое неожиданное ты делал из-за сильного влечения?"
+    },
+    {
+      "id": "nothing_054",
+      "he": "האם אי פעם שינית תוכניות רק כדי לראות מישהו שמצא חן בעיניך?",
+      "en": "Have you ever changed your plans just to see someone you liked?",
+      "ru": "Ты когда-нибудь менял планы только ради встречи с человеком, который тебе нравился?"
+    },
+    {
+      "id": "nothing_055",
+      "he": "האם אי פעם נמשכת למישהו שהיה בדיוק ההפך מהטעם הרגיל שלך?",
+      "en": "Have you ever been attracted to someone who was the complete opposite of your usual type?",
+      "ru": "Тебя когда-нибудь привлекал человек, который был полной противоположностью твоему обычному типу?"
+    },
+    {
+      "id": "nothing_056",
+      "he": "האם אי פעם הייתה לך כימיה חזקה עם מישהו שפגשת רק לכמה שעות?",
+      "en": "Have you ever had strong chemistry with someone you met for only a few hours?",
+      "ru": "У тебя когда-нибудь была сильная химия с человеком, которого ты знал всего несколько часов?"
+    },
+    {
+      "id": "nothing_057",
+      "he": "האם אי פעם נשארת בקשר עם מישהו רק בגלל המשיכה?",
+      "en": "Have you ever stayed in touch with someone mainly because of the attraction?",
+      "ru": "Ты когда-нибудь поддерживал связь с человеком в основном из-за сильного влечения?"
+    },
+    {
+      "id": "nothing_058",
+      "he": "האם אי פעם העמדת פנים שאתה פחות מעוניין ממה שהיית באמת?",
+      "en": "Have you ever pretended to be less interested than you really were?",
+      "ru": "Ты когда-нибудь притворялся менее заинтересованным, чем был на самом деле?"
+    },
+    {
+      "id": "nothing_059",
+      "he": "האם אי פעם שלחת הודעה נועזת ואז התחרטת?",
+      "en": "Have you ever sent a bold message and then regretted it?",
+      "ru": "Ты когда-нибудь отправлял смелое сообщение, а потом сожалел?"
+    },
+    {
+      "id": "nothing_060",
+      "he": "האם אי פעם קיבלת הודעה שגרמה לך להסמיק במקום ציבורי?",
+      "en": "Have you ever received a message that made you blush in public?",
+      "ru": "Ты когда-нибудь получал сообщение, от которого краснел в общественном месте?"
+    },
+    {
+      "id": "nothing_061",
+      "he": "מה ההודעה הכי פלרטטנית שהיית שמח לקבל עכשיו?",
+      "en": "What is the most flirtatious message you would love to receive right now?",
+      "ru": "Какое самое флиртующее сообщение ты хотел бы получить прямо сейчас?"
+    },
+    {
+      "id": "nothing_062",
+      "he": "מה היית רוצה שמישהו ילחש לך באוזן?",
+      "en": "What would you like someone to whisper in your ear?",
+      "ru": "Что бы ты хотел, чтобы кто-то прошептал тебе на ухо?"
+    },
+    {
+      "id": "nothing_063",
+      "he": "מה היית מעדיף: נשיקה ארוכה או ריקוד צמוד?",
+      "en": "What would you prefer: a long kiss or close dancing?",
+      "ru": "Что бы ты предпочёл: долгий поцелуй или тесный танец?"
+    },
+    {
+      "id": "nothing_064",
+      "he": "מה היית מעדיף: סטריפטיז פרטי או לאפ-דאנס?",
+      "en": "What would you prefer: a private striptease or a lap dance?",
+      "ru": "Что бы ты предпочёл: приватный стриптиз или lap dance?"
+    },
+    {
+      "id": "nothing_065",
+      "he": "מה היית מעדיף: להיות זה שמפתה או זה שמפתים אותו?",
+      "en": "What would you prefer: being the seducer or being seduced?",
+      "ru": "Что бы ты предпочёл: соблазнять или быть соблазнённым?"
+    },
+    {
+      "id": "nothing_066",
+      "he": "מה היית מעדיף: לילה מתוכנן או משהו שקורה לגמרי במקרה?",
+      "en": "What would you prefer: a planned night or something that happens completely by chance?",
+      "ru": "Что бы ты предпочёл: заранее спланированную ночь или нечто, что происходит совершенно случайно?"
+    },
+    {
+      "id": "nothing_067",
+      "he": "מה היית מעדיף: פרטנר מאוד בטוח בעצמו או מעט ביישן?",
+      "en": "What would you prefer: a very confident partner or a slightly shy one?",
+      "ru": "Что бы ты предпочёл: очень уверенного партнёра или немного стеснительного?"
+    },
+    {
+      "id": "nothing_068",
+      "he": "מה היית מעדיף: הרבה מתח לפני המגע או ישר לגשת לעניין?",
+      "en": "What would you prefer: lots of tension before touching or getting straight to it?",
+      "ru": "Что бы ты предпочёл: долгое напряжение перед прикосновениями или сразу перейти к делу?"
+    },
+    {
+      "id": "nothing_069",
+      "he": "מה היית מעדיף: מוזיקה חזקה ואווירת מועדון או חדר שקט ואינטימי?",
+      "en": "What would you prefer: loud music and a club atmosphere or a quiet intimate room?",
+      "ru": "Что бы ты предпочёл: громкую музыку и атмосферу клуба или тихую интимную комнату?"
+    },
+    {
+      "id": "nothing_070",
+      "he": "מה היית מעדיף: נשיקה ראשונה עדינה או נועזת?",
+      "en": "What would you prefer: a gentle first kiss or a bold one?",
+      "ru": "Что бы ты предпочёл: нежный первый поцелуй или смелый?"
+    },
+    {
+      "id": "nothing_071",
+      "he": "מה לדעתך הכי חשוב כדי שמתח מיני יהיה טוב ולא מביך?",
+      "en": "What do you think is most important for sexual tension to feel good rather than awkward?",
+      "ru": "Что, по-твоему, важнее всего, чтобы сексуальное напряжение было приятным, а не неловким?"
+    },
+    {
+      "id": "nothing_072",
+      "he": "מה הדבר הכי חושפני שאתה מוכן לספר על עצמך במשחק הזה?",
+      "en": "What is the most revealing thing you are willing to share about yourself in this game?",
+      "ru": "Что самое откровенное ты готов рассказать о себе в этой игре?"
+    },
+    {
+      "id": "nothing_073",
+      "he": "מה הסוד הכי פלרטטני שלא הרבה אנשים יודעים עליך?",
+      "en": "What is your flirtiest secret that not many people know?",
+      "ru": "Какой твой самый флиртующий секрет, о котором знают немногие?"
+    },
+    {
+      "id": "nothing_074",
+      "he": "מה הרגע שבו הבנת פעם שמישהו ממש נמשך אליך?",
+      "en": "When did you first realize that someone was really attracted to you?",
+      "ru": "В какой момент ты понял, что кто-то действительно сильно тебя хочет?"
+    },
+    {
+      "id": "nothing_075",
+      "he": "מה הרגע שבו הבנת שאתה ממש נמשך למישהו?",
+      "en": "When did you first realize that you were really attracted to someone?",
+      "ru": "В какой момент ты понял, что сам очень сильно хочешь кого-то?"
+    },
+    {
+      "id": "nothing_076",
+      "he": "האם אתה נהנה יותר מהמרדף או מהרגע שבו ברור לשניכם שיש משיכה?",
+      "en": "Do you enjoy the chase more, or the moment when it is obvious to both of you that there is attraction?",
+      "ru": "Тебе больше нравится погоня или момент, когда вам обоим уже ясно, что между вами есть влечение?"
+    },
+    {
+      "id": "nothing_077",
+      "he": "מה מושך אותך יותר: קול, ריח, מראה או מגע?",
+      "en": "What attracts you more: voice, scent, looks, or touch?",
+      "ru": "Что привлекает тебя больше: голос, запах, внешность или прикосновение?"
+    },
+    {
+      "id": "nothing_078",
+      "he": "מה הדבר שהכי מהר יכול להדליק כימיה בינך לבין מישהו?",
+      "en": "What can create chemistry between you and someone else the fastest?",
+      "ru": "Что быстрее всего может создать химию между тобой и другим человеком?"
+    },
+    {
+      "id": "nothing_079",
+      "he": "מה לדעתך הופך ריקוד צמוד לממש סקסי?",
+      "en": "What do you think makes close dancing really sexy?",
+      "ru": "Что, по-твоему, делает тесный танец действительно сексуальным?"
+    },
+    {
+      "id": "nothing_080",
+      "he": "מה לדעתך הופך אדם למפתה בלי קשר למראה?",
+      "en": "What do you think makes someone seductive regardless of their looks?",
+      "ru": "Что делает человека соблазнительным независимо от внешности?"
+    },
+    {
+      "id": "nothing_081",
+      "he": "מה הפריט לבוש שהכי מושך אותך על אדם אחר?",
+      "en": "What item of clothing do you find most attractive on someone else?",
+      "ru": "Какой предмет одежды тебе больше всего нравится на другом человеке?"
+    },
+    {
+      "id": "nothing_082",
+      "he": "מה הפריט לבוש שגורם לך להרגיש הכי מושך בעצמך?",
+      "en": "What item of clothing makes you feel most attractive yourself?",
+      "ru": "В каком предмете одежды ты сам чувствуешь себя наиболее привлекательным?"
+    },
+    {
+      "id": "nothing_083",
+      "he": "מה הדבר הכי נועז שלבשת אי פעם?",
+      "en": "What is the boldest thing you have ever worn?",
+      "ru": "Какую самую смелую одежду ты когда-либо носил?"
+    },
+    {
+      "id": "nothing_084",
+      "he": "האם היית מוכן לעשות סטריפטיז בשביל מישהו שאתה מאוד נמשך אליו?",
+      "en": "Would you do a striptease for someone you were very attracted to?",
+      "ru": "Ты бы сделал стриптиз для человека, который тебя очень сильно привлекает?"
+    },
+    {
+      "id": "nothing_085",
+      "he": "האם היית מוכן להשתתף במשחק שתייה נועז עם מישהו שמושך אותך?",
+      "en": "Would you take part in a bold drinking game with someone you were attracted to?",
+      "ru": "Ты бы принял участие в смелой алкогольной игре с человеком, который тебя привлекает?"
+    },
+    {
+      "id": "nothing_086",
+      "he": "מה יותר מביך אותך: להחמיא למישהו מול כולם או לנשק אותו מול כולם?",
+      "en": "What embarrasses you more: complimenting someone in front of everyone or kissing them in front of everyone?",
+      "ru": "Что смущает тебя больше: сделать кому-то комплимент при всех или поцеловать его при всех?"
+    },
+    {
+      "id": "nothing_087",
+      "he": "מה היית בוחר: לקבל לאפ-דאנס או לתת לאפ-דאנס?",
+      "en": "Which would you choose: receiving a lap dance or giving one?",
+      "ru": "Что бы ты выбрал: получить lap dance или сделать его?"
+    },
+    {
+      "id": "nothing_088",
+      "he": "מה יותר מלחיץ אותך: קשר עין ארוך או ישיבה מאוד צמודה?",
+      "en": "What makes you more nervous: prolonged eye contact or sitting very close together?",
+      "ru": "Что нервирует тебя больше: долгий зрительный контакт или очень тесная посадка рядом?"
+    },
+    {
+      "id": "nothing_089",
+      "he": "מה גורם לך להרגיש הכי מושך כשאתה יוצא?",
+      "en": "What makes you feel most attractive when you go out?",
+      "ru": "Что заставляет тебя чувствовать себя наиболее привлекательным, когда ты выходишь из дома?"
+    },
+    {
+      "id": "nothing_090",
+      "he": "האם אתה אוהב שמישהו מקנא בך קצת או שזה מוריד לך?",
+      "en": "Do you like it when someone gets a little jealous over you, or does that turn you off?",
+      "ru": "Тебе нравится, когда кто-то немного ревнует тебя, или это тебя отталкивает?"
+    },
+    {
+      "id": "nothing_091",
+      "he": "האם משיכה יכולה מבחינתך להתחיל רק משיחה טובה?",
+      "en": "Can attraction begin for you just from a really good conversation?",
+      "ru": "Может ли для тебя влечение начаться просто с хорошего разговора?"
+    },
+    {
+      "id": "nothing_092",
+      "he": "האם היה לך פעם קראש על חבר או חברה קרובים?",
+      "en": "Have you ever had a crush on a close friend?",
+      "ru": "У тебя когда-нибудь был краш на близкого друга или подругу?"
+    },
+    {
+      "id": "nothing_093",
+      "he": "האם היית יוצא עם מישהו מהחדר אם הייתם נפגשים בנסיבות אחרות?",
+      "en": "Would you date someone in this room if you had met under different circumstances?",
+      "ru": "Ты бы пошёл на свидание с кем-то из этой комнаты, если бы вы познакомились при других обстоятельствах?"
+    },
+    {
+      "id": "nothing_094",
+      "he": "מי מהמשתתפים לדעתך הכי מתאים להרפתקה ספונטנית?",
+      "en": "Which player seems best suited for a spontaneous adventure?",
+      "ru": "Кто из игроков лучше всего подходит для спонтанного приключения?"
+    },
+    {
+      "id": "nothing_095",
+      "he": "מי מהמשתתפים היית סומך עליו לבחור עבורך דייט?",
+      "en": "Which player would you trust to choose a date for you?",
+      "ru": "Кому из игроков ты бы доверил выбрать свидание для тебя?"
+    },
+    {
+      "id": "nothing_096",
+      "he": "מי מהמשתתפים היית נותן לו לבחור עבורך אתגר נועז?",
+      "en": "Which player would you let choose a bold challenge for you?",
+      "ru": "Кому из игроков ты бы позволил выбрать для тебя смелое задание?"
+    },
+    {
+      "id": "nothing_097",
+      "he": "מי מהמשתתפים נראה לך הכי טוב בלשמור סוד?",
+      "en": "Which player seems best at keeping a secret?",
+      "ru": "Кто из игроков кажется тебе лучшим хранителем секретов?"
+    },
+    {
+      "id": "nothing_098",
+      "he": "מי מהמשתתפים לדעתך הכי יודע ליצור מתח בחדר?",
+      "en": "Which player do you think is best at creating tension in a room?",
+      "ru": "Кто из игроков, по-твоему, лучше всего умеет создавать напряжение в комнате?"
+    },
+    {
+      "id": "nothing_099",
+      "he": "מי מהמשתתפים היית רוצה לראות עושה סטריפטיז?",
+      "en": "Which player would you like to see doing a striptease?",
+      "ru": "Кого из игроков ты хотел бы увидеть исполняющим стриптиз?"
+    },
+    {
+      "id": "nothing_100",
+      "he": "מי מהמשתתפים היית רוצה לרקוד איתו צמוד?",
+      "en": "Which player would you like to dance closely with?",
+      "ru": "С кем из игроков ты хотел бы танцевать вплотную?"
+    },
+    {
+      "id": "nothing_101",
+      "he": "מי מהמשתתפים היית בוחר לנשיקה אם היית חייב לבחור עכשיו?",
+      "en": "Which player would you choose for a kiss if you had to choose right now?",
+      "ru": "Кого из игроков ты бы выбрал для поцелуя, если бы пришлось выбирать прямо сейчас?"
+    },
+    {
+      "id": "nothing_102",
+      "he": "מי מהמשתתפים היית בוחר לשבת לידו צמוד עד סוף המשחק?",
+      "en": "Which player would you choose to sit pressed close to for the rest of the game?",
+      "ru": "С кем из игроков ты бы выбрал сидеть вплотную до конца игры?"
+    },
+    {
+      "id": "nothing_103",
+      "he": "מי מהמשתתפים היית בוחר לחלוק איתו חדר במלון?",
+      "en": "Which player would you choose to share a hotel room with?",
+      "ru": "С кем из игроков ты бы выбрал делить номер в отеле?"
+    },
+    {
+      "id": "nothing_104",
+      "he": "מה הדבר הכי נועז שהיית מוכן לעשות במשחק כזה מול חברים?",
+      "en": "What is the boldest thing you would be willing to do in a game like this in front of friends?",
+      "ru": "Что самое смелое ты был бы готов сделать в такой игре перед друзьями?"
+    },
+    {
+      "id": "nothing_105",
+      "he": "מה משימה במשחק כזה הייתה גורמת לך להסמיק אבל עדיין לבצע אותה?",
+      "en": "What challenge in a game like this would make you blush but you would still do it?",
+      "ru": "Какое задание в такой игре заставило бы тебя покраснеть, но ты всё равно его выполнил бы?"
+    },
+    {
+      "id": "nothing_106",
+      "he": "מה משימה היית רוצה שמישהו אחר בחדר יקבל?",
+      "en": "What challenge would you like someone else in the room to receive?",
+      "ru": "Какое задание ты хотел бы, чтобы получил кто-то другой в комнате?"
+    },
+    {
+      "id": "nothing_107",
+      "he": "מה משימה היית הכי חושש לקבל כרגע?",
+      "en": "What challenge would you be most nervous to receive right now?",
+      "ru": "Какого задания ты сейчас боишься получить больше всего?"
+    },
+    {
+      "id": "nothing_108",
+      "he": "איזו משימה לדעתך הכי מתאימה לאדם שמימינך?",
+      "en": "What challenge do you think best suits the person on your right?",
+      "ru": "Какое задание, по-твоему, лучше всего подходит человеку справа от тебя?"
+    },
+    {
+      "id": "nothing_109",
+      "he": "איזו משימה לדעתך הכי מתאימה לאדם שמשמאלך?",
+      "en": "What challenge do you think best suits the person on your left?",
+      "ru": "Какое задание, по-твоему, лучше всего подходит человеку слева от тебя?"
+    },
+    {
+      "id": "nothing_110",
+      "he": "מי בחדר לדעתך ייקח משימה נועזת הכי רחוק?",
+      "en": "Who in the room do you think would take a bold challenge the farthest?",
+      "ru": "Кто в комнате, по-твоему, зайдёт дальше всех в смелом задании?"
+    },
+    {
+      "id": "nothing_111",
+      "he": "מי בחדר לדעתך יבחר 'הכל' כמעט בכל פעם?",
+      "en": "Who in the room do you think would choose 'All' almost every time?",
+      "ru": "Кто в комнате, по-твоему, почти всегда выберет «Всё»?"
+    },
+    {
+      "id": "nothing_112",
+      "he": "מי בחדר לדעתך יבחר 'כלום' כדי להימנע ממשימה?",
+      "en": "Who in the room do you think would choose 'Nothing' to avoid a challenge?",
+      "ru": "Кто в комнате, по-твоему, выберет «Ничего», чтобы избежать задания?"
+    },
+    {
+      "id": "nothing_113",
+      "he": "מה היית רוצה שיקרה בהמשך הערב אם המשחק ילך טוב?",
+      "en": "What would you like to happen later tonight if the game goes well?",
+      "ru": "Что бы ты хотел, чтобы произошло позже этим вечером, если игра пойдёт хорошо?"
+    },
+    {
+      "id": "nothing_114",
+      "he": "מה הדבר הכי נועז שהיית רוצה שמישהו יציע לך בלי שתבקש?",
+      "en": "What is the boldest thing you would like someone to suggest to you without you asking?",
+      "ru": "Что самое смелое ты хотел бы, чтобы кто-то предложил тебе без твоей просьбы?"
+    },
+    {
+      "id": "nothing_115",
+      "he": "אם היית יכול לקבוע חוק אחד למשחק לעשר דקות, מה הוא היה?",
+      "en": "If you could set one rule for the game for ten minutes, what would it be?",
+      "ru": "Если бы ты мог установить одно правило для игры на десять минут, какое бы это было?"
+    },
+    {
+      "id": "nothing_116",
+      "he": "אם היית יכול לבחור שני משתתפים למשימת זוג, במי היית בוחר?",
+      "en": "If you could choose two players for a pair challenge, who would you choose?",
+      "ru": "Если бы ты мог выбрать двух игроков для парного задания, кого бы ты выбрал?"
+    },
+    {
+      "id": "nothing_117",
+      "he": "אם היית יכול להחליף מקום עם מישהו בחדר, ליד מי היית רוצה לשבת?",
+      "en": "If you could switch seats with someone in the room, who would you want to sit next to?",
+      "ru": "Если бы ты мог поменяться местами с кем-то в комнате, рядом с кем ты хотел бы сидеть?"
+    },
+    {
+      "id": "nothing_118",
+      "he": "אם היית צריך לתת ציון לכימיה שלך עם האדם שמימינך, מה הציון?",
+      "en": "If you had to rate your chemistry with the person on your right, what score would you give it?",
+      "ru": "Если бы тебе нужно было оценить свою химию с человеком справа, какую оценку ты бы поставил?"
+    },
+    {
+      "id": "nothing_119",
+      "he": "אם היית צריך לתת ציון לכימיה שלך עם האדם שמשמאלך, מה הציון?",
+      "en": "If you had to rate your chemistry with the person on your left, what score would you give it?",
+      "ru": "Если бы тебе нужно было оценить свою химию с человеком слева, какую оценку ты бы поставил?"
+    },
+    {
+      "id": "nothing_120",
+      "he": "אם היית צריך לבחור מי בחדר הכי מושך אותך פיזית, מי זה?",
+      "en": "If you had to choose who in the room attracts you most physically, who would it be?",
+      "ru": "Если бы тебе пришлось выбрать, кто в комнате привлекает тебя больше всего физически, кто бы это был?"
+    },
+    {
+      "id": "nothing_121",
+      "he": "אם היית צריך לבחור מי בחדר הכי מושך אותך באופי, מי זה?",
+      "en": "If you had to choose who in the room attracts you most because of their personality, who would it be?",
+      "ru": "Если бы тебе пришлось выбрать, кто в комнате привлекает тебя больше всего характером, кто бы это был?"
+    },
+    {
+      "id": "nothing_122",
+      "he": "מה הדבר שהכי היית רוצה לדעת על אדם שמושך אותך לפני שמתקרבים?",
+      "en": "What would you most want to know about someone you are attracted to before getting closer?",
+      "ru": "Что ты больше всего хотел бы узнать о человеке, который тебя привлекает, прежде чем сближаться?"
+    },
+    {
+      "id": "nothing_123",
+      "he": "מה לדעתך יותר אינטימי: נשיקה, חיבוק ארוך או שיחה אישית מאוד?",
+      "en": "What do you think is more intimate: a kiss, a long hug, or a very personal conversation?",
+      "ru": "Что, по-твоему, более интимно: поцелуй, долгое объятие или очень личный разговор?"
+    },
+    {
+      "id": "nothing_124",
+      "he": "מה הרגע הכי טעון במתח שהיה לך עם מישהו בלי שקרה כמעט כלום?",
+      "en": "What is the most tension-filled moment you have had with someone when almost nothing actually happened?",
+      "ru": "Какой самый напряжённый момент был у тебя с человеком, когда почти ничего не произошло?"
+    },
+    {
+      "id": "nothing_125",
+      "he": "מה הדבר הכי נועז שעשית כי נסחפת ברגע?",
+      "en": "What is the boldest thing you have done because you got carried away in the moment?",
+      "ru": "Что самое смелое ты делал, потому что увлёкся моментом?"
+    },
+    {
+      "id": "nothing_126",
+      "he": "מה הדבר שהכי קל לגרום לך לעשות כשאתה נמשך למישהו?",
+      "en": "What are you easiest to persuade to do when you are attracted to someone?",
+      "ru": "На что тебя легче всего уговорить, когда тебя сильно тянет к человеку?"
+    },
+    {
+      "id": "nothing_127",
+      "he": "מה הדבר שהכי קשה לגרום לך לעשות גם אם אתה מאוד נמשך למישהו?",
+      "en": "What are you hardest to persuade to do even when you are very attracted to someone?",
+      "ru": "На что тебя труднее всего уговорить, даже если тебя очень сильно тянет к человеку?"
+    },
+    {
+      "id": "nothing_128",
+      "he": "מה התכונה שהכי יכולה לגרום לך לאבד שליטה על הפלרטוט?",
+      "en": "What trait is most likely to make you lose control of your flirting?",
+      "ru": "Какая черта сильнее всего способна заставить тебя потерять контроль над флиртом?"
+    },
+    {
+      "id": "nothing_129",
+      "he": "אם היית צריך לבחור שיר אחד לריקוד מאוד צמוד, איזה סוג שיר היית בוחר?",
+      "en": "If you had to choose one song for a very close dance, what kind of song would you choose?",
+      "ru": "Если бы тебе нужно было выбрать одну песню для очень тесного танца, какой стиль ты бы выбрал?"
+    },
+    {
+      "id": "nothing_130",
+      "he": "אם היית צריך לבחור אדם אחד בחדר שאיתו היית רוצה להישאר לבד לשעה, במי היית בוחר ולמה?",
+      "en": "If you had to choose one person in the room to be alone with for an hour, who would you choose and why?",
+      "ru": "Если бы тебе нужно было выбрать одного человека в комнате, с которым ты хотел бы остаться наедине на час, кого бы ты выбрал и почему?"
+    },
+    {
+      "id": "nothing_131",
+      "he": "מה צבע התחתונים שלך?",
+      "en": "What color is your underwear?",
+      "ru": "Какого цвета твоё нижнее бельё?"
+    },
+    {
+      "id": "nothing_132",
+      "he": "בחר אחד מהמשתתפים שהכי מושך אותך.",
+      "en": "Choose the player you find most attractive.",
+      "ru": "Выбери игрока, который привлекает тебя больше всего."
+    },
+    {
+      "id": "nothing_133",
+      "he": "בחר משתתף וספר איך היית מענג אותו.",
+      "en": "Choose a player and describe how you would pleasure them.",
+      "ru": "Выбери игрока и расскажи, как бы ты доставлял ему удовольствие."
+    },
+    {
+      "id": "nothing_134",
+      "he": "מה קטגוריית הפורנו שאתה הכי אוהב?",
+      "en": "What is your favorite porn category?",
+      "ru": "Какая категория порно тебе нравится больше всего?"
+    },
+    {
+      "id": "nothing_135",
+      "he": "באיזה מקום הכי היית רוצה לקיים יחסים?",
+      "en": "Where would you most like to have sex?",
+      "ru": "В каком месте ты больше всего хотел бы заняться сексом?"
+    },
+    {
+      "id": "nothing_136",
+      "he": "מה הפנטזיה הכמוסה שלך?",
+      "en": "What is your secret fantasy?",
+      "ru": "Какая у тебя тайная фантазия?"
+    },
+    {
+      "id": "nothing_137",
+      "he": "מה אתה הכי אוהב בסקס?",
+      "en": "What do you enjoy most about sex?",
+      "ru": "Что тебе больше всего нравится в сексе?"
+    },
+    {
+      "id": "nothing_138",
+      "he": "האם עשית פעם סקס במקום פומבי?",
+      "en": "Have you ever had sex in a public place?",
+      "ru": "Ты когда-нибудь занимался сексом в общественном месте?"
+    },
+    {
+      "id": "nothing_139",
+      "he": "האם עשית פעם סקס במטוס, כולל אוננות? פרט.",
+      "en": "Have you ever had sex on a plane, including masturbation? Give details.",
+      "ru": "Ты когда-нибудь занимался сексом в самолёте, включая мастурбацию? Расскажи подробнее."
+    },
+    {
+      "id": "nothing_140",
+      "he": "מה המקום הכי מוזר שעשית בו סקס?",
+      "en": "What is the strangest place where you have had sex?",
+      "ru": "В каком самом странном месте ты занимался сексом?"
+    },
+    {
+      "id": "nothing_141",
+      "he": "אם הייתה לך אפשרות, עם איזה סלבריטי היית בוחר לשכב?",
+      "en": "If you had the chance, which celebrity would you choose to sleep with?",
+      "ru": "Если бы у тебя была возможность, с какой знаменитостью ты бы переспал?"
+    },
+    {
+      "id": "nothing_142",
+      "he": "מה הפטיש שלך?",
+      "en": "What is your fetish?",
+      "ru": "Какой у тебя фетиш?"
+    },
+    {
+      "id": "nothing_143",
+      "he": "במה לעולם לא היית מתנסה מבחינה מינית?",
+      "en": "What would you never try sexually?",
+      "ru": "Что ты никогда не стал бы пробовать в сексуальном плане?"
+    },
+    {
+      "id": "nothing_144",
+      "he": "מה היית משנה בגוף שלך אם הייתה לך האפשרות?",
+      "en": "What would you change about your body if you could?",
+      "ru": "Что бы ты изменил в своём теле, если бы мог?"
+    },
+    {
+      "id": "nothing_145",
+      "he": "איזו תנוחה אתה הכי אוהב?",
+      "en": "What sexual position do you like most?",
+      "ru": "Какая сексуальная поза тебе нравится больше всего?"
+    },
+    {
+      "id": "nothing_146",
+      "he": "מה לא ניסית בסקס והיית מת לנסות?",
+      "en": "What have you never tried in sex but would love to try?",
+      "ru": "Что ты никогда не пробовал в сексе, но очень хотел бы попробовать?"
+    },
+    {
+      "id": "nothing_147",
+      "he": "מה הכי מגרה אותך בכל אחד מהמשתתפים?",
+      "en": "What turns you on most about each of the players?",
+      "ru": "Что больше всего возбуждает тебя в каждом из игроков?"
+    },
+    {
+      "id": "nothing_148",
+      "he": "באיזה גיל קיימת יחסי מין לראשונה?",
+      "en": "How old were you when you first had sex?",
+      "ru": "Сколько тебе было лет, когда ты впервые занялся сексом?"
+    },
+    {
+      "id": "nothing_149",
+      "he": "מתי קיימת יחסי מין בפעם האחרונה?",
+      "en": "When was the last time you had sex?",
+      "ru": "Когда ты в последний раз занимался сексом?"
+    },
+    {
+      "id": "nothing_150",
+      "he": "ספר על החוויה המינית הכי טובה שלך בפירוט.",
+      "en": "Describe your best sexual experience in detail.",
+      "ru": "Подробно расскажи о своём лучшем сексуальном опыте."
+    }
+  ],
+  "bold_cards": [
+    {
+      "id": "bold_001",
+      "he": "עמדו זה מול זה ושמרו על קשר עין במשך 30 שניות בלי לדבר.",
+      "en": "Stand facing each other and maintain eye contact for 30 seconds without speaking.",
+      "ru": "Встаньте друг напротив друга и поддерживайте зрительный контакт 30 секунд, не разговаривая."
+    },
+    {
+      "id": "bold_002",
+      "he": "כל אחד אומר לשני דבר אחד שמושך אותו בו.",
+      "en": "Each of you tells the other one thing you find attractive about them.",
+      "ru": "Каждый из вас говорит другому одну вещь, которая его в нём привлекает."
+    },
+    {
+      "id": "bold_003",
+      "he": "לחש למשתתף שבחרת מחמאה נועזת באוזן.",
+      "en": "Whisper a bold compliment into the ear of the player you chose.",
+      "ru": "Прошепчи выбранному игроку на ухо смелый комплимент."
+    },
+    {
+      "id": "bold_004",
+      "he": "רקדו יחד 20 שניות כאילו אתם לבד במועדון.",
+      "en": "Dance together for 20 seconds as if you were alone in a club.",
+      "ru": "Танцуйте вместе 20 секунд так, будто вы одни в клубе."
+    },
+    {
+      "id": "bold_005",
+      "he": "תן למשתתף שבחרת לבחור לך כינוי פלרטטני עד סוף הסיבוב.",
+      "en": "Let the player you chose give you a flirty nickname until the end of the round.",
+      "ru": "Позволь выбранному игроку придумать тебе флиртующее прозвище до конца раунда."
+    },
+    {
+      "id": "bold_006",
+      "he": "שבו זה לצד זה צמוד עד התור הבא.",
+      "en": "Sit pressed close beside each other until the next turn.",
+      "ru": "Сядьте вплотную друг к другу до следующего хода."
+    },
+    {
+      "id": "bold_007",
+      "he": "כל אחד מתאר את השני בשלוש מילים מושכות.",
+      "en": "Each of you describes the other in three attractive words.",
+      "ru": "Каждый описывает другого тремя привлекательными словами."
+    },
+    {
+      "id": "bold_008",
+      "he": "עשו יחד פוזת זוג נועזת לצילום דמיוני למשך 10 שניות.",
+      "en": "Hold a bold couple pose together for an imaginary photo for 10 seconds.",
+      "ru": "Примите вместе смелую парную позу для воображаемой фотографии на 10 секунд."
+    },
+    {
+      "id": "bold_009",
+      "he": "תן למשתתף שבחרת לבחור שיר שמתאים לכימיה ביניכם.",
+      "en": "Let the player you chose pick a song that fits the chemistry between you.",
+      "ru": "Позволь выбранному игроку выбрать песню, которая подходит вашей химии."
+    },
+    {
+      "id": "bold_010",
+      "he": "רקדו ריקוד איטי 20 שניות בלי מוזיקה.",
+      "en": "Slow-dance together for 20 seconds without music.",
+      "ru": "Медленно танцуйте вместе 20 секунд без музыки."
+    },
+    {
+      "id": "bold_011",
+      "he": "כל אחד אומר מה הדבר הראשון שתפס את תשומת לבו בשני.",
+      "en": "Each of you says what first caught your attention about the other.",
+      "ru": "Каждый говорит, что первым привлекло его внимание в другом."
+    },
+    {
+      "id": "bold_012",
+      "he": "שמרו על קשר עין בזמן שכל אחד מחייך בלי לדבר במשך 20 שניות.",
+      "en": "Maintain eye contact while both of you smile without speaking for 20 seconds.",
+      "ru": "Поддерживайте зрительный контакт и улыбайтесь друг другу молча в течение 20 секунд."
+    },
+    {
+      "id": "bold_013",
+      "he": "תן למשתתף שבחרת לבחור אם אתם מחזיקים ידיים או יושבים צמוד עד התור הבא.",
+      "en": "Let the player you chose decide whether you hold hands or sit pressed close until the next turn.",
+      "ru": "Позволь выбранному игроку решить, будете ли вы держаться за руки или сидеть вплотную до следующего хода."
+    },
+    {
+      "id": "bold_014",
+      "he": "עשה כניסה דרמטית כאילו אתה נכנס למועדון ומנסה להרשים את המשתתף שבחרת.",
+      "en": "Make a dramatic entrance as if you were walking into a club trying to impress the player you chose.",
+      "ru": "Сделай эффектный вход, будто ты входишь в клуб и пытаешься впечатлить выбранного игрока."
+    },
+    {
+      "id": "bold_015",
+      "he": "לחש למשתתף שבחרת משפט פתיחה נועז שהיית אומר לו בבר.",
+      "en": "Whisper a bold pickup line to the player you chose, as if you were in a bar.",
+      "ru": "Прошепчи выбранному игроку смелую фразу для знакомства, которую сказал бы ему в баре."
+    },
+    {
+      "id": "bold_016",
+      "he": "רקדו יחד כשהמשתתף שבחרת מוביל במשך 20 שניות.",
+      "en": "Dance together for 20 seconds while the player you chose leads.",
+      "ru": "Танцуйте вместе 20 секунд, пока выбранный игрок ведёт."
+    },
+    {
+      "id": "bold_017",
+      "he": "תן למשתתף שבחרת לבחור לך פוזה סקסית אך לא מפורשת ל-10 שניות.",
+      "en": "Let the player you chose pick a sexy but non-explicit pose for you to hold for 10 seconds.",
+      "ru": "Позволь выбранному игроку выбрать для тебя сексуальную, но не откровенную позу на 10 секунд."
+    },
+    {
+      "id": "bold_018",
+      "he": "ספר למשתתף שבחרת מה לדעתך הכי מושך בו מבחינת נוכחות.",
+      "en": "Tell the player you chose what you find most attractive about their presence.",
+      "ru": "Скажи выбранному игроку, что в его манере держаться кажется тебе самым привлекательным."
+    },
+    {
+      "id": "bold_019",
+      "he": "שבו אחד מול השני קרוב ושמרו על קשר עין 20 שניות.",
+      "en": "Sit close facing each other and maintain eye contact for 20 seconds.",
+      "ru": "Сядьте близко друг напротив друга и поддерживайте зрительный контакт 20 секунд."
+    },
+    {
+      "id": "bold_020",
+      "he": "כל אחד אומר לשני איזו אנרגיה הוא משדר לו.",
+      "en": "Each of you tells the other what kind of energy they give off.",
+      "ru": "Каждый говорит другому, какую энергетику тот излучает."
+    },
+    {
+      "id": "bold_021",
+      "he": "תן למשתתף שבחרת לבחור אם לקבל ממך חיבוק או נשיקה בלחי.",
+      "en": "Let the player you chose decide whether to receive a hug or a kiss on the cheek from you.",
+      "ru": "Позволь выбранному игроку решить, получить от тебя объятие или поцелуй в щёку."
+    },
+    {
+      "id": "bold_022",
+      "he": "עשו יחד סיבוב דוגמנות קצר מול כולם.",
+      "en": "Do a short runway walk together in front of everyone.",
+      "ru": "Сделайте вместе короткий проход как по подиуму перед всеми."
+    },
+    {
+      "id": "bold_023",
+      "he": "לחשו זה לזה משפט שהייתם שולחים אחרי חצות.",
+      "en": "Whisper to each other a line you would send after midnight.",
+      "ru": "Прошепчите друг другу фразу, которую отправили бы после полуночи."
+    },
+    {
+      "id": "bold_024",
+      "he": "תן למשתתף שבחרת 15 שניות לגרום לך להסמיק בלי לגעת בך.",
+      "en": "Give the player you chose 15 seconds to make you blush without touching you.",
+      "ru": "Дай выбранному игроку 15 секунд, чтобы заставить тебя покраснеть, не прикасаясь к тебе."
+    },
+    {
+      "id": "bold_025",
+      "he": "ספר בקול איזה סוג של פלרטוט הכי עובד עליך.",
+      "en": "Say out loud what kind of flirting works best on you.",
+      "ru": "Скажи вслух, какой стиль флирта лучше всего действует на тебя."
+    },
+    {
+      "id": "bold_026",
+      "he": "רקדו יחד 20 שניות כשאסור לכם להסיט מבט.",
+      "en": "Dance together for 20 seconds without being allowed to look away.",
+      "ru": "Танцуйте вместе 20 секунд, не отводя взгляд."
+    },
+    {
+      "id": "bold_027",
+      "he": "תן למשתתף שבחרת לבחור אם לשבת מולך או לצידך עד התור הבא.",
+      "en": "Let the player you chose decide whether to sit opposite you or beside you until the next turn.",
+      "ru": "Позволь выбранному игроку решить, сидеть напротив тебя или рядом до следующего хода."
+    },
+    {
+      "id": "bold_028",
+      "he": "כל אחד נותן לשני מחמאה על משהו שאינו קשור למראה.",
+      "en": "Each of you gives the other a compliment that is not about appearance.",
+      "ru": "Каждый делает другому комплимент, не связанный с внешностью."
+    },
+    {
+      "id": "bold_029",
+      "he": "עשו יחד טוסט קטן לכימיה ביניכם.",
+      "en": "Make a small toast together to the chemistry between you.",
+      "ru": "Поднимите небольшой тост за химию между вами."
+    },
+    {
+      "id": "bold_030",
+      "he": "בחרו יחד מילה אחת שמתארת את המתח ביניכם ואמרו אותה בו-זמנית.",
+      "en": "Choose one word together that describes the tension between you and say it at the same time.",
+      "ru": "Вместе выберите одно слово, которое описывает напряжение между вами, и произнесите его одновременно."
+    },
+    {
+      "id": "bold_031",
+      "he": "אחזו ידיים במשך 30 שניות תוך קשר עין.",
+      "en": "Hold hands for 30 seconds while maintaining eye contact.",
+      "ru": "Держитесь за руки 30 секунд, сохраняя зрительный контакт."
+    },
+    {
+      "id": "bold_032",
+      "he": "התחבקו במשך 15 שניות.",
+      "en": "Hug for 15 seconds.",
+      "ru": "Обнимайтесь 15 секунд."
+    },
+    {
+      "id": "bold_033",
+      "he": "תן למשתתף שבחרת נשיקה על הלחי.",
+      "en": "Give the player you chose a kiss on the cheek.",
+      "ru": "Поцелуй выбранного игрока в щёку."
+    },
+    {
+      "id": "bold_034",
+      "he": "תן למשתתף שבחרת נשיקה על היד.",
+      "en": "Kiss the hand of the player you chose.",
+      "ru": "Поцелуй руку выбранного игрока."
+    },
+    {
+      "id": "bold_035",
+      "he": "רקדו צמוד במשך 25 שניות.",
+      "en": "Dance pressed close for 25 seconds.",
+      "ru": "Танцуйте вплотную 25 секунд."
+    },
+    {
+      "id": "bold_036",
+      "he": "תן למשתתף שבחרת עיסוי כתפיים של 20 שניות.",
+      "en": "Give the player you chose a 20-second shoulder massage.",
+      "ru": "Сделай выбранному игроку массаж плеч в течение 20 секунд."
+    },
+    {
+      "id": "bold_037",
+      "he": "קבל מהמשתתף שבחרת עיסוי כתפיים של 20 שניות.",
+      "en": "Receive a 20-second shoulder massage from the player you chose.",
+      "ru": "Получи 20-секундный массаж плеч от выбранного игрока."
+    },
+    {
+      "id": "bold_038",
+      "he": "שב על ברכיו של המשתתף שבחרת למשך 15 שניות, אם שניכם מסכימים.",
+      "en": "Sit on the lap of the player you chose for 15 seconds, if you both agree.",
+      "ru": "Сядь на колени выбранного игрока на 15 секунд, если вы оба согласны."
+    },
+    {
+      "id": "bold_039",
+      "he": "תן למשתתף שבחרת לבחור אם לקבל נשיקה במצח, בלחי או ביד.",
+      "en": "Let the player you chose decide whether to receive a kiss on the forehead, cheek, or hand.",
+      "ru": "Позволь выбранному игроку решить, получить поцелуй в лоб, щёку или руку."
+    },
+    {
+      "id": "bold_040",
+      "he": "רקדו יחד כשיד אחת של כל אחד מונחת על כתף או מותן השני.",
+      "en": "Dance together with one hand each resting on the other's shoulder or waist.",
+      "ru": "Танцуйте вместе, положив одну руку на плечо или талию друг друга."
+    },
+    {
+      "id": "bold_041",
+      "he": "החזיקו כפות ידיים צמודות במשך 20 שניות בלי לדבר.",
+      "en": "Press your palms together for 20 seconds without speaking.",
+      "ru": "Прижмите ладони друг к другу на 20 секунд, не разговаривая."
+    },
+    {
+      "id": "bold_042",
+      "he": "תן למשתתף שבחרת להניח את הראש על הכתף שלך עד סוף התור הבא.",
+      "en": "Let the player you chose rest their head on your shoulder until the end of the next turn.",
+      "ru": "Позволь выбранному игроку положить голову тебе на плечо до конца следующего хода."
+    },
+    {
+      "id": "bold_043",
+      "he": "הישען על המשתתף שבחרת עד סוף התור הבא.",
+      "en": "Lean against the player you chose until the end of the next turn.",
+      "ru": "Прислонись к выбранному игроку до конца следующего хода."
+    },
+    {
+      "id": "bold_044",
+      "he": "רקדו יחד 30 שניות כשהמשתתף שבחרת מוביל.",
+      "en": "Dance together for 30 seconds while the player you chose leads.",
+      "ru": "Танцуйте вместе 30 секунд, пока выбранный игрок ведёт."
+    },
+    {
+      "id": "bold_045",
+      "he": "תן למשתתף שבחרת לבחור תנוחת זוג שאתם מחזיקים 15 שניות.",
+      "en": "Let the player you chose choose a couple pose for you to hold for 15 seconds.",
+      "ru": "Позволь выбранному игроку выбрать парную позу, которую вы будете держать 15 секунд."
+    },
+    {
+      "id": "bold_046",
+      "he": "התחבקו מאחור או פנים אל פנים, לפי בחירת המשתתף שבחרת.",
+      "en": "Hug from behind or face-to-face, whichever the player you chose prefers.",
+      "ru": "Обнимитесь со спины или лицом к лицу — как выберет выбранный игрок."
+    },
+    {
+      "id": "bold_047",
+      "he": "תן למשתתף שבחרת נשיקה קצרה לבחירתכם.",
+      "en": "Give the player you chose a short kiss in a place you both choose.",
+      "ru": "Дай выбранному игроку короткий поцелуй в месте, которое вы выберете вместе."
+    },
+    {
+      "id": "bold_048",
+      "he": "שבו צמוד מאוד זה לזה במשך 30 שניות.",
+      "en": "Sit very close together for 30 seconds.",
+      "ru": "Сядьте очень близко друг к другу на 30 секунд."
+    },
+    {
+      "id": "bold_049",
+      "he": "רקדו יחד כשהמצח שלכם קרוב מאוד במשך 20 שניות.",
+      "en": "Dance together for 20 seconds with your foreheads very close.",
+      "ru": "Танцуйте вместе 20 секунд, держа лбы очень близко."
+    },
+    {
+      "id": "bold_050",
+      "he": "תן למשתתף שבחרת להעביר יד בעדינות על הזרוע שלך למשך כמה שניות.",
+      "en": "Let the player you chose gently run a hand along your arm for a few seconds.",
+      "ru": "Позволь выбранному игроку мягко провести рукой по твоей руке несколько секунд."
+    },
+    {
+      "id": "bold_051",
+      "he": "העבר יד בעדינות על זרועו של המשתתף שבחרת למשך כמה שניות.",
+      "en": "Gently run your hand along the arm of the player you chose for a few seconds.",
+      "ru": "Мягко проведи рукой по руке выбранного игрока несколько секунд."
+    },
+    {
+      "id": "bold_052",
+      "he": "תן למשתתף שבחרת לבחור אם אתם מתחבקים או רוקדים צמוד 20 שניות.",
+      "en": "Let the player you chose decide whether you hug or dance closely for 20 seconds.",
+      "ru": "Позволь выбранному игроку решить, обнимаетесь вы или танцуете вплотную 20 секунд."
+    },
+    {
+      "id": "bold_053",
+      "he": "רקדו יחד כאילו אתם הזוג היחיד ברחבת הריקודים במשך 30 שניות.",
+      "en": "Dance together for 30 seconds as if you were the only couple on the dance floor.",
+      "ru": "Танцуйте вместе 30 секунд так, будто вы единственная пара на танцполе."
+    },
+    {
+      "id": "bold_054",
+      "he": "תן למשתתף שבחרת לסובב אותך כמו בריקוד.",
+      "en": "Let the player you chose spin you as if you were dancing.",
+      "ru": "Позволь выбранному игроку покрутить тебя, как в танце."
+    },
+    {
+      "id": "bold_055",
+      "he": "סובב את המשתתף שבחרת כמו בריקוד ואז הישארו קרובים 10 שניות.",
+      "en": "Spin the player you chose as if you were dancing, then stay close for 10 seconds.",
+      "ru": "Покрути выбранного игрока, как в танце, затем останьтесь близко ещё 10 секунд."
+    },
+    {
+      "id": "bold_056",
+      "he": "תן למשתתף שבחרת לבחור אם לקבל נשיקה בלחי או חיבוק ארוך.",
+      "en": "Let the player you chose decide whether to receive a kiss on the cheek or a long hug.",
+      "ru": "Позволь выбранному игроку решить, получить поцелуй в щёку или долгое объятие."
+    },
+    {
+      "id": "bold_057",
+      "he": "שבו אחד מול השני כשהברכיים כמעט נוגעות במשך 30 שניות.",
+      "en": "Sit facing each other with your knees almost touching for 30 seconds.",
+      "ru": "Сядьте друг напротив друга так, чтобы колени почти соприкасались, на 30 секунд."
+    },
+    {
+      "id": "bold_058",
+      "he": "תן למשתתף שבחרת לבחור מקום לא אינטימי לנשיקה קצרה.",
+      "en": "Let the player you chose choose a non-intimate place for a short kiss.",
+      "ru": "Позволь выбранному игроку выбрать неинтимное место для короткого поцелуя."
+    },
+    {
+      "id": "bold_059",
+      "he": "רקדו יחד 20 שניות כשאסור לכם לדבר.",
+      "en": "Dance together for 20 seconds without speaking.",
+      "ru": "Танцуйте вместе 20 секунд, не разговаривая."
+    },
+    {
+      "id": "bold_060",
+      "he": "תן למשתתף שבחרת להוביל אותך בפוזת זוג נועזת.",
+      "en": "Let the player you chose guide you into a bold couple pose.",
+      "ru": "Позволь выбранному игроку направить тебя в смелую парную позу."
+    },
+    {
+      "id": "bold_061",
+      "he": "תן למשתתף שבחרת חיבוק איטי של 15 שניות.",
+      "en": "Give the player you chose a slow 15-second hug.",
+      "ru": "Обними выбранного игрока медленно на 15 секунд."
+    },
+    {
+      "id": "bold_062",
+      "he": "החזיקו ידיים עד שהבא בתור מסיים את תורו.",
+      "en": "Hold hands until the next player finishes their turn.",
+      "ru": "Держитесь за руки, пока следующий игрок не закончит свой ход."
+    },
+    {
+      "id": "bold_063",
+      "he": "תן למשתתף שבחרת לבחור מי מכם יוביל ריקוד צמוד של 20 שניות.",
+      "en": "Let the player you chose decide which of you leads a 20-second close dance.",
+      "ru": "Позволь выбранному игроку решить, кто из вас будет вести 20-секундный тесный танец."
+    },
+    {
+      "id": "bold_064",
+      "he": "שבו זה לצד זה צמוד במשך דקה.",
+      "en": "Sit pressed close beside each other for one minute.",
+      "ru": "Сядьте вплотную друг к другу на одну минуту."
+    },
+    {
+      "id": "bold_065",
+      "he": "תן למשתתף שבחרת לבחור אם אתה מניח את הראש על כתפו או להפך.",
+      "en": "Let the player you chose decide whether you rest your head on their shoulder or the other way around.",
+      "ru": "Позволь выбранному игроку решить, положишь ты голову ему на плечо или наоборот."
+    },
+    {
+      "id": "bold_066",
+      "he": "רקדו יחד 30 שניות כשהקבוצה בוחרת את סוג הריקוד.",
+      "en": "Dance together for 30 seconds while the group chooses the style of dance.",
+      "ru": "Танцуйте вместе 30 секунд в стиле, который выберет группа."
+    },
+    {
+      "id": "bold_067",
+      "he": "תן למשתתף שבחרת לבחור אם לסיים את המשימה בחיבוק או בנשיקה.",
+      "en": "Let the player you chose decide whether to finish the task with a hug or a kiss.",
+      "ru": "Позволь выбранному игроку решить, закончите вы задание объятием или поцелуем."
+    },
+    {
+      "id": "bold_068",
+      "he": "הצמידו כתף אל כתף ושמרו על קשר עין 20 שניות.",
+      "en": "Press shoulder to shoulder and maintain eye contact for 20 seconds.",
+      "ru": "Прижмитесь плечом к плечу и поддерживайте зрительный контакт 20 секунд."
+    },
+    {
+      "id": "bold_069",
+      "he": "תן למשתתף שבחרת לבחור תנוחת ישיבה זוגית עד התור הבא.",
+      "en": "Let the player you chose choose a couple sitting position until the next turn.",
+      "ru": "Позволь выбранному игроку выбрать парную позу сидя до следующего хода."
+    },
+    {
+      "id": "bold_070",
+      "he": "סיימו את המשימה בחיבוק ארוך ובמחמאה הדדית.",
+      "en": "Finish the task with a long hug and a mutual compliment.",
+      "ru": "Завершите задание долгим объятием и взаимным комплиментом."
+    },
+    {
+      "id": "bold_071",
+      "he": "שתה צ'ייסר אחד או משקה חלופי והקדש אותו למשתתף שבחרת.",
+      "en": "Take one shot or an alternative drink and dedicate it to the player you chose.",
+      "ru": "Выпей один шот или альтернативный напиток и посвяти его выбранному игроку."
+    },
+    {
+      "id": "bold_072",
+      "he": "עשה סטריפטיז של 30 שניות והסר פריט לבוש חיצוני אחד.",
+      "en": "Do a 30-second striptease and remove one outer item of clothing.",
+      "ru": "Сделай 30-секундный стриптиз и сними один предмет верхней одежды."
+    },
+    {
+      "id": "bold_073",
+      "he": "תן למשתתף שבחרת לבחור איזה פריט לבוש חיצוני תסיר.",
+      "en": "Let the player you chose choose which outer item of clothing you remove.",
+      "ru": "Позволь выбранному игроку выбрать, какой внешний предмет одежды ты снимешь."
+    },
+    {
+      "id": "bold_074",
+      "he": "בצע לאפ-דאנס של 20 שניות מעל הבגדים למשתתף שבחרת.",
+      "en": "Give the player you chose a 20-second lap dance over clothing.",
+      "ru": "Сделай выбранному игроку 20-секундный lap dance поверх одежды."
+    },
+    {
+      "id": "bold_075",
+      "he": "קבל לאפ-דאנס קצר מעל הבגדים מהמשתתף שבחרת, אם הוא מסכים.",
+      "en": "Receive a short lap dance over clothing from the player you chose, if they agree.",
+      "ru": "Получи короткий lap dance поверх одежды от выбранного игрока, если он согласен."
+    },
+    {
+      "id": "bold_076",
+      "he": "רקדו צמוד מאוד במשך 30 שניות.",
+      "en": "Dance very closely for 30 seconds.",
+      "ru": "Танцуйте очень близко 30 секунд."
+    },
+    {
+      "id": "bold_077",
+      "he": "תן למשתתף שבחרת לבחור שיר לסטריפטיז קצר שלך.",
+      "en": "Let the player you chose pick a song for your short striptease.",
+      "ru": "Позволь выбранному игроку выбрать песню для твоего короткого стриптиза."
+    },
+    {
+      "id": "bold_078",
+      "he": "עשה ריקוד חושני של 30 שניות מול המשתתף שבחרת.",
+      "en": "Do a 30-second sensual dance in front of the player you chose.",
+      "ru": "Исполни 30-секундный чувственный танец перед выбранным игроком."
+    },
+    {
+      "id": "bold_079",
+      "he": "תן למשתתף שבחרת לבחור אם אתה מסיר אביזר או פריט לבוש חיצוני.",
+      "en": "Let the player you chose decide whether you remove an accessory or an outer item of clothing.",
+      "ru": "Позволь выбранному игроку решить, снимешь ты аксессуар или предмет верхней одежды."
+    },
+    {
+      "id": "bold_080",
+      "he": "עשה מסלול דוגמנות נועז מול כולם והקדש את הסיום למשתתף שבחרת.",
+      "en": "Do a bold runway walk in front of everyone and dedicate the finish to the player you chose.",
+      "ru": "Пройдись смело как по подиуму перед всеми и посвяти финал выбранному игроку."
+    },
+    {
+      "id": "bold_081",
+      "he": "שתה צ'ייסר אחד או משקה חלופי ואז אמור מה הכי מושך אותך במשתתף שבחרת.",
+      "en": "Take one shot or an alternative drink, then say what attracts you most about the player you chose.",
+      "ru": "Выпей один шот или альтернативный напиток, затем скажи, что больше всего привлекает тебя в выбранном игроке."
+    },
+    {
+      "id": "bold_082",
+      "he": "רקדו יחד 30 שניות כאילו אתם במועדון למבוגרים, בלי תוכן מפורש.",
+      "en": "Dance together for 30 seconds as if you were in an adult club, without explicit content.",
+      "ru": "Танцуйте вместе 30 секунд так, будто вы в клубе для взрослых, без откровенного содержания."
+    },
+    {
+      "id": "bold_083",
+      "he": "תן למשתתף שבחרת לבחור אם לקבל נשיקה, חיבוק ארוך או ריקוד צמוד.",
+      "en": "Let the player you chose decide whether to receive a kiss, a long hug, or a close dance.",
+      "ru": "Позволь выбранному игроку решить, получить поцелуй, долгое объятие или тесный танец."
+    },
+    {
+      "id": "bold_084",
+      "he": "עשה סטריפטיז קצר עד לרמת הלבוש שנוחה לך.",
+      "en": "Do a short striptease down to the level of clothing that feels comfortable to you.",
+      "ru": "Сделай короткий стриптиз до того уровня одежды, который тебе комфортен."
+    },
+    {
+      "id": "bold_085",
+      "he": "תן למשתתף שבחרת לבחור פריט לבוש חיצוני שתשאיר בצד עד סוף הסיבוב.",
+      "en": "Let the player you chose choose one outer item of clothing for you to leave off until the end of the round.",
+      "ru": "Позволь выбранному игроку выбрать один внешний предмет одежды, который ты оставишь снятым до конца раунда."
+    },
+    {
+      "id": "bold_086",
+      "he": "שב על ברכיו של המשתתף שבחרת עד סוף התור הבא, אם שניכם מסכימים.",
+      "en": "Sit on the lap of the player you chose until the end of the next turn, if you both agree.",
+      "ru": "Сядь на колени выбранного игрока до конца следующего хода, если вы оба согласны."
+    },
+    {
+      "id": "bold_087",
+      "he": "רקדו יחד 30 שניות כשהקבוצה סופרת לאחור.",
+      "en": "Dance together for 30 seconds while the group counts down.",
+      "ru": "Танцуйте вместе 30 секунд, пока группа ведёт обратный отсчёт."
+    },
+    {
+      "id": "bold_088",
+      "he": "תן למשתתף שבחרת לבחור תנוחה נועזת לצילום דמיוני.",
+      "en": "Let the player you chose choose a bold pose for an imaginary photo.",
+      "ru": "Позволь выбранному игроку выбрать смелую позу для воображаемой фотографии."
+    },
+    {
+      "id": "bold_089",
+      "he": "עשה 20 שניות של פוזות חושניות לפי הוראות המשתתף שבחרת.",
+      "en": "Do 20 seconds of sensual poses according to the instructions of the player you chose.",
+      "ru": "Покажи 20 секунд чувственных поз по указаниям выбранного игрока."
+    },
+    {
+      "id": "bold_090",
+      "he": "רקדו יחד כאילו אתם מופיעים מול קהל במועדון.",
+      "en": "Dance together as if you were performing for a crowd in a club.",
+      "ru": "Танцуйте вместе так, будто выступаете перед публикой в клубе."
+    },
+    {
+      "id": "bold_091",
+      "he": "תן למשתתף שבחרת להחליט אם אתה עושה סטריפטיז קצר או שותה צ'ייסר.",
+      "en": "Let the player you chose decide whether you do a short striptease or take a shot.",
+      "ru": "Позволь выбранному игроку решить, сделаешь ты короткий стриптиз или выпьешь шот."
+    },
+    {
+      "id": "bold_092",
+      "he": "שתה צ'ייסר אחד או משקה חלופי ואז תן למשתתף שבחרת מחמאה נועזת.",
+      "en": "Take one shot or an alternative drink, then give the player you chose a bold compliment.",
+      "ru": "Выпей один шот или альтернативный напиток, затем сделай выбранному игроку смелый комплимент."
+    },
+    {
+      "id": "bold_093",
+      "he": "תן למשתתף שבחרת לבחור אם אתם עושים ריקוד איטי, צמוד או לאפ-דאנס מעל הבגדים.",
+      "en": "Let the player you chose decide whether you do a slow dance, a close dance, or a lap dance over clothing.",
+      "ru": "Позволь выбранному игроку решить, будет ли это медленный танец, тесный танец или lap dance поверх одежды."
+    },
+    {
+      "id": "bold_094",
+      "he": "עשה ריקוד של 30 שניות כשהמשתתף שבחרת הוא הקהל היחיד שלך.",
+      "en": "Do a 30-second dance with the player you chose as your only audience.",
+      "ru": "Танцуй 30 секунд так, будто выбранный игрок — твой единственный зритель."
+    },
+    {
+      "id": "bold_095",
+      "he": "תן למשתתף שבחרת לבחור שיר ואז רקוד מולו 25 שניות.",
+      "en": "Let the player you chose pick a song, then dance in front of them for 25 seconds.",
+      "ru": "Позволь выбранному игроку выбрать песню, затем танцуй перед ним 25 секунд."
+    },
+    {
+      "id": "bold_096",
+      "he": "הסר אביזר או פריט לבוש חיצוני אחד והנח אותו בצד עד סוף הסיבוב.",
+      "en": "Remove one accessory or outer item of clothing and leave it aside until the end of the round.",
+      "ru": "Сними один аксессуар или предмет верхней одежды и отложи его до конца раунда."
+    },
+    {
+      "id": "bold_097",
+      "he": "תן למשתתף שבחרת לבחור אם אתה נשאר צמוד אליו או מחזיק לו את היד עד התור הבא.",
+      "en": "Let the player you chose decide whether you stay pressed close to them or hold their hand until the next turn.",
+      "ru": "Позволь выбранному игроку решить, останешься ты вплотную к нему или будешь держать его за руку до следующего хода."
+    },
+    {
+      "id": "bold_098",
+      "he": "עשה מופע קצר של 30 שניות כאילו אתה רקדן במועדון למבוגרים, בלי תוכן מפורש.",
+      "en": "Put on a short 30-second performance as if you were an adult-club dancer, without explicit content.",
+      "ru": "Устрой короткое 30-секундное выступление, будто ты танцор в клубе для взрослых, без откровенного содержания."
+    },
+    {
+      "id": "bold_099",
+      "he": "תן למשתתף שבחרת לבחור לך פוזה נועזת ולהחזיק אותה 15 שניות.",
+      "en": "Let the player you chose choose a bold pose for you and hold it for 15 seconds.",
+      "ru": "Позволь выбранному игроку выбрать для тебя смелую позу и удерживай её 15 секунд."
+    },
+    {
+      "id": "bold_100",
+      "he": "שתה צ'ייסר אחד או משקה חלופי ואז עשה ריקוד חושני של 20 שניות.",
+      "en": "Take one shot or an alternative drink, then do a 20-second sensual dance.",
+      "ru": "Выпей один шот или альтернативный напиток, затем исполни чувственный танец 20 секунд."
+    },
+    {
+      "id": "bold_101",
+      "he": "תן למשתתף שבחרת לבחור אם לקבל ממך נשיקה ארוכה או ריקוד צמוד.",
+      "en": "Let the player you chose decide whether to receive a long kiss or a close dance from you.",
+      "ru": "Позволь выбранному игроку решить, получить от тебя долгий поцелуй или тесный танец."
+    },
+    {
+      "id": "bold_102",
+      "he": "רקדו יחד 40 שניות בלי להסיט מבט.",
+      "en": "Dance together for 40 seconds without looking away.",
+      "ru": "Танцуйте вместе 40 секунд, не отводя взгляд."
+    },
+    {
+      "id": "bold_103",
+      "he": "תן למשתתף שבחרת להחליט איזה אביזר או פריט חיצוני יורד ממך.",
+      "en": "Let the player you chose decide which accessory or outer item of clothing comes off.",
+      "ru": "Позволь выбранному игроку решить, какой аксессуар или внешний предмет одежды ты снимешь."
+    },
+    {
+      "id": "bold_104",
+      "he": "עשה סטריפטיז קצר שבו הקבוצה סופרת לאחור מ-20.",
+      "en": "Do a short striptease while the group counts down from 20.",
+      "ru": "Сделай короткий стриптиз, пока группа считает в обратном порядке от 20."
+    },
+    {
+      "id": "bold_105",
+      "he": "תן למשתתף שבחרת לבחור אם אתה מסיר שכבה אחת או עושה לאפ-דאנס מעל הבגדים.",
+      "en": "Let the player you chose decide whether you remove one layer or give them a lap dance over clothing.",
+      "ru": "Позволь выбранному игроку решить, снимешь ты один слой одежды или сделаешь ему lap dance поверх одежды."
+    },
+    {
+      "id": "bold_106",
+      "he": "רקדו יחד כשהמשתתף שבחרת נותן לך שלוש הוראות תנועה.",
+      "en": "Dance together while the player you chose gives you three movement instructions.",
+      "ru": "Танцуйте вместе, пока выбранный игрок даёт тебе три инструкции по движениям."
+    },
+    {
+      "id": "bold_107",
+      "he": "עשה טוסט נועז, שתה צ'ייסר או משקה חלופי ובחר מי שותה איתך.",
+      "en": "Make a bold toast, take a shot or an alternative drink, and choose who drinks with you.",
+      "ru": "Произнеси смелый тост, выпей шот или альтернативный напиток и выбери, кто выпьет вместе с тобой."
+    },
+    {
+      "id": "bold_108",
+      "he": "תן למשתתף שבחרת לבחור אם אתה רוקד מולו או איתו.",
+      "en": "Let the player you chose decide whether you dance in front of them or with them.",
+      "ru": "Позволь выбранному игроку решить, будешь ты танцевать перед ним или вместе с ним."
+    },
+    {
+      "id": "bold_109",
+      "he": "עשה מסלול הליכה נועז מול כולם ואז שב ליד המשתתף שבחרת.",
+      "en": "Do a bold runway walk in front of everyone, then sit beside the player you chose.",
+      "ru": "Пройдись смело как по подиуму перед всеми, затем сядь рядом с выбранным игроком."
+    },
+    {
+      "id": "bold_110",
+      "he": "תן למשתתף שבחרת לבחור איזה שיר הייתם רוקדים אליו לבד בחדר.",
+      "en": "Let the player you chose choose the song you would dance to if you were alone together in a room.",
+      "ru": "Позволь выбранному игроку выбрать песню, под которую вы бы танцевали вдвоём в комнате."
+    },
+    {
+      "id": "bold_111",
+      "he": "רקדו צמוד 30 שניות ואז הישארו זה מול זה 10 שניות בלי לדבר.",
+      "en": "Dance pressed close for 30 seconds, then remain facing each other in silence for 10 seconds.",
+      "ru": "Танцуйте вплотную 30 секунд, затем останьтесь друг напротив друга молча ещё 10 секунд."
+    },
+    {
+      "id": "bold_112",
+      "he": "תן למשתתף שבחרת לבחור אם אתה נותן לו נשיקה או עושה סטריפטיז קצר.",
+      "en": "Let the player you chose decide whether you kiss them or do a short striptease.",
+      "ru": "Позволь выбранному игроку решить, поцелуешь ты его или сделаешь короткий стриптиз."
+    },
+    {
+      "id": "bold_113",
+      "he": "שתה צ'ייסר אחד או משקה חלופי ואז תן למישהו בחדר לבחור עבורך את המשתתף הבא לריקוד.",
+      "en": "Take one shot or an alternative drink, then let someone in the room choose your next dance partner.",
+      "ru": "Выпей один шот или альтернативный напиток, затем позволь кому-то в комнате выбрать тебе следующего партнёра для танца."
+    },
+    {
+      "id": "bold_114",
+      "he": "עשה סטריפטיז קצר עד להלבשה תחתונה, רק אם זה מתאים ונוח לך.",
+      "en": "Do a short striptease down to your underwear, only if that feels suitable and comfortable for you.",
+      "ru": "Сделай короткий стриптиз до нижнего белья, только если это тебе подходит и комфортно."
+    },
+    {
+      "id": "bold_115",
+      "he": "תן למשתתף שבחרת לבחור אם אתה מסיר פריט חיצוני אחד או נשאר צמוד אליו עד התור הבא.",
+      "en": "Let the player you chose decide whether you remove one outer item or stay pressed close to them until the next turn.",
+      "ru": "Позволь выбранному игроку решить, снимешь ты один внешний предмет одежды или останешься вплотную к нему до следующего хода."
+    },
+    {
+      "id": "bold_116",
+      "he": "רקדו יחד כשאחד מכם יושב והשני מופיע מולו במשך 20 שניות.",
+      "en": "Dance together with one of you seated while the other performs in front for 20 seconds.",
+      "ru": "Танцуйте вместе: один сидит, а второй выступает перед ним 20 секунд."
+    },
+    {
+      "id": "bold_117",
+      "he": "תן למשתתף שבחרת לבחור אם הוא מקבל לאפ-דאנס קצר או ריקוד צמוד.",
+      "en": "Let the player you chose decide whether they get a short lap dance or a close dance.",
+      "ru": "Позволь выбранному игроку решить, получить короткий lap dance или тесный танец."
+    },
+    {
+      "id": "bold_118",
+      "he": "עשה מופע חושני קצר מול כולם בלי מגע מפורש.",
+      "en": "Put on a short sensual performance in front of everyone without explicit touching.",
+      "ru": "Устрой короткое чувственное выступление перед всеми без откровенных прикосновений."
+    },
+    {
+      "id": "bold_119",
+      "he": "תן למשתתף שבחרת לבחור בין סטריפטיז קצר, צ'ייסר או ריקוד צמוד.",
+      "en": "Let the player you chose choose between a short striptease, a shot, or a close dance.",
+      "ru": "Позволь выбранному игроку выбрать между коротким стриптизом, шотом или тесным танцем."
+    },
+    {
+      "id": "bold_120",
+      "he": "רקדו יחד 30 שניות כשהקבוצה בוחרת את השיר.",
+      "en": "Dance together for 30 seconds while the group chooses the song.",
+      "ru": "Танцуйте вместе 30 секунд под песню, которую выберет группа."
+    },
+    {
+      "id": "bold_121",
+      "he": "תן למשתתף שבחרת לבחור איזה פריט לבוש חיצוני נשאר בצד עד סוף המשחק.",
+      "en": "Let the player you chose choose which outer item of clothing stays off until the end of the game.",
+      "ru": "Позволь выбранному игроку выбрать, какой внешний предмет одежды останется снятым до конца игры."
+    },
+    {
+      "id": "bold_122",
+      "he": "שתה צ'ייסר אחד או משקה חלופי והחלף מקום עם המשתתף שבחרת.",
+      "en": "Take one shot or an alternative drink and switch places with the player you chose.",
+      "ru": "Выпей один шот или альтернативный напиток и поменяйся местами с выбранным игроком."
+    },
+    {
+      "id": "bold_123",
+      "he": "עשה סטריפטיז קצר כשהמשתתף שבחרת בוחר מתי לעצור.",
+      "en": "Do a short striptease while the player you chose decides when you stop.",
+      "ru": "Сделай короткий стриптиз, пока выбранный игрок решает, когда тебе остановиться."
+    },
+    {
+      "id": "bold_124",
+      "he": "תן למשתתף שבחרת לבחור אם אתם יושבים צמודים או רוקדים עד התור הבא.",
+      "en": "Let the player you chose decide whether you sit pressed close or dance until the next turn.",
+      "ru": "Позволь выбранному игроку решить, будете вы сидеть вплотную или танцевать до следующего хода."
+    },
+    {
+      "id": "bold_125",
+      "he": "רקדו יחד 30 שניות והחליפו תפקיד מוביל באמצע.",
+      "en": "Dance together for 30 seconds and switch who leads halfway through.",
+      "ru": "Танцуйте вместе 30 секунд и поменяйтесь ролями ведущего на середине."
+    },
+    {
+      "id": "bold_126",
+      "he": "תן למשתתף שבחרת לבחור אם אתה עושה ריקוד חושני או מסלול דוגמנות נועז.",
+      "en": "Let the player you chose decide whether you do a sensual dance or a bold runway walk.",
+      "ru": "Позволь выбранному игроку решить, исполнишь ты чувственный танец или смелый проход как по подиуму."
+    },
+    {
+      "id": "bold_127",
+      "he": "שתה צ'ייסר אחד או משקה חלופי ואז בחר משתתף לריקוד צמוד.",
+      "en": "Take one shot or an alternative drink, then choose a player for a close dance.",
+      "ru": "Выпей один шот или альтернативный напиток, затем выбери игрока для тесного танца."
+    },
+    {
+      "id": "bold_128",
+      "he": "עשה 30 שניות של מופע במה נועז והקדש אותו למישהו בחדר.",
+      "en": "Do a 30-second bold stage performance and dedicate it to someone in the room.",
+      "ru": "Устрой 30-секундное смелое сценическое выступление и посвяти его кому-то в комнате."
+    },
+    {
+      "id": "bold_129",
+      "he": "תן למשתתף שבחרת לבחור אם אתה מסיר שכבה אחת או נשאר לידו צמוד עד סוף הסיבוב.",
+      "en": "Let the player you chose decide whether you remove one layer or stay pressed close beside them until the end of the round.",
+      "ru": "Позволь выбранному игроку решить, снимешь ты один слой одежды или останешься вплотную рядом с ним до конца раунда."
+    },
+    {
+      "id": "bold_130",
+      "he": "סיים את המשימה בטוסט נועז, חיבוק ארוך או ריקוד צמוד — המשתתף שבחרת מחליט.",
+      "en": "Finish the task with a bold toast, a long hug, or a close dance — the player you chose decides.",
+      "ru": "Заверши задание смелым тостом, долгим объятием или тесным танцем — выбранный игрок решает."
+    },
+    {
+      "id": "bold_131",
+      "he": "משימה חופשית: המתמודד בוחר לעצמו משימה נועזת אחת ומבצע אותה.",
+      "en": "Free task: choose one bold task for yourself and do it.",
+      "ru": "Свободное задание: выбери себе одно смелое задание и выполни его."
+    },
+    {
+      "id": "bold_132",
+      "he": "משימה חופשית: המתמודד בוחר משימה שהוא רוצה לבצע עם המשתתף שבחר.",
+      "en": "Free task: choose a task you want to do with the player you selected.",
+      "ru": "Свободное задание: выбери задание, которое хочешь выполнить вместе с выбранным игроком."
+    },
+    {
+      "id": "bold_133",
+      "he": "משימה חופשית: המתמודד ממציא לעצמו אתגר נועז של עד דקה.",
+      "en": "Free task: invent a bold challenge for yourself lasting up to one minute.",
+      "ru": "Свободное задание: придумай себе смелый вызов продолжительностью до одной минуты."
+    },
+    {
+      "id": "bold_134",
+      "he": "משימה חופשית: המתמודד בוחר בין ריקוד, נשיקה, צ'ייסר או הסרת פריט לבוש חיצוני.",
+      "en": "Free task: choose between a dance, a kiss, a shot, or removing one outer item of clothing.",
+      "ru": "Свободное задание: выбери между танцем, поцелуем, шотом или снятием одного внешнего предмета одежды."
+    },
+    {
+      "id": "bold_135",
+      "he": "משימה חופשית: המתמודד בוחר משימה זוגית בהסכמת המשתתף השני.",
+      "en": "Free task: choose a pair task with the agreement of the other player.",
+      "ru": "Свободное задание: выбери парное задание с согласия другого игрока."
+    },
+    {
+      "id": "bold_136",
+      "he": "משימה חופשית: המתמודד בוחר משימה שהוא חושב שתפתיע את כולם.",
+      "en": "Free task: choose a task you think will surprise everyone.",
+      "ru": "Свободное задание: выбери задание, которое, по твоему мнению, удивит всех."
+    },
+    {
+      "id": "bold_137",
+      "he": "משימה חופשית: המתמודד בוחר אתגר פלרטטני ומחליט עם מי לבצע אותו.",
+      "en": "Free task: choose a flirty challenge and decide who you will do it with.",
+      "ru": "Свободное задание: выбери флиртующий вызов и реши, с кем его выполнить."
+    },
+    {
+      "id": "bold_138",
+      "he": "משימה חופשית: המתמודד בוחר משימה נועזת שעדיין לא הופיעה במשחק.",
+      "en": "Free task: choose a bold task that has not appeared in the game yet.",
+      "ru": "Свободное задание: выбери смелое задание, которое ещё не появлялось в игре."
+    },
+    {
+      "id": "bold_139",
+      "he": "משימה חופשית: המתמודד בוחר משימת הופעה קצרה מול כולם.",
+      "en": "Free task: choose a short performance task to do in front of everyone.",
+      "ru": "Свободное задание: выбери короткое выступление перед всеми."
+    },
+    {
+      "id": "bold_140",
+      "he": "משימה חופשית: המתמודד בוחר משימת ריקוד נועזת לביצוע.",
+      "en": "Free task: choose a bold dance challenge to perform.",
+      "ru": "Свободное задание: выбери смелое танцевальное задание."
+    },
+    {
+      "id": "bold_141",
+      "he": "משימה חופשית: המתמודד בוחר משימת זוג בהסכמה הדדית.",
+      "en": "Free task: choose a pair task by mutual agreement.",
+      "ru": "Свободное задание: выбери парное задание по взаимному согласию."
+    },
+    {
+      "id": "bold_142",
+      "he": "משימה חופשית: המתמודד בוחר משימה שכוללת צ'ייסר או משקה חלופי.",
+      "en": "Free task: choose a task that includes a shot or an alternative drink.",
+      "ru": "Свободное задание: выбери задание с шотом или альтернативным напитком."
+    },
+    {
+      "id": "bold_143",
+      "he": "משימה חופשית: המתמודד בוחר משימה שכוללת הסרת פריט לבוש חיצוני.",
+      "en": "Free task: choose a task that includes removing one outer item of clothing.",
+      "ru": "Свободное задание: выбери задание со снятием одного внешнего предмета одежды."
+    },
+    {
+      "id": "bold_144",
+      "he": "משימה חופשית: המתמודד בוחר משימה שכוללת נשיקה או חיבוק ארוך בהסכמה.",
+      "en": "Free task: choose a task that includes a kiss or a long hug by agreement.",
+      "ru": "Свободное задание: выбери задание с поцелуем или долгим объятием по согласию."
+    },
+    {
+      "id": "bold_145",
+      "he": "משימה חופשית: המתמודד בוחר משימה שכוללת ריקוד צמוד בהסכמה.",
+      "en": "Free task: choose a task that includes a close dance by agreement.",
+      "ru": "Свободное задание: выбери задание с тесным танцем по согласию."
+    },
+    {
+      "id": "bold_146",
+      "he": "משימה חופשית: המתמודד בוחר אתגר של 30 שניות ומבצע אותו מול כולם.",
+      "en": "Free task: choose a 30-second challenge and perform it in front of everyone.",
+      "ru": "Свободное задание: выбери 30-секундный вызов и выполни его перед всеми."
+    },
+    {
+      "id": "bold_147",
+      "he": "משימה חופשית: המתמודד ממציא משימה נועזת למשתתף שבחר, והוא רשאי להסכים או לבחור אחרת.",
+      "en": "Free task: invent a bold task for the player you chose; they may agree or choose something else.",
+      "ru": "Свободное задание: придумай смелое задание для выбранного игрока; он может согласиться или выбрать другое."
+    },
+    {
+      "id": "bold_148",
+      "he": "משימה חופשית: המתמודד בוחר משימה מתוך שלוש אפשרויות שהוא ממציא בעצמו.",
+      "en": "Free task: choose one task from three options you invent yourself.",
+      "ru": "Свободное задание: выбери одно задание из трёх вариантов, которые ты придумаешь сам."
+    },
+    {
+      "id": "bold_149",
+      "he": "משימה חופשית: המתמודד בוחר את המשימה הכי נועזת שהוא מוכן לבצע כרגע.",
+      "en": "Free task: choose the boldest task you are willing to do right now.",
+      "ru": "Свободное задание: выбери самое смелое задание, которое готов выполнить прямо сейчас."
+    },
+    {
+      "id": "bold_150",
+      "he": "משימה חופשית: המתמודד מחליט בעצמו מה תהיה המשימה ומבצע אותה בהסכמה.",
+      "en": "Free task: decide for yourself what the task will be and perform it by agreement.",
+      "ru": "Свободное задание: сам реши, каким будет задание, и выполни его по согласию."
+    }
+  ],
+  "pair_cards": [
+    {
+      "id": "pair_001",
+      "he": "עמדו זה מול זה ושמרו על קשר עין במשך 30 שניות בלי לדבר.",
+      "en": "Stand facing each other and maintain eye contact for 30 seconds without speaking.",
+      "ru": "Встаньте друг напротив друга и поддерживайте зрительный контакт 30 секунд, не разговаривая."
+    },
+    {
+      "id": "pair_002",
+      "he": "כל אחד אומר לשני דבר אחד שמושך אותו בו.",
+      "en": "Each of you tells the other one thing you find attractive about them.",
+      "ru": "Каждый из вас говорит другому одну вещь, которая его в нём привлекает."
+    },
+    {
+      "id": "pair_003",
+      "he": "לחשו זה לזה מחמאה שאף אחד אחר לא ישמע.",
+      "en": "Whisper a compliment to each other that no one else can hear.",
+      "ru": "Прошепчите друг другу комплимент так, чтобы никто больше не услышал."
+    },
+    {
+      "id": "pair_004",
+      "he": "רקדו יחד ריקוד איטי במשך 30 שניות.",
+      "en": "Slow-dance together for 30 seconds.",
+      "ru": "Медленно танцуйте вместе 30 секунд."
+    },
+    {
+      "id": "pair_005",
+      "he": "שבו צמוד זה לזה עד סוף התור הנוכחי.",
+      "en": "Sit pressed close together until the end of the current turn.",
+      "ru": "Сядьте вплотную друг к другу до конца текущего хода."
+    },
+    {
+      "id": "pair_006",
+      "he": "כל אחד בוחר מילה אחת שמתארת את הכימיה ביניכם.",
+      "en": "Each of you chooses one word that describes the chemistry between you.",
+      "ru": "Каждый выбирает одно слово, которое описывает химию между вами."
+    },
+    {
+      "id": "pair_007",
+      "he": "החליפו מבט ארוך של 20 שניות ואז אמרו מה עבר לכם בראש.",
+      "en": "Exchange a long 20-second look, then say what went through your mind.",
+      "ru": "Обменяйтесь долгим взглядом в течение 20 секунд, а затем скажите, что промелькнуло у вас в голове."
+    },
+    {
+      "id": "pair_008",
+      "he": "כל אחד מספר מה היה הרושם הראשון שלו על השני.",
+      "en": "Each of you says what your first impression of the other was.",
+      "ru": "Каждый рассказывает, каким было его первое впечатление о другом."
+    },
+    {
+      "id": "pair_009",
+      "he": "תנו זה לזה מחמאה על שפת הגוף.",
+      "en": "Give each other a compliment about body language.",
+      "ru": "Сделайте друг другу комплимент о языке тела."
+    },
+    {
+      "id": "pair_010",
+      "he": "שחקו 30 שניות כאילו אתם נפגשים בבר בפעם הראשונה.",
+      "en": "Act for 30 seconds as if you are meeting in a bar for the first time.",
+      "ru": "Сыграйте 30 секунд так, будто вы впервые встретились в баре."
+    },
+    {
+      "id": "pair_011",
+      "he": "כל אחד אומר מה הדבר הראשון שהיה גורם לו לשים לב לשני.",
+      "en": "Each of you says what would first make you notice the other.",
+      "ru": "Каждый говорит, что первым заставило бы его обратить внимание на другого."
+    },
+    {
+      "id": "pair_012",
+      "he": "עמדו קרוב ככל שנוח לשניכם במשך 20 שניות.",
+      "en": "Stand as close as feels comfortable for both of you for 20 seconds.",
+      "ru": "Встаньте настолько близко, насколько комфортно вам обоим, на 20 секунд."
+    },
+    {
+      "id": "pair_013",
+      "he": "החליפו משפט פלרטטני אחד כל אחד.",
+      "en": "Exchange one flirty line each.",
+      "ru": "Обменяйтесь по одной флиртующей фразе."
+    },
+    {
+      "id": "pair_014",
+      "he": "רקדו יחד בלי לדבר במשך 20 שניות.",
+      "en": "Dance together without speaking for 20 seconds.",
+      "ru": "Танцуйте вместе молча 20 секунд."
+    },
+    {
+      "id": "pair_015",
+      "he": "כל אחד נותן לשני כינוי פלרטטני עד סוף הסיבוב.",
+      "en": "Give each other a flirty nickname until the end of the round.",
+      "ru": "Дайте друг другу флиртующее прозвище до конца раунда."
+    },
+    {
+      "id": "pair_016",
+      "he": "ספרו זה לזה איזה סוג דייט היה מתאים לכם יחד.",
+      "en": "Tell each other what kind of date would suit the two of you.",
+      "ru": "Расскажите друг другу, какое свидание подошло бы вам как паре."
+    },
+    {
+      "id": "pair_017",
+      "he": "כל אחד אומר מה הוא מוצא הכי מסקרן בשני.",
+      "en": "Each of you says what you find most intriguing about the other.",
+      "ru": "Каждый говорит, что в другом кажется ему наиболее интригующим."
+    },
+    {
+      "id": "pair_018",
+      "he": "שבו פנים מול פנים והחזיקו קשר עין במשך 15 שניות.",
+      "en": "Sit face-to-face and maintain eye contact for 15 seconds.",
+      "ru": "Сядьте лицом друг к другу и поддерживайте зрительный контакт 15 секунд."
+    },
+    {
+      "id": "pair_019",
+      "he": "כל אחד אומר איזה פרט קטן בשני הכי תפס את תשומת הלב שלו.",
+      "en": "Each of you says what small detail about the other caught your attention most.",
+      "ru": "Каждый говорит, какая маленькая деталь в другом больше всего привлекла его внимание."
+    },
+    {
+      "id": "pair_020",
+      "he": "לחשו זה לזה משפט שהייתם שולחים אחרי חצות.",
+      "en": "Whisper to each other a line you would send after midnight.",
+      "ru": "Прошепчите друг другу фразу, которую отправили бы после полуночи."
+    },
+    {
+      "id": "pair_021",
+      "he": "אחזו ידיים במשך 30 שניות תוך קשר עין.",
+      "en": "Hold hands for 30 seconds while maintaining eye contact.",
+      "ru": "Держитесь за руки 30 секунд, сохраняя зрительный контакт."
+    },
+    {
+      "id": "pair_022",
+      "he": "התחבקו במשך 15 שניות אם שניכם מסכימים.",
+      "en": "Hug for 15 seconds if you both agree.",
+      "ru": "Обнимайтесь 15 секунд, если вы оба согласны."
+    },
+    {
+      "id": "pair_023",
+      "he": "תנו זה לזה עיסוי כתפיים של 20 שניות.",
+      "en": "Give each other a 20-second shoulder massage.",
+      "ru": "Сделайте друг другу массаж плеч в течение 20 секунд."
+    },
+    {
+      "id": "pair_024",
+      "he": "אחד מכם נותן לשני נשיקה על היד, אם שניכם מסכימים.",
+      "en": "One of you kisses the other's hand, if you both agree.",
+      "ru": "Один из вас целует руку другого, если вы оба согласны."
+    },
+    {
+      "id": "pair_025",
+      "he": "תנו זה לזה נשיקה על הלחי, אם שניכם מסכימים.",
+      "en": "Give each other a kiss on the cheek, if you both agree.",
+      "ru": "Поцелуйте друг друга в щёку, если вы оба согласны."
+    },
+    {
+      "id": "pair_026",
+      "he": "התקרבו פנים אל פנים ושמרו על המרחק שנוח לשניכם במשך 20 שניות.",
+      "en": "Move face-to-face and keep whatever distance feels comfortable for both of you for 20 seconds.",
+      "ru": "Приблизьтесь лицом к лицу и оставайтесь на таком расстоянии, которое комфортно вам обоим, 20 секунд."
+    },
+    {
+      "id": "pair_027",
+      "he": "רקדו קרוב במשך 30 שניות כשהידיים על הכתפיים או המותניים, לפי מה שנוח לשניכם.",
+      "en": "Dance close for 30 seconds with your hands on shoulders or waists, whichever feels comfortable for both of you.",
+      "ru": "Танцуйте близко 30 секунд, положив руки на плечи или талию друг друга — как вам обоим комфортнее."
+    },
+    {
+      "id": "pair_028",
+      "he": "אחד מכם מסדר בעדינות לשני את השיער או הצווארון.",
+      "en": "One of you gently fixes the other's hair or collar.",
+      "ru": "Один из вас нежно поправляет другому волосы или воротник."
+    },
+    {
+      "id": "pair_029",
+      "he": "תנו זה לזה עיסוי קצר בכפות הידיים.",
+      "en": "Give each other a short hand massage.",
+      "ru": "Сделайте друг другу короткий массаж ладоней."
+    },
+    {
+      "id": "pair_030",
+      "he": "שבו ברך ליד ברך במשך חצי דקה.",
+      "en": "Sit knee-to-knee for 30 seconds.",
+      "ru": "Сядьте коленями рядом на 30 секунд."
+    },
+    {
+      "id": "pair_031",
+      "he": "אחזו ידיים בזמן שכל אחד אומר מה הוא מוצא מושך בשני.",
+      "en": "Hold hands while each of you says what you find attractive about the other.",
+      "ru": "Держитесь за руки, пока каждый говорит, что его привлекает в другом."
+    },
+    {
+      "id": "pair_032",
+      "he": "תנו זה לזה חיבוק ואז קשר עין של 10 שניות.",
+      "en": "Give each other a hug, then maintain eye contact for 10 seconds.",
+      "ru": "Обнимитесь, затем поддерживайте зрительный контакт 10 секунд."
+    },
+    {
+      "id": "pair_033",
+      "he": "אחד מכם מניח יד על כתף השני בזמן שהוא נותן לו מחמאה.",
+      "en": "One of you places a hand on the other's shoulder while giving them a compliment.",
+      "ru": "Один из вас кладёт руку на плечо другого, пока делает ему комплимент."
+    },
+    {
+      "id": "pair_034",
+      "he": "רקדו קרוב במשך 20 שניות בלי להשתמש בידיים.",
+      "en": "Dance close for 20 seconds without using your hands.",
+      "ru": "Танцуйте близко 20 секунд, не используя руки."
+    },
+    {
+      "id": "pair_035",
+      "he": "אחד מכם מניח יד על המותניים של השני מעל הבגדים למשך 10 שניות, אם נוח לשניכם.",
+      "en": "One of you places a hand on the other's waist over clothing for 10 seconds, if that feels comfortable for both of you.",
+      "ru": "Один из вас кладёт руку на талию другого поверх одежды на 10 секунд, если это комфортно вам обоим."
+    },
+    {
+      "id": "pair_036",
+      "he": "תנו זה לזה נשיקה קצרה על השפתיים אם שניכם רוצים.",
+      "en": "Give each other a short kiss on the lips if you both want to.",
+      "ru": "Поцелуйте друг друга коротко в губы, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_037",
+      "he": "תנו זה לזה נשיקה של 5 שניות אם שניכם רוצים.",
+      "en": "Give each other a five-second kiss if you both want to.",
+      "ru": "Поцелуйте друг друга в течение пяти секунд, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_038",
+      "he": "תנו זה לזה נשיקה של 10 שניות אם שניכם רוצים.",
+      "en": "Give each other a 10-second kiss if you both want to.",
+      "ru": "Поцелуйте друг друга в течение 10 секунд, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_039",
+      "he": "אחד מכם בוחר אם הנשיקה תהיה על הלחי, המצח או השפתיים.",
+      "en": "One of you chooses whether the kiss is on the cheek, forehead, or lips.",
+      "ru": "Один из вас выбирает, будет поцелуй в щёку, лоб или губы."
+    },
+    {
+      "id": "pair_040",
+      "he": "תנו זה לזה נשיקה קצרה ואז הביטו זה בזה במשך 10 שניות.",
+      "en": "Give each other a short kiss, then look at each other for 10 seconds.",
+      "ru": "Коротко поцелуйте друг друга, затем смотрите друг на друга 10 секунд."
+    },
+    {
+      "id": "pair_041",
+      "he": "אחד מכם נותן לשני נשיקה עדינה בצוואר אם שניכם מסכימים.",
+      "en": "One of you gives the other a gentle kiss on the neck if you both agree.",
+      "ru": "Один из вас нежно целует другого в шею, если вы оба согласны."
+    },
+    {
+      "id": "pair_042",
+      "he": "רקדו ריקוד איטי וצמוד במשך 45 שניות.",
+      "en": "Slow-dance pressed close for 45 seconds.",
+      "ru": "Медленно танцуйте вплотную 45 секунд."
+    },
+    {
+      "id": "pair_043",
+      "he": "אחד מכם יושב קרוב מאוד לשני למשך חצי דקה, לפי מה שנוח לשניכם.",
+      "en": "One of you sits very close to the other for 30 seconds, at a distance that feels comfortable for both of you.",
+      "ru": "Один из вас сидит очень близко к другому 30 секунд — настолько близко, насколько комфортно вам обоим."
+    },
+    {
+      "id": "pair_044",
+      "he": "תנו זה לזה עיסוי גב עליון מעל הבגדים במשך 20 שניות.",
+      "en": "Give each other a 20-second upper-back massage over clothing.",
+      "ru": "Сделайте друг другу массаж верхней части спины поверх одежды в течение 20 секунд."
+    },
+    {
+      "id": "pair_045",
+      "he": "אחד מכם אוחז ביד השני ומוביל אותו לסיבוב ריקוד קצר.",
+      "en": "One of you takes the other's hand and leads them through a short dance turn.",
+      "ru": "Один из вас берёт другого за руку и ведёт его в коротком танцевальном повороте."
+    },
+    {
+      "id": "pair_046",
+      "he": "תנו זה לזה שתי נשיקות קצרות בסגנונות שונים.",
+      "en": "Give each other two short kisses in two different styles.",
+      "ru": "Дайте друг другу два коротких поцелуя в разных стилях."
+    },
+    {
+      "id": "pair_047",
+      "he": "אחד מכם בוחר אם לסיים את המשימה בחיבוק או בנשיקה.",
+      "en": "One of you decides whether to finish the task with a hug or a kiss.",
+      "ru": "Один из вас решает, закончить задание объятием или поцелуем."
+    },
+    {
+      "id": "pair_048",
+      "he": "תנו זה לזה נשיקה ואז כל אחד אומר מילה אחת על התחושה.",
+      "en": "Give each other a kiss, then each of you says one word about how it felt.",
+      "ru": "Поцелуйте друг друга, затем каждый говорит одним словом, как это ощущалось."
+    },
+    {
+      "id": "pair_049",
+      "he": "אחד מכם מניח את ראשו על כתף השני במשך 20 שניות.",
+      "en": "One of you rests their head on the other's shoulder for 20 seconds.",
+      "ru": "Один из вас кладёт голову на плечо другого на 20 секунд."
+    },
+    {
+      "id": "pair_050",
+      "he": "תנו זה לזה נשיקה של 15 שניות אם שניכם רוצים.",
+      "en": "Give each other a 15-second kiss if you both want to.",
+      "ru": "Поцелуйте друг друга в течение 15 секунд, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_051",
+      "he": "תנו זה לזה נשיקה של 20 שניות אם שניכם רוצים.",
+      "en": "Give each other a 20-second kiss if you both want to.",
+      "ru": "Поцелуйте друг друга в течение 20 секунд, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_052",
+      "he": "תנו זה לזה נשיקה של 30 שניות אם שניכם רוצים.",
+      "en": "Give each other a 30-second kiss if you both want to.",
+      "ru": "Поцелуйте друг друга в течение 30 секунд, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_053",
+      "he": "תנו זה לזה נשיקה ארוכה ואז הישארו קרובים עוד 10 שניות.",
+      "en": "Give each other a long kiss, then stay close for another 10 seconds.",
+      "ru": "Долго поцелуйте друг друга, затем останьтесь близко ещё 10 секунд."
+    },
+    {
+      "id": "pair_054",
+      "he": "רקדו צמוד במשך דקה שלמה.",
+      "en": "Dance pressed close for a full minute.",
+      "ru": "Танцуйте вплотную целую минуту."
+    },
+    {
+      "id": "pair_055",
+      "he": "אחד מכם בוחר סגנון נשיקה והשני זורם איתו, אם שניכם רוצים.",
+      "en": "One of you chooses the style of kiss and the other follows along, if you both want to.",
+      "ru": "Один из вас выбирает стиль поцелуя, а второй следует за ним, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_056",
+      "he": "תנו זה לזה שלוש נשיקות: קצרה, איטית ומפתיעה.",
+      "en": "Give each other three kisses: short, slow, and surprising.",
+      "ru": "Дайте друг другу три поцелуя: короткий, медленный и неожиданный."
+    },
+    {
+      "id": "pair_057",
+      "he": "אחד מכם נותן לשני נשיקה בצוואר ואז לוחש לו מחמאה.",
+      "en": "One of you kisses the other's neck, then whispers a compliment.",
+      "ru": "Один из вас целует другого в шею, затем шепчет ему комплимент."
+    },
+    {
+      "id": "pair_058",
+      "he": "תנו זה לזה נשיקה בלי להשתמש בידיים במשך 15 שניות.",
+      "en": "Kiss each other for 15 seconds without using your hands.",
+      "ru": "Целуйтесь 15 секунд, не используя руки."
+    },
+    {
+      "id": "pair_059",
+      "he": "אחד מכם מוביל נשיקה של 20 שניות והשני רק עוקב.",
+      "en": "One of you leads a 20-second kiss while the other simply follows.",
+      "ru": "Один из вас ведёт 20-секундный поцелуй, а второй только следует."
+    },
+    {
+      "id": "pair_060",
+      "he": "החליפו נשיקה ואז כל אחד לוחש מה הכי מושך אותו בשני.",
+      "en": "Share a kiss, then each of you whispers what you find most attractive about the other.",
+      "ru": "Поцелуйтесь, затем каждый шепчет, что сильнее всего привлекает его в другом."
+    },
+    {
+      "id": "pair_061",
+      "he": "אחד מכם יושב על ברכי השני במשך 20 שניות אם שניכם מרגישים בנוח.",
+      "en": "One of you sits on the other's lap for 20 seconds if you both feel comfortable.",
+      "ru": "Один из вас сидит на коленях другого 20 секунд, если вам обоим комфортно."
+    },
+    {
+      "id": "pair_062",
+      "he": "רקדו צמוד כשהאחד מוביל והשני עוקב במשך 45 שניות.",
+      "en": "Dance close for 45 seconds with one leading and the other following.",
+      "ru": "Танцуйте вплотную 45 секунд: один ведёт, второй следует."
+    },
+    {
+      "id": "pair_063",
+      "he": "אחד מכם נותן לשני עיסוי כתפיים וגב עליון במשך 45 שניות.",
+      "en": "One of you gives the other a 45-second shoulder and upper-back massage.",
+      "ru": "Один из вас делает другому массаж плеч и верхней части спины в течение 45 секунд."
+    },
+    {
+      "id": "pair_064",
+      "he": "תנו זה לזה נשיקה ואז חיבוק ארוך בלי לדבר.",
+      "en": "Give each other a kiss, then a long silent hug.",
+      "ru": "Поцелуйте друг друга, затем долго обнимайтесь молча."
+    },
+    {
+      "id": "pair_065",
+      "he": "אחד מכם בוחר בין נשיקה ארוכה לריקוד צמוד של דקה.",
+      "en": "One of you chooses between a long kiss and a one-minute close dance.",
+      "ru": "Один из вас выбирает между долгим поцелуем и минутой тесного танца."
+    },
+    {
+      "id": "pair_066",
+      "he": "החליפו מבט של 20 שניות כשאתם עומדים ממש קרוב.",
+      "en": "Exchange a 20-second look while standing very close.",
+      "ru": "Обменяйтесь 20-секундным взглядом, стоя очень близко."
+    },
+    {
+      "id": "pair_067",
+      "he": "אחד מכם לוחש לשני מה היה רוצה שיקרה בדייט מושלם.",
+      "en": "One of you whispers to the other what they would like to happen on a perfect date.",
+      "ru": "Один из вас шепчет другому, что хотел бы, чтобы произошло на идеальном свидании."
+    },
+    {
+      "id": "pair_068",
+      "he": "תנו זה לזה נשיקה ואז החליפו מקום ישיבה כך שתישארו צמודים.",
+      "en": "Give each other a kiss, then switch seats so you remain pressed close.",
+      "ru": "Поцелуйте друг друга, затем поменяйтесь местами так, чтобы остаться вплотную."
+    },
+    {
+      "id": "pair_069",
+      "he": "אחד מכם נותן לשני שלוש מחמאות, אחת מהן נועזת במיוחד.",
+      "en": "One of you gives the other three compliments, with one of them especially bold.",
+      "ru": "Один из вас делает другому три комплимента, один из них особенно смелый."
+    },
+    {
+      "id": "pair_070",
+      "he": "שחקו דקה כאילו אתם שני אנשים שמנסים לפתות זה את זה בלי לומר את המילה 'משיכה'.",
+      "en": "Act for one minute as if you are two people trying to seduce each other without using the word 'attraction'.",
+      "ru": "Сыграйте минуту так, будто вы двое пытаетесь соблазнить друг друга, не произнося слово «влечение»."
+    },
+    {
+      "id": "pair_071",
+      "he": "תנו זה לזה נשיקה של 25 שניות ואז חייכו בלי לדבר.",
+      "en": "Give each other a 25-second kiss, then smile without speaking.",
+      "ru": "Поцелуйте друг друга 25 секунд, затем улыбнитесь, не говоря ни слова."
+    },
+    {
+      "id": "pair_072",
+      "he": "אחד מכם מניח יד על המותניים של השני מעל הבגדים בזמן קשר עין של 15 שניות.",
+      "en": "One of you places a hand on the other's waist over clothing while maintaining eye contact for 15 seconds.",
+      "ru": "Один из вас кладёт руку на талию другого поверх одежды и поддерживает зрительный контакт 15 секунд."
+    },
+    {
+      "id": "pair_073",
+      "he": "רקדו קרוב מאוד במשך 30 שניות כשהקבוצה בוחרת את השיר.",
+      "en": "Dance very close for 30 seconds while the group chooses the song.",
+      "ru": "Танцуйте очень близко 30 секунд под песню, которую выберет группа."
+    },
+    {
+      "id": "pair_074",
+      "he": "אחד מכם נותן לשני נשיקה על הצוואר ואז נשיקה על השפתיים, אם שניכם רוצים.",
+      "en": "One of you kisses the other's neck and then their lips, if you both want to.",
+      "ru": "Один из вас целует другого в шею, а затем в губы, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_075",
+      "he": "תנו זה לזה נשיקה והפסיקו בדיוק כשהאחר רוצה להמשיך.",
+      "en": "Give each other a kiss and stop exactly when the other wants to continue.",
+      "ru": "Поцелуйте друг друга и остановитесь именно тогда, когда другому хочется продолжения."
+    },
+    {
+      "id": "pair_076",
+      "he": "אחד מכם בוחר איזה סוג נשיקה מתאים לאווירה ביניכם.",
+      "en": "One of you chooses what kind of kiss fits the mood between you.",
+      "ru": "Один из вас выбирает, какой поцелуй лучше всего подходит вашей атмосфере."
+    },
+    {
+      "id": "pair_077",
+      "he": "תנו זה לזה נשיקה של 20 שניות כשהידיים נשארות על הכתפיים.",
+      "en": "Give each other a 20-second kiss while keeping your hands on shoulders.",
+      "ru": "Поцелуйте друг друга 20 секунд, оставляя руки на плечах."
+    },
+    {
+      "id": "pair_078",
+      "he": "אחד מכם לוחש לשני פנטזיה כללית שהוא מוכן לשתף.",
+      "en": "One of you whispers a general fantasy they are willing to share.",
+      "ru": "Один из вас шепчет другому общую фантазию, которой готов поделиться."
+    },
+    {
+      "id": "pair_079",
+      "he": "שבו צמוד במשך דקה וכל אחד אומר מה הוא היה רוצה לדעת על השני אחרי חצות.",
+      "en": "Sit pressed close for one minute and each say what you would want to know about the other after midnight.",
+      "ru": "Сядьте вплотную на одну минуту и каждый скажите, что хотели бы узнать о другом после полуночи."
+    },
+    {
+      "id": "pair_080",
+      "he": "תנו זה לזה נשיקה ואז כל אחד אומר איזה רגע הערב יצר אצלו הכי הרבה מתח.",
+      "en": "Give each other a kiss, then each say which moment tonight created the most tension for you.",
+      "ru": "Поцелуйте друг друга, затем каждый скажите, какой момент этого вечера создал для вас больше всего напряжения."
+    },
+    {
+      "id": "pair_081",
+      "he": "אחד מכם בוחר פריט חיצוני אחד כמו ז'קט, סוודר או אביזר שהשני יכול להסיר אם נוח לו.",
+      "en": "One of you chooses one outer item such as a jacket, sweater, or accessory that the other can remove if they feel comfortable.",
+      "ru": "Один из вас выбирает один внешний предмет — например, куртку, свитер или аксессуар — который другой может снять, если ему комфортно."
+    },
+    {
+      "id": "pair_082",
+      "he": "רקדו צמוד במשך דקה כשכל אחד בתורו מוביל ל-30 שניות.",
+      "en": "Dance pressed close for one minute, taking turns leading for 30 seconds each.",
+      "ru": "Танцуйте вплотную одну минуту, по очереди ведя по 30 секунд."
+    },
+    {
+      "id": "pair_083",
+      "he": "תנו זה לזה נשיקה ממושכת ואז הישארו במרחק נשימה במשך 10 שניות.",
+      "en": "Give each other a lingering kiss, then stay within breathing distance for 10 seconds.",
+      "ru": "Поцелуйте друг друга долгим поцелуем, затем останьтесь на расстоянии одного дыхания ещё 10 секунд."
+    },
+    {
+      "id": "pair_084",
+      "he": "אחד מכם נותן לשני עיסוי גב עליון במשך דקה מעל הבגדים.",
+      "en": "One of you gives the other a one-minute upper-back massage over clothing.",
+      "ru": "Один из вас делает другому массаж верхней части спины поверх одежды в течение одной минуты."
+    },
+    {
+      "id": "pair_085",
+      "he": "תנו זה לזה שתי נשיקות איטיות, עם הפסקה של חמש שניות ביניהן.",
+      "en": "Give each other two slow kisses with a five-second pause between them.",
+      "ru": "Дайте друг другу два медленных поцелуя с паузой в пять секунд между ними."
+    },
+    {
+      "id": "pair_086",
+      "he": "אחד מכם בוחר אם המשימה תכלול נשיקה, חיבוק ארוך או ריקוד צמוד.",
+      "en": "One of you chooses whether the task includes a kiss, a long hug, or a close dance.",
+      "ru": "Один из вас выбирает, будет ли в задании поцелуй, долгое объятие или тесный танец."
+    },
+    {
+      "id": "pair_087",
+      "he": "עמדו צמוד פנים אל פנים במשך 30 שניות בלי לדבר.",
+      "en": "Stand pressed close face-to-face for 30 seconds without speaking.",
+      "ru": "Встаньте вплотную лицом друг к другу на 30 секунд, не разговаривая."
+    },
+    {
+      "id": "pair_088",
+      "he": "תנו זה לזה נשיקה ואז כל אחד אומר מה הוא היה עושה כדי להמשיך את הפלירט.",
+      "en": "Give each other a kiss, then each say what you would do to keep the flirting going.",
+      "ru": "Поцелуйте друг друга, затем каждый скажите, что бы вы сделали, чтобы продолжить флирт."
+    },
+    {
+      "id": "pair_089",
+      "he": "אחד מכם יושב על ברכי השני בזמן שאתם מחליפים מחמאה אחת כל אחד, אם נוח לשניכם.",
+      "en": "One of you sits on the other's lap while you exchange one compliment each, if that feels comfortable for both of you.",
+      "ru": "Один из вас сидит на коленях другого, пока вы обмениваетесь по одному комплименту, если вам обоим комфортно."
+    },
+    {
+      "id": "pair_090",
+      "he": "רקדו צמוד במשך 45 שניות כשהידיים נשארות מעל קו המותניים.",
+      "en": "Dance pressed close for 45 seconds with hands staying above the waistline.",
+      "ru": "Танцуйте вплотную 45 секунд, удерживая руки выше линии талии."
+    },
+    {
+      "id": "pair_091",
+      "he": "תנו זה לזה נשיקה קצרה בכל פעם שמישהו צוחק במשך 30 שניות.",
+      "en": "Give each other a short kiss every time someone laughs for 30 seconds.",
+      "ru": "Коротко целуйте друг друга каждый раз, когда кто-то смеётся, в течение 30 секунд."
+    },
+    {
+      "id": "pair_092",
+      "he": "אחד מכם נותן לשני נשיקה על היד, הכתף והלחי, לפי מה שנוח לשניכם.",
+      "en": "One of you kisses the other's hand, shoulder, and cheek, whichever feels comfortable for both of you.",
+      "ru": "Один из вас целует руку, плечо и щёку другого — так, как комфортно вам обоим."
+    },
+    {
+      "id": "pair_093",
+      "he": "תנו זה לזה נשיקה ואז שמרו על קשר עין במשך 20 שניות.",
+      "en": "Give each other a kiss, then maintain eye contact for 20 seconds.",
+      "ru": "Поцелуйте друг друга, затем поддерживайте зрительный контакт 20 секунд."
+    },
+    {
+      "id": "pair_094",
+      "he": "אחד מכם בוחר תנוחה זוגית פלרטטנית ואתם נשארים בה 20 שניות.",
+      "en": "One of you chooses a flirty couple pose and you hold it for 20 seconds.",
+      "ru": "Один из вас выбирает флиртующую парную позу, и вы удерживаете её 20 секунд."
+    },
+    {
+      "id": "pair_095",
+      "he": "רקדו איטי וצמוד במשך דקה בלי לדבר בכלל.",
+      "en": "Slow-dance pressed close for one minute without speaking at all.",
+      "ru": "Медленно танцуйте вплотную одну минуту, совсем не разговаривая."
+    },
+    {
+      "id": "pair_096",
+      "he": "תנו זה לזה נשיקה של 30 שניות כשהקבוצה סופרת לאחור.",
+      "en": "Give each other a 30-second kiss while the group counts down.",
+      "ru": "Поцелуйте друг друга 30 секунд, пока группа ведёт обратный отсчёт."
+    },
+    {
+      "id": "pair_097",
+      "he": "אחד מכם לוחש לשני מה הדבר הכי נועז שהוא מוכן לנסות במשחק הערב.",
+      "en": "One of you whispers the boldest thing they are willing to try in the game tonight.",
+      "ru": "Один из вас шепчет другому самое смелое, что готов попробовать в игре этим вечером."
+    },
+    {
+      "id": "pair_098",
+      "he": "תנו זה לזה נשיקה ואז כל אחד בוחר מילה אחת שמתארת את המתח ביניכם.",
+      "en": "Give each other a kiss, then each choose one word that describes the tension between you.",
+      "ru": "Поцелуйте друг друга, затем каждый выбирает одно слово, которое описывает напряжение между вами."
+    },
+    {
+      "id": "pair_099",
+      "he": "אחד מכם נותן לשני עיסוי כפות ידיים ואז מחזיק לו את היד במשך 30 שניות.",
+      "en": "One of you gives the other a hand massage, then holds their hand for 30 seconds.",
+      "ru": "Один из вас делает другому массаж ладоней, затем держит его за руку 30 секунд."
+    },
+    {
+      "id": "pair_100",
+      "he": "תנו זה לזה נשיקה איטית של 20 שניות ואז חיבוק של 10 שניות.",
+      "en": "Give each other a slow 20-second kiss, then a 10-second hug.",
+      "ru": "Медленно поцелуйте друг друга 20 секунд, затем обнимитесь на 10 секунд."
+    },
+    {
+      "id": "pair_101",
+      "he": "אחד מכם בוחר אם להסיר פריט חיצוני אחד מעצמו או לתת לשני מחמאה נועזת.",
+      "en": "One of you chooses whether to remove one outer item of clothing or give the other a bold compliment.",
+      "ru": "Один из вас выбирает: снять один внешний предмет одежды или сделать другому смелый комплимент."
+    },
+    {
+      "id": "pair_102",
+      "he": "רקדו צמוד כשהמצח שלכם כמעט נוגע במשך 30 שניות.",
+      "en": "Dance pressed close for 30 seconds with your foreheads almost touching.",
+      "ru": "Танцуйте вплотную 30 секунд так, чтобы ваши лбы почти соприкасались."
+    },
+    {
+      "id": "pair_103",
+      "he": "תנו זה לזה נשיקה ואז כל אחד לוחש מה הכי קשה לו להתעלם ממנו אצל השני.",
+      "en": "Give each other a kiss, then each whispers what they find hardest to ignore about the other.",
+      "ru": "Поцелуйте друг друга, затем каждый шепчет, что в другом ему труднее всего игнорировать."
+    },
+    {
+      "id": "pair_104",
+      "he": "אחד מכם מוביל ריקוד איטי כשיד אחת על המותניים של השני מעל הבגדים.",
+      "en": "One of you leads a slow dance with one hand on the other's waist over clothing.",
+      "ru": "Один из вас ведёт медленный танец, положив одну руку на талию другого поверх одежды."
+    },
+    {
+      "id": "pair_105",
+      "he": "תנו זה לזה שלוש נשיקות קצרות ברצף ואז קשר עין של 10 שניות.",
+      "en": "Give each other three short kisses in a row, then maintain eye contact for 10 seconds.",
+      "ru": "Дайте друг другу три коротких поцелуя подряд, затем поддерживайте зрительный контакт 10 секунд."
+    },
+    {
+      "id": "pair_106",
+      "he": "אחד מכם בוחר אם הנשיקה הבאה תהיה קצרה, איטית או ממושכת.",
+      "en": "One of you chooses whether the next kiss is short, slow, or lingering.",
+      "ru": "Один из вас выбирает, будет следующий поцелуй коротким, медленным или долгим."
+    },
+    {
+      "id": "pair_107",
+      "he": "שבו צמוד במשך דקה כשהידיים שלובות.",
+      "en": "Sit pressed close for one minute with your hands intertwined.",
+      "ru": "Сядьте вплотную на одну минуту, переплетя руки."
+    },
+    {
+      "id": "pair_108",
+      "he": "תנו זה לזה נשיקה ואז החליפו תפקידים: מי שהוביל עכשיו רק עוקב.",
+      "en": "Give each other a kiss, then switch roles: whoever led now only follows.",
+      "ru": "Поцелуйте друг друга, затем поменяйтесь ролями: тот, кто вёл, теперь только следует."
+    },
+    {
+      "id": "pair_109",
+      "he": "אחד מכם נותן לשני נשיקה בצוואר או בלחי, לבחירת המקבל.",
+      "en": "One of you kisses the other on the neck or cheek, chosen by the receiver.",
+      "ru": "Один из вас целует другого в шею или щёку — выбор за получателем."
+    },
+    {
+      "id": "pair_110",
+      "he": "רקדו צמוד במשך 30 שניות ואז הישארו בחיבוק עוד 15 שניות.",
+      "en": "Dance pressed close for 30 seconds, then remain in an embrace for another 15 seconds.",
+      "ru": "Танцуйте вплотную 30 секунд, затем оставайтесь в объятиях ещё 15 секунд."
+    },
+    {
+      "id": "pair_111",
+      "he": "תנו זה לזה נשיקה כשאחד מכם עוצם עיניים והשני מוביל, אם שניכם רוצים.",
+      "en": "Kiss each other while one of you closes their eyes and the other leads, if you both want to.",
+      "ru": "Целуйтесь, пока один из вас закрывает глаза, а другой ведёт, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_112",
+      "he": "אחד מכם לוחש לשני מה היה גורם לו לרצות להישאר איתו לבד עוד שעה.",
+      "en": "One of you whispers what would make them want to stay alone with the other for another hour.",
+      "ru": "Один из вас шепчет другому, что заставило бы его захотеть остаться с ним наедине ещё на час."
+    },
+    {
+      "id": "pair_113",
+      "he": "תנו זה לזה נשיקה של 20 שניות ואז כל אחד אומר מה היה רוצה לשמוע מהשני.",
+      "en": "Give each other a 20-second kiss, then each say what you would like to hear from the other.",
+      "ru": "Поцелуйте друг друга 20 секунд, затем каждый скажите, что хотели бы услышать от другого."
+    },
+    {
+      "id": "pair_114",
+      "he": "אחד מכם בוחר פריט חיצוני אחד ששניכם יכולים להסיר אם שניכם מרגישים בנוח.",
+      "en": "One of you chooses one outer item that both of you can remove if you both feel comfortable.",
+      "ru": "Один из вас выбирает один внешний предмет одежды, который вы оба можете снять, если вам обоим комфортно."
+    },
+    {
+      "id": "pair_115",
+      "he": "רקדו צמוד במשך דקה והחליפו מוביל באמצע בלי לעצור.",
+      "en": "Dance pressed close for one minute and switch who leads halfway through without stopping.",
+      "ru": "Танцуйте вплотную одну минуту и поменяйтесь ведущими посередине, не останавливаясь."
+    },
+    {
+      "id": "pair_116",
+      "he": "תנו זה לזה נשיקה ואז כל אחד אומר איזה סוג מגע הכי נעים לו באופן כללי.",
+      "en": "Give each other a kiss, then each say what kind of touch generally feels best to you.",
+      "ru": "Поцелуйте друг друга, затем каждый скажите, какие прикосновения в целом ему наиболее приятны."
+    },
+    {
+      "id": "pair_117",
+      "he": "אחד מכם מניח יד על הכתף או המותניים של השני בזמן שהשני לוחש לו מחמאה.",
+      "en": "One of you places a hand on the other's shoulder or waist while the other whispers a compliment.",
+      "ru": "Один из вас кладёт руку на плечо или талию другого, пока тот шепчет ему комплимент."
+    },
+    {
+      "id": "pair_118",
+      "he": "תנו זה לזה נשיקה איטית של 25 שניות בלי להתרחק ביניהן.",
+      "en": "Give each other a slow 25-second kiss without moving apart.",
+      "ru": "Медленно целуйтесь 25 секунд, не отстраняясь друг от друга."
+    },
+    {
+      "id": "pair_119",
+      "he": "אחד מכם בוחר אם לסיים את המשימה בנשיקה נוספת או בחיבוק של 20 שניות.",
+      "en": "One of you chooses whether to finish the task with another kiss or a 20-second hug.",
+      "ru": "Один из вас выбирает, закончить задание ещё одним поцелуем или 20-секундным объятием."
+    },
+    {
+      "id": "pair_120",
+      "he": "שחקו דקה כאילו אתם נפגשים בסתר אחרי תקופה ארוכה.",
+      "en": "Act for one minute as if you are meeting secretly after a long time apart.",
+      "ru": "Сыграйте минуту так, будто вы тайно встречаетесь после долгой разлуки."
+    },
+    {
+      "id": "pair_121",
+      "he": "תנו זה לזה נשיקה ואז כל אחד מספר על רגע שבו הרגיש כימיה מיידית.",
+      "en": "Give each other a kiss, then each tell about a moment when you felt instant chemistry with someone.",
+      "ru": "Поцелуйте друг друга, затем каждый рассказывает о моменте, когда почувствовал мгновенную химию с кем-то."
+    },
+    {
+      "id": "pair_122",
+      "he": "אחד מכם מוביל את השני בריקוד צמוד במשך דקה כשהשני לא מדבר.",
+      "en": "One of you leads the other in a close dance for one minute while the other stays silent.",
+      "ru": "Один из вас ведёт другого в тесном танце одну минуту, пока второй молчит."
+    },
+    {
+      "id": "pair_123",
+      "he": "תנו זה לזה נשיקה של 20 שניות ואז הישארו מחובקים עד סוף הספירה לעשר.",
+      "en": "Give each other a 20-second kiss, then stay embraced until the count of ten is finished.",
+      "ru": "Поцелуйте друг друга 20 секунд, затем оставайтесь в объятиях до конца счёта до десяти."
+    },
+    {
+      "id": "pair_124",
+      "he": "אחד מכם נותן לשני עיסוי כתפיים בזמן שהוא לוחש לו משהו פלרטטני.",
+      "en": "One of you gives the other a shoulder massage while whispering something flirty.",
+      "ru": "Один из вас делает другому массаж плеч, одновременно шепча что-то флиртующее."
+    },
+    {
+      "id": "pair_125",
+      "he": "תנו זה לזה נשיקה ואז כל אחד אומר מה הוא היה רוצה שהשני יעשה יותר בדייט.",
+      "en": "Give each other a kiss, then each say what you would like the other to do more of on a date.",
+      "ru": "Поцелуйте друг друга, затем каждый скажите, что хотел бы, чтобы другой делал чаще на свидании."
+    },
+    {
+      "id": "pair_126",
+      "he": "רקדו צמוד במשך 45 שניות ואז תנו זה לזה נשיקה קצרה אם שניכם רוצים.",
+      "en": "Dance pressed close for 45 seconds, then give each other a short kiss if you both want to.",
+      "ru": "Танцуйте вплотную 45 секунд, затем коротко поцелуйте друг друга, если вы оба этого хотите."
+    },
+    {
+      "id": "pair_127",
+      "he": "אחד מכם בוחר בין נשיקה ארוכה, חיבוק צמוד או דקה של קשר עין מקרוב.",
+      "en": "One of you chooses between a long kiss, a close hug, or one minute of close-up eye contact.",
+      "ru": "Один из вас выбирает между долгим поцелуем, тесным объятием или минутой близкого зрительного контакта."
+    },
+    {
+      "id": "pair_128",
+      "he": "תנו זה לזה נשיקה של 30 שניות ואז הישארו קרובים בלי לדבר עוד 15 שניות.",
+      "en": "Give each other a 30-second kiss, then stay close without speaking for another 15 seconds.",
+      "ru": "Поцелуйте друг друга 30 секунд, затем останьтесь близко и молчите ещё 15 секунд."
+    },
+    {
+      "id": "pair_129",
+      "he": "אחד מכם לוחש לשני את המשפט הכי נועז שהוא מוכן לומר לו כרגע.",
+      "en": "One of you whispers the boldest line they are willing to say to the other right now.",
+      "ru": "Один из вас шепчет другому самую смелую фразу, которую готов сказать ему прямо сейчас."
+    },
+    {
+      "id": "pair_130",
+      "he": "תנו זה לזה נשיקה ארוכה ואז בחרו יחד אם לסיים בחיבוק או בריקוד צמוד קצר.",
+      "en": "Give each other a long kiss, then decide together whether to finish with a hug or a short close dance.",
+      "ru": "Долго поцелуйте друг друга, затем вместе решите, закончить объятием или коротким тесным танцем."
+    }
+  ],
+  "luck_events": {
+    "immune1": {
+      "he": {
+        "title": "מזל — חסינות",
+        "body": "זכית בחסינות אחת."
+      },
+      "en": {
+        "title": "Luck — Immunity",
+        "body": "You won one immunity."
+      },
+      "ru": {
+        "title": "Удача — Иммунитет",
+        "body": "Ты получил один иммунитет."
+      }
+    },
+    "immune2": {
+      "he": {
+        "title": "מזל גדול — שתי חסינויות",
+        "body": "זכית בשתי חסינויות."
+      },
+      "en": {
+        "title": "Big Luck — Two Immunities",
+        "body": "You won two immunities."
+      },
+      "ru": {
+        "title": "Большая удача — Два иммунитета",
+        "body": "Ты получил два иммунитета."
+      }
+    },
+    "extra": {
+      "he": {
+        "title": "מזל — תור נוסף",
+        "body": "בסיום הפעולה יהיה תור נוסף ל-{player}."
+      },
+      "en": {
+        "title": "Luck — Extra Turn",
+        "body": "After this action, {player} gets another turn."
+      },
+      "ru": {
+        "title": "Удача — Дополнительный ход",
+        "body": "После этого действия {player} получает ещё один ход."
+      }
+    },
+    "forward3": {
+      "he": {
+        "title": "מזל — קדימה",
+        "body": "הפיון מתקדם 3 משבצות.",
+        "button": "קדימה"
+      },
+      "en": {
+        "title": "Luck — Forward",
+        "body": "Move forward 3 spaces.",
+        "button": "Forward"
+      },
+      "ru": {
+        "title": "Удача — Вперёд",
+        "body": "Передвинь фишку вперёд на 3 клетки.",
+        "button": "Вперёд"
+      }
+    },
+    "forward5": {
+      "he": {
+        "title": "מזל גדול — קדימה",
+        "body": "הפיון מתקדם 5 משבצות.",
+        "button": "קדימה"
+      },
+      "en": {
+        "title": "Big Luck — Forward",
+        "body": "Move forward 5 spaces.",
+        "button": "Forward"
+      },
+      "ru": {
+        "title": "Большая удача — Вперёд",
+        "body": "Передвинь фишку вперёд на 5 клеток.",
+        "button": "Вперёд"
+      }
+    },
+    "back2": {
+      "he": {
+        "title": "מזל הפוך",
+        "body": "הפיון חוזר 2 משבצות.",
+        "button": "אחורה"
+      },
+      "en": {
+        "title": "Reverse Luck",
+        "body": "Move back 2 spaces.",
+        "button": "Back"
+      },
+      "ru": {
+        "title": "Обратная удача",
+        "body": "Передвинь фишку назад на 2 клетки.",
+        "button": "Назад"
+      }
+    },
+    "back3": {
+      "he": {
+        "title": "מזל הפוך",
+        "body": "הפיון חוזר 3 משבצות.",
+        "button": "אחורה"
+      },
+      "en": {
+        "title": "Reverse Luck",
+        "body": "Move back 3 spaces.",
+        "button": "Back"
+      },
+      "ru": {
+        "title": "Обратная удача",
+        "body": "Передвинь фишку назад на 3 клетки.",
+        "button": "Назад"
+      }
+    },
+    "spinAgain": {
+      "he": {
+        "title": "מזל — שוב לגלגל",
+        "body": "סיבוב נוסף בגלגל.",
+        "button": "סובב שוב",
+        "tts": "מזל. קיבלת סיבוב נוסף בגלגל."
+      },
+      "en": {
+        "title": "Luck — Spin Again",
+        "body": "You get another spin of the wheel.",
+        "button": "Spin Again",
+        "tts": "Luck. You got another spin of the wheel."
+      },
+      "ru": {
+        "title": "Удача — Крути снова",
+        "body": "Ты получаешь ещё одно вращение колеса.",
+        "button": "Крутить снова",
+        "tts": "Удача. Ты получил ещё одно вращение колеса."
+      }
+    },
+    "bonusAll": {
+      "he": {
+        "tts": "מזל. קיבלת משימת הכל בונוס."
+      },
+      "en": {
+        "tts": "Luck. You got a bonus All task."
+      },
+      "ru": {
+        "tts": "Удача. Ты получил бонусное задание «Всё»."
+      }
+    },
+    "bonusNothing": {
+      "he": {
+        "title": "מזל — שאלת כלום",
+        "tts": "מזל. קיבלת שאלת כלום בונוס."
+      },
+      "en": {
+        "title": "Luck — Nothing Question",
+        "tts": "Luck. You got a bonus Nothing question."
+      },
+      "ru": {
+        "title": "Удача — Вопрос «Ничего»",
+        "tts": "Удача. Ты получил бонусный вопрос «Ничего»."
+      }
+    },
+    "bonusBold": {
+      "he": {
+        "title": "מזל — משימה נועזת",
+        "body": "בחר משתתף למשימה נועזת ברמת {heat}.",
+        "tts": "מזל. קיבלת משימה נועזת בונוס."
+      },
+      "en": {
+        "title": "Luck — Bold Task",
+        "body": "Choose a player for a bold task at the {heat} level.",
+        "tts": "Luck. You got a bonus bold task."
+      },
+      "ru": {
+        "title": "Удача — Смелое задание",
+        "body": "Выбери игрока для смелого задания уровня «{heat}».",
+        "tts": "Удача. Ты получил бонусное смелое задание."
+      }
+    },
+    "truthDare": {
+      "he": {
+        "title": "מזל — אמת או חובה",
+        "body": "אמת = שאלה · חובה = משימה",
+        "tts": "מזל. אמת או חובה."
+      },
+      "en": {
+        "title": "Luck — Truth or Dare",
+        "body": "Truth = question · Dare = task",
+        "tts": "Luck. Truth or Dare."
+      },
+      "ru": {
+        "title": "Удача — Правда или действие",
+        "body": "Правда = вопрос · Действие = задание",
+        "tts": "Удача. Правда или действие."
+      }
+    },
+    "pairBonus": {
+      "he": {
+        "title": "מזל — זוג",
+        "body": "בחר משתתף למשימת זוג בונוס."
+      },
+      "en": {
+        "title": "Luck — Pair",
+        "body": "Choose a player for a bonus pair task."
+      },
+      "ru": {
+        "title": "Удача — Пара",
+        "body": "Выбери игрока для бонусного парного задания."
+      }
+    },
+    "chooseSkip": {
+      "he": {
+        "title": "מזל — הפסד תור",
+        "body": "בחר משתתף שיפסיד את התור הבא."
+      },
+      "en": {
+        "title": "Luck — Lose a Turn",
+        "body": "Choose a player who will lose their next turn."
+      },
+      "ru": {
+        "title": "Удача — Пропуск хода",
+        "body": "Выбери игрока, который пропустит следующий ход."
+      }
+    },
+    "giveImmunity": {
+      "he": {
+        "title": "מזל — מתנה",
+        "body": "בחר משתתף שיקבל ממך חסינות בונוס."
+      },
+      "en": {
+        "title": "Luck — Gift",
+        "body": "Choose a player to receive a bonus immunity from you."
+      },
+      "ru": {
+        "title": "Удача — Подарок",
+        "body": "Выбери игрока, которому ты подаришь бонусный иммунитет."
+      }
+    },
+    "stealImmunity": {
+      "he": {
+        "title": "מזל — גניבת חסינות",
+        "body": "בחר משתתף שממנו תנסה לקחת חסינות."
+      },
+      "en": {
+        "title": "Luck — Steal Immunity",
+        "body": "Choose a player whose immunity you will try to take."
+      },
+      "ru": {
+        "title": "Удача — Украсть иммунитет",
+        "body": "Выбери игрока, у которого попытаешься забрать иммунитет."
+      }
+    },
+    "swap": {
+      "he": {
+        "title": "מזל — החלפת מקום",
+        "body": "בחר משתתף להחלפת מקומות."
+      },
+      "en": {
+        "title": "Luck — Swap Places",
+        "body": "Choose a player to swap places with."
+      },
+      "ru": {
+        "title": "Удача — Обмен местами",
+        "body": "Выбери игрока, с которым поменяешься местами."
+      }
+    },
+    "chooseBack2": {
+      "he": {
+        "title": "מזל — שלח אחורה",
+        "body": "בחר משתתף שיחזור 2 משבצות."
+      },
+      "en": {
+        "title": "Luck — Send Back",
+        "body": "Choose a player to move back 2 spaces."
+      },
+      "ru": {
+        "title": "Удача — Отправить назад",
+        "body": "Выбери игрока, который вернётся назад на 2 клетки."
+      }
+    },
+    "chooseForward3": {
+      "he": {
+        "title": "מזל — מתנה קדימה",
+        "body": "בחר משתתף שיתקדם 3 משבצות."
+      },
+      "en": {
+        "title": "Luck — Forward Gift",
+        "body": "Choose a player to move forward 3 spaces."
+      },
+      "ru": {
+        "title": "Удача — Подарок вперёд",
+        "body": "Выбери игрока, который продвинется вперёд на 3 клетки."
+      }
+    },
+    "allForward1": {
+      "he": {
+        "title": "מזל לכולם",
+        "body": "כל המשתתפים התקדמו משבצת אחת. המשבצות החדשות אינן מופעלות."
+      },
+      "en": {
+        "title": "Luck for Everyone",
+        "body": "All players move forward one space. The new spaces are not activated."
+      },
+      "ru": {
+        "title": "Удача для всех",
+        "body": "Все игроки продвигаются на одну клетку. Новые клетки не активируются."
+      }
+    },
+    "allBack1": {
+      "he": {
+        "title": "מזל הפוך לכולם",
+        "body": "כל המשתתפים חזרו משבצת אחת. המשבצות החדשות אינן מופעלות."
+      },
+      "en": {
+        "title": "Reverse Luck for Everyone",
+        "body": "All players move back one space. The new spaces are not activated."
+      },
+      "ru": {
+        "title": "Обратная удача для всех",
+        "body": "Все игроки возвращаются на одну клетку. Новые клетки не активируются."
+      }
+    },
+    "allImmunity": {
+      "he": {
+        "title": "מזל לכולם",
+        "body": "כל המשתתפים קיבלו חסינות אחת."
+      },
+      "en": {
+        "title": "Luck for Everyone",
+        "body": "Every player receives one immunity."
+      },
+      "ru": {
+        "title": "Удача для всех",
+        "body": "Каждый игрок получает один иммунитет."
+      }
+    },
+    "returnStart": {
+      "he": {
+        "title": "מזל הפוך — להתחלה",
+        "body": "חזרת למשבצת ההתחלה."
+      },
+      "en": {
+        "title": "Reverse Luck — Back to Start",
+        "body": "You returned to the Start space."
+      },
+      "ru": {
+        "title": "Обратная удача — На старт",
+        "body": "Ты вернулся на стартовую клетку."
+      }
+    },
+    "nextAll": {
+      "he": {
+        "tts": "מזל. עוברים למשבצת הכל הבאה."
+      },
+      "en": {
+        "tts": "Luck. Move to the next All space."
+      },
+      "ru": {
+        "tts": "Удача. Переходим на следующую клетку «Всё»."
+      }
+    },
+    "nextNothing": {
+      "he": {
+        "tts": "מזל. עוברים למשבצת כלום הבאה."
+      },
+      "en": {
+        "tts": "Luck. Move to the next Nothing space."
+      },
+      "ru": {
+        "tts": "Удача. Переходим на следующую клетку «Ничего»."
+      }
+    },
+    "nextWheel": {
+      "he": {
+        "tts": "מזל. עוברים למשבצת הגלגל הבאה."
+      },
+      "en": {
+        "tts": "Luck. Move to the next Wheel space."
+      },
+      "ru": {
+        "tts": "Удача. Переходим на следующую клетку колеса."
+      }
+    },
+    "allOrNothing": {
+      "he": {
+        "title": "מזל — הכל או כלום",
+        "body": "בחר לפני שתראה את הקלף.",
+        "tts": "מזל. הכל או כלום."
+      },
+      "en": {
+        "title": "Luck — All or Nothing",
+        "body": "Choose before you see the card.",
+        "tts": "Luck. All or Nothing."
+      },
+      "ru": {
+        "title": "Удача — Всё или ничего",
+        "body": "Выбери до того, как увидишь карту.",
+        "tts": "Удача. Всё или ничего."
+      }
+    },
+    "doublePrize": {
+      "he": {
+        "title": "מזל כפול",
+        "body": "קיבלת חסינות וגם תור נוסף."
+      },
+      "en": {
+        "title": "Double Luck",
+        "body": "You received immunity and an extra turn."
+      },
+      "ru": {
+        "title": "Двойная удача",
+        "body": "Ты получил иммунитет и дополнительный ход."
+      }
+    },
+    "safeBonus": {
+      "he": {
+        "penalty_title": "מזל — ביטול קנס",
+        "penalty_body": "ביטלת את הפסד התור הבא שלך.",
+        "safe_title": "מזל — רשת ביטחון",
+        "safe_body": "אין עליך קנס, לכן קיבלת חסינות."
+      },
+      "en": {
+        "penalty_title": "Luck — Penalty Cancelled",
+        "penalty_body": "Your next-turn penalty was cancelled.",
+        "safe_title": "Luck — Safety Net",
+        "safe_body": "You have no penalty, so you received immunity."
+      },
+      "ru": {
+        "penalty_title": "Удача — Штраф отменён",
+        "penalty_body": "Пропуск следующего хода отменён.",
+        "safe_title": "Удача — Подстраховка",
+        "safe_body": "На тебе нет штрафа, поэтому ты получил иммунитет."
+      }
+    },
+    "wildCard": {
+      "he": {
+        "nothing_title": "מזל פראי — כלום",
+        "bold_title": "מזל פראי — נועז",
+        "pair_title": "מזל פראי — זוג",
+        "bold_body": "בחר משתתף למשימה נועזת ברמת {heat}.",
+        "pair_body": "בחר משתתף למשימת זוג."
+      },
+      "en": {
+        "nothing_title": "Wild Luck — Nothing",
+        "bold_title": "Wild Luck — Bold",
+        "pair_title": "Wild Luck — Pair",
+        "bold_body": "Choose a player for a bold task at the {heat} level.",
+        "pair_body": "Choose a player for a pair task."
+      },
+      "ru": {
+        "nothing_title": "Дикая удача — Ничего",
+        "bold_title": "Дикая удача — Смело",
+        "pair_title": "Дикая удача — Пара",
+        "bold_body": "Выбери игрока для смелого задания уровня «{heat}».",
+        "pair_body": "Выбери игрока для парного задания."
+      }
+    }
+  },
+  "system_strings": {
+    "test_max_players": {
+      "he": "בגרסת הבדיקה: עד 8 משתתפים",
+      "en": "Test version: up to 8 players",
+      "ru": "Тестовая версия: до 8 игроков"
+    },
+    "need_two_players": {
+      "he": "צריך לפחות 2 משתתפים",
+      "en": "At least 2 players are required",
+      "ru": "Нужно минимум 2 игрока"
+    },
+    "need_two_named_players": {
+      "he": "צריך לפחות 2 משתתפים עם שם",
+      "en": "At least 2 players must have names",
+      "ru": "Нужно минимум 2 игрока с именами"
+    },
+    "confirm_new_game": {
+      "he": "להתחיל משחק חדש?",
+      "en": "Start a new game?",
+      "ru": "Начать новую игру?"
+    },
+    "turn_of": {
+      "he": "התור של {player}",
+      "en": "{player}'s turn",
+      "ru": "Ход игрока {player}"
+    },
+    "next_turn_skipped_badge": {
+      "he": " · ⛔ תור הבא",
+      "en": " · ⛔ Next turn skipped",
+      "ru": " · ⛔ Следующий ход пропущен"
+    },
+    "voice_unavailable": {
+      "he": "🔇 קול לא זמין ב־WebView",
+      "en": "🔇 Voice is unavailable in WebView",
+      "ru": "🔇 Голос недоступен в WebView"
+    },
+    "landed": {
+      "he": "נחת",
+      "en": "landed",
+      "ru": "попал на"
+    },
+    "rolled": {
+      "he": "זרק",
+      "en": "rolled",
+      "ru": "выбросил"
+    },
+    "starts": {
+      "he": "מתחיל",
+      "en": "starts",
+      "ru": "начинает"
+    },
+    "gets": {
+      "he": "מקבל",
+      "en": "gets",
+      "ru": "получает"
+    },
+    "loses": {
+      "he": "מפסיד",
+      "en": "loses",
+      "ru": "теряет"
+    },
+    "skipped": {
+      "he": "דולג",
+      "en": "skipped",
+      "ru": "пропущен"
+    },
+    "voice_active": {
+      "he": "🔊 קול פעיל",
+      "en": "🔊 Voice On",
+      "ru": "🔊 Голос включён"
+    },
+    "voice_disabled": {
+      "he": "🔇 קול כבוי",
+      "en": "🔇 Voice Off",
+      "ru": "🔇 Голос выключен"
+    },
+    "voice_is_active": {
+      "he": "הקול פעיל",
+      "en": "Voice is on",
+      "ru": "Голос включён"
+    },
+    "rolling": {
+      "he": "מגלגלים...",
+      "en": "Rolling...",
+      "ru": "Бросаем..."
+    },
+    "dice_2": {
+      "he": "שניים",
+      "en": "two",
+      "ru": "два"
+    },
+    "dice_3": {
+      "he": "שלושה",
+      "en": "three",
+      "ru": "три"
+    },
+    "dice_4": {
+      "he": "ארבעה",
+      "en": "four",
+      "ru": "четыре"
+    },
+    "dice_5": {
+      "he": "חמישה",
+      "en": "five",
+      "ru": "пять"
+    },
+    "dice_6": {
+      "he": "שישה",
+      "en": "six",
+      "ru": "шесть"
+    },
+    "dice_7": {
+      "he": "שבעה",
+      "en": "seven",
+      "ru": "семь"
+    },
+    "dice_8": {
+      "he": "שמונה",
+      "en": "eight",
+      "ru": "восемь"
+    },
+    "dice_9": {
+      "he": "תשעה",
+      "en": "nine",
+      "ru": "девять"
+    },
+    "dice_10": {
+      "he": "עשרה",
+      "en": "ten",
+      "ru": "десять"
+    },
+    "dice_11": {
+      "he": "אחד עשר",
+      "en": "eleven",
+      "ru": "одиннадцать"
+    },
+    "dice_12": {
+      "he": "שנים עשר",
+      "en": "twelve",
+      "ru": "двенадцать"
+    },
+    "chain_guard": {
+      "he": "שרשרת פעולות נעצרה להגנה מבאג.",
+      "en": "The action chain was stopped to prevent a bug.",
+      "ru": "Цепочка действий остановлена для защиты от ошибки."
+    },
+    "choose_pair_player": {
+      "he": "בחר משתתף למשימה זוגית.",
+      "en": "Choose a player for a pair task.",
+      "ru": "Выбери игрока для парного задания."
+    },
+    "immunity_received_help": {
+      "he": "קיבלת חסינות אחת. אפשר להשתמש בה כדי להחליף קלף עתידי מאותה קטגוריה.",
+      "en": "You received one immunity. You can use it to replace a future card from the same category.",
+      "ru": "Ты получил один иммунитет. Его можно использовать, чтобы заменить будущую карту той же категории."
+    },
+    "returned_to_start": {
+      "he": "חזרת למשבצת ההתחלה.",
+      "en": "You returned to the Start space.",
+      "ru": "Ты вернулся на стартовую клетку."
+    },
+    "choose_swap_player": {
+      "he": "בחר משתתף להחלפת מקומות.",
+      "en": "Choose a player to swap places with.",
+      "ru": "Выбери игрока для обмена местами."
+    },
+    "no_new_card_category": {
+      "he": "אין קלף חדש נוסף בקטגוריה הזאת במשחק הנוכחי.",
+      "en": "There are no new cards left in this category in the current game.",
+      "ru": "В этой категории больше нет новых карт в текущей игре."
+    },
+    "no_opposite_gender": {
+      "he": "אין כרגע משתתף מהמין השני שאפשר לבחור.",
+      "en": "There is currently no eligible player of the opposite gender.",
+      "ru": "Сейчас нет подходящего игрока другого пола."
+    },
+    "no_same_gender": {
+      "he": "אין כרגע משתתף מתאים מאותו המין שאפשר לבחור.",
+      "en": "There is currently no eligible player of the same gender.",
+      "ru": "Сейчас нет подходящего игрока того же пола."
+    },
+    "no_other_player": {
+      "he": "אין כרגע משתתף נוסף שאפשר לבחור.",
+      "en": "There is currently no other eligible player to choose.",
+      "ru": "Сейчас нет другого подходящего игрока для выбора."
+    },
+    "pair_task": {
+      "he": "משימה זוגית",
+      "en": "Pair Task",
+      "ru": "Парное задание"
+    },
+    "no_bold_cards": {
+      "he": "כל המשימות הנועזות הזמינות כבר הופיעו במשחק הנוכחי.",
+      "en": "All currently available bold tasks have already appeared in this game.",
+      "ru": "Все доступные смелые задания уже появлялись в этой игре."
+    },
+    "replacement_active": {
+      "he": "החלפה פעילה",
+      "en": "Replacement Active",
+      "ru": "Замена активна"
+    },
+    "no_questions": {
+      "he": "כל השאלות הזמינות כבר הופיעו במשחק הזה.",
+      "en": "All available questions have already appeared in this game.",
+      "ru": "Все доступные вопросы уже появлялись в этой игре."
+    },
+    "choose_player_question": {
+      "he": "בחירת שחקן — שאלה",
+      "en": "Choose Player — Question",
+      "ru": "Выбор игрока — Вопрос"
+    },
+    "no_tasks": {
+      "he": "כל המשימות הזמינות כבר הופיעו במשחק הזה.",
+      "en": "All available tasks have already appeared in this game.",
+      "ru": "Все доступные задания уже появлялись в этой игре."
+    },
+    "choose_player_bonus": {
+      "he": "בחירת שחקן — בונוס",
+      "en": "Choose Player — Bonus",
+      "ru": "Выбор игрока — Бонус"
+    },
+    "choose_player_penalty": {
+      "he": "בחירת שחקן — קנס",
+      "en": "Choose Player — Penalty",
+      "ru": "Выбор игрока — Штраф"
+    },
+    "choose_player_forward": {
+      "he": "בחירת שחקן — קדימה",
+      "en": "Choose Player — Forward",
+      "ru": "Выбор игрока — Вперёд"
+    },
+    "luck_pair_task": {
+      "he": "מזל — משימה זוגית",
+      "en": "Luck — Pair Task",
+      "ru": "Удача — Парное задание"
+    },
+    "luck_choice": {
+      "he": "מזל — בחירה",
+      "en": "Luck — Choice",
+      "ru": "Удача — Выбор"
+    },
+    "luck_nothing_to_steal": {
+      "he": "מזל — אין מה לגנוב",
+      "en": "Luck — Nothing to Steal",
+      "ru": "Удача — Нечего красть"
+    },
+    "player_skipped_penalty": {
+      "he": "{player} דולג/ה בגלל הפסד תור.",
+      "en": "{player}'s turn was skipped because of a lose-turn penalty.",
+      "ru": "Ход игрока {player} пропущен из-за штрафа."
+    },
+    "truth_dare_choose_first_tts": {
+      "he": "אמת או חובה. בחר לפני שהקלף נחשף.",
+      "en": "Truth or Dare. Choose before the card is revealed.",
+      "ru": "Правда или действие. Выбери до того, как карта откроется."
+    },
+    "choose_replacement_player": {
+      "he": "בחר משתתף שיחליף אותך במשימה הבאה.",
+      "en": "Choose a player who will replace you in your next task.",
+      "ru": "Выбери игрока, который заменит тебя в следующем задании."
+    },
+    "choose_player_random_effect": {
+      "he": "בחר משתתף. המשחק יגריל מה יקרה לו או ביניכם.",
+      "en": "Choose a player. The game will randomly decide what happens to them or between you.",
+      "ru": "Выбери игрока. Игра случайно решит, что произойдёт с ним или между вами."
+    },
+    "aon_choose_first_tts": {
+      "he": "הכל או כלום. בחר לפני שתראה את הקלף.",
+      "en": "All or Nothing. Choose before you see the card.",
+      "ru": "Всё или ничего. Выбери до того, как увидишь карту."
+    },
+    "heat_kiss_touch": {
+      "he": "נשיקות ומגע",
+      "en": "Kissing & Touch",
+      "ru": "Поцелуи и прикосновения"
+    },
+    "heat_flirt": {
+      "he": "פלירט",
+      "en": "Flirt",
+      "ru": "Флирт"
+    },
+    "unique_cards_exhausted": {
+      "he": "כל הקלפים הייחודיים בקטגוריה הזאת כבר הופיעו במשחק הנוכחי.",
+      "en": "All unique cards in this category have already appeared in the current game.",
+      "ru": "Все уникальные карты этой категории уже появлялись в текущей игре."
+    },
+    "landed_on_prefix": {
+      "he": "נחתת על: {tile}",
+      "en": "You landed on: {tile}",
+      "ru": "Ты попал на: {tile}"
+    },
+    "player_name_placeholder": {
+      "he": "שם משתתף {number}",
+      "en": "Player {number} name",
+      "ru": "Имя игрока {number}"
+    },
+    "starting_player_draw": {
+      "he": "ההגרלה קבעה: {player} מתחיל.",
+      "en": "The draw decided: {player} starts.",
+      "ru": "Жребий решил: первым ходит {player}."
+    },
+    "now_turn": {
+      "he": "עכשיו התור של {player}.",
+      "en": "It is now {player}'s turn.",
+      "ru": "Сейчас ход игрока {player}."
+    },
+    "status_line": {
+      "he": "משבצת {space} · חסינות: {immunity} · 🔥 {heat} · סיבוב {round}",
+      "en": "Space {space} · Immunity: {immunity} · 🔥 {heat} · Round {round}",
+      "ru": "Клетка {space} · Иммунитет: {immunity} · 🔥 {heat} · Раунд {round}"
+    },
+    "turn_skipped": {
+      "he": "התור של {player} דולג.",
+      "en": "{player}'s turn was skipped.",
+      "ru": "Ход игрока {player} пропущен."
+    },
+    "dice_result_tts": {
+      "he": "בקוביות של {player} יצא {total}.",
+      "en": "{player} rolled {total}.",
+      "ru": "Игрок {player} выбросил {total}."
+    },
+    "player_landed_tile": {
+      "he": "{player} נחת על {tile}.",
+      "en": "{player} landed on {tile}.",
+      "ru": "Игрок {player} попал на клетку {tile}."
+    },
+    "extra_turn_after_action": {
+      "he": "בסיום הפעולה יגיע תור נוסף ל-{player}.",
+      "en": "After this action, {player} gets another turn.",
+      "ru": "После этого действия игрок {player} получает ещё один ход."
+    },
+    "next_turn_will_skip": {
+      "he": "התור הבא של {player} ידולג.",
+      "en": "{player}'s next turn will be skipped.",
+      "ru": "Следующий ход игрока {player} будет пропущен."
+    },
+    "replacement_title": {
+      "he": "{title} · החלפה",
+      "en": "{title} · Replacement",
+      "ru": "{title} · Замена"
+    },
+    "replacement_task": {
+      "he": "{actor} מחליף/ה את {original} במשימה הזאת:\n{text}",
+      "en": "{actor} replaces {original} for this task:\n{text}",
+      "ru": "Игрок {actor} заменяет игрока {original} в этом задании:\n{text}"
+    },
+    "card_tts": {
+      "he": "קלף {title}. {text}",
+      "en": "Card {title}. {text}",
+      "ru": "Карта {title}. {text}"
+    },
+    "use_immunity": {
+      "he": "🛡 השתמש בחסינות וקבל קלף אחר",
+      "en": "🛡 Use Immunity and Get Another Card",
+      "ru": "🛡 Использовать иммунитет и получить другую карту"
+    },
+    "done_continue": {
+      "he": "בוצע / המשך",
+      "en": "Done / Continue",
+      "ru": "Готово / Продолжить"
+    },
+    "continue": {
+      "he": "המשך",
+      "en": "Continue",
+      "ru": "Продолжить"
+    },
+    "no_pair_cards_heat": {
+      "he": "כל המשימות הזוגיות הזמינות ברמת {heat} כבר הופיעו במשחק הנוכחי.",
+      "en": "All available pair tasks at the {heat} level have already appeared in the current game.",
+      "ru": "Все доступные парные задания уровня «{heat}» уже появлялись в текущей игре."
+    },
+    "replacement_notice": {
+      "he": "{actor} מחליף/ה את {original}.\n",
+      "en": "{actor} replaces {original}.\n",
+      "ru": "Игрок {actor} заменяет игрока {original}.\n"
+    },
+    "pair_received": {
+      "he": "{actor} ו-{partner} קיבלו משימה זוגית.",
+      "en": "{actor} and {partner} received a pair task.",
+      "ru": "Игроки {actor} и {partner} получили парное задание."
+    },
+    "pair_title_heat": {
+      "he": "משימה זוגית · {heat}",
+      "en": "Pair Task · {heat}",
+      "ru": "Парное задание · {heat}"
+    },
+    "pair_task_players": {
+      "he": "{actor} ו-{partner}:\n{task}",
+      "en": "{actor} and {partner}:\n{task}",
+      "ru": "{actor} и {partner}:\n{task}"
+    },
+    "players_swapped": {
+      "he": "{player1} ו-{player2} החליפו מקומות.",
+      "en": "{player1} and {player2} swapped places.",
+      "ru": "Игроки {player1} и {player2} поменялись местами."
+    },
+    "players_swapped_no_trigger": {
+      "he": "הפיונים של {player1} ושל {player2} החליפו מקומות. המשבצות החדשות אינן מופעלות מחדש.",
+      "en": "The pieces of {player1} and {player2} swapped places. The new spaces are not activated again.",
+      "ru": "Фишки игроков {player1} и {player2} поменялись местами. Новые клетки повторно не активируются."
+    },
+    "bold_received": {
+      "he": "{actor} ו-{partner} קיבלו משימה נועזת.",
+      "en": "{actor} and {partner} received a bold task.",
+      "ru": "Игроки {actor} и {partner} получили смелое задание."
+    },
+    "bold_title_heat": {
+      "he": "משימה נועזת · {heat}",
+      "en": "Bold Task · {heat}",
+      "ru": "Смелое задание · {heat}"
+    },
+    "replacement_chosen": {
+      "he": "{actor} בחר את {partner} להחלפה.",
+      "en": "{actor} chose {partner} as the replacement.",
+      "ru": "Игрок {actor} выбрал игрока {partner} для замены."
+    },
+    "replacement_saved": {
+      "he": "{partner} יחליף/תחליף את {actor} במשימת הקלף הבאה שלו. ההחלפה נשמרת עד שתופיע משימה.",
+      "en": "{partner} will replace {actor} in their next card task. The replacement stays active until a task appears.",
+      "ru": "Игрок {partner} заменит игрока {actor} в следующем задании с карты. Замена сохраняется до появления задания."
+    },
+    "chosen_answers": {
+      "he": "{player} עונה/ה:\n{question}",
+      "en": "{player} answers:\n{question}",
+      "ru": "Игрок {player} отвечает:\n{question}"
+    },
+    "choose_player_dare_heat": {
+      "he": "בחירת שחקן — חובה · {heat}",
+      "en": "Choose Player — Dare · {heat}",
+      "ru": "Выбор игрока — Действие · {heat}"
+    },
+    "chosen_performs": {
+      "he": "{player} מבצע/ת:\n{task}",
+      "en": "{player} performs:\n{task}",
+      "ru": "Игрок {player} выполняет:\n{task}"
+    },
+    "chosen_immunity": {
+      "he": "{player} קיבל/ה חסינות.",
+      "en": "{player} received immunity.",
+      "ru": "Игрок {player} получил иммунитет."
+    },
+    "chosen_loses_turn": {
+      "he": "{player} יפסיד/תפסיד את התור הבא.",
+      "en": "{player} will lose the next turn.",
+      "ru": "Игрок {player} пропустит следующий ход."
+    },
+    "chosen_forward3": {
+      "he": "{player} התקדם/ה 3 משבצות. המשבצת החדשה לא מופעלת.",
+      "en": "{player} moved forward 3 spaces. The new space is not activated.",
+      "ru": "Игрок {player} продвинулся на 3 клетки. Новая клетка не активируется."
+    },
+    "chosen_decides_aon": {
+      "he": "{chosen} בוחר בשביל {current}. הכל או כלום.",
+      "en": "{chosen} chooses for {current}. All or Nothing.",
+      "ru": "Игрок {chosen} выбирает за игрока {current}: Всё или ничего."
+    },
+    "choose_player_decision": {
+      "he": "בחירת שחקן — החלטה",
+      "en": "Choose Player — Decision",
+      "ru": "Выбор игрока — Решение"
+    },
+    "pair_bonus_received": {
+      "he": "{actor} ו-{partner} קיבלו בונוס זוגי.",
+      "en": "{actor} and {partner} received a pair bonus.",
+      "ru": "Игроки {actor} и {partner} получили парный бонус."
+    },
+    "luck_pair_heat": {
+      "he": "מזל — זוג · {heat}",
+      "en": "Luck — Pair · {heat}",
+      "ru": "Удача — Пара · {heat}"
+    },
+    "player_will_skip": {
+      "he": "{player} יפסיד/תפסיד את התור הבא.",
+      "en": "{player} will lose the next turn.",
+      "ru": "Игрок {player} пропустит следующий ход."
+    },
+    "player_got_immunity_from_you": {
+      "he": "{player} קיבל/ה חסינות ממך.",
+      "en": "{player} received immunity from you.",
+      "ru": "Игрок {player} получил от тебя иммунитет."
+    },
+    "stole_immunity": {
+      "he": "לקחת חסינות אחת מ-{player}.",
+      "en": "You took one immunity from {player}.",
+      "ru": "Ты забрал один иммунитет у игрока {player}."
+    },
+    "no_immunity_got_one": {
+      "he": "{player} בלי חסינות, אז קיבלת חסינות אחת במקום.",
+      "en": "{player} had no immunity, so you received one immunity instead.",
+      "ru": "У игрока {player} не было иммунитета, поэтому вместо этого ты получил один иммунитет."
+    },
+    "player_back2": {
+      "he": "{player} זז/ה 2 משבצות אחורה. המשבצת החדשה לא מופעלת.",
+      "en": "{player} moved back 2 spaces. The new space is not activated.",
+      "ru": "Игрок {player} переместился назад на 2 клетки. Новая клетка не активируется."
+    },
+    "player_forward3": {
+      "he": "{player} זז/ה 3 משבצות קדימה. המשבצת החדשה לא מופעלת.",
+      "en": "{player} moved forward 3 spaces. The new space is not activated.",
+      "ru": "Игрок {player} переместился вперёд на 3 клетки. Новая клетка не активируется."
+    },
+    "players_swapped_no_trigger_short": {
+      "he": "{player1} ו-{player2} החליפו מקומות. המשבצות החדשות לא מופעלות.",
+      "en": "{player1} and {player2} swapped places. The new spaces are not activated.",
+      "ru": "Игроки {player1} и {player2} поменялись местами. Новые клетки не активируются."
+    },
+    "extra_turn_for": {
+      "he": "תור נוסף ל-{player}.",
+      "en": "Extra turn for {player}.",
+      "ru": "Дополнительный ход для игрока {player}."
+    },
+    "heat_increased": {
+      "he": "🔥 רמת החום עלתה: {heat}.",
+      "en": "🔥 Heat level increased: {heat}.",
+      "ru": "🔥 Уровень накала повышен: {heat}."
+    },
+    "heat_increased_tts": {
+      "he": "רמת החום עלתה. {heat}.",
+      "en": "Heat level increased. {heat}.",
+      "ru": "Уровень накала повышен. {heat}."
+    },
+    "lose_turn_title": {
+      "he": "הפסד תור",
+      "en": "Lose a Turn",
+      "ru": "Пропуск хода"
+    },
+    "lose_turn_body": {
+      "he": "{player} מפסיד/ה את התור הזה.",
+      "en": "{player} loses this turn.",
+      "ru": "Игрок {player} пропускает этот ход."
+    },
+    "wheel_stopped": {
+      "he": "הגלגל נעצר על {category}.",
+      "en": "The wheel stopped on {category}.",
+      "ru": "Колесо остановилось на «{category}»."
+    },
+    "choose_bold_heat": {
+      "he": "בחר משתתף למשימה נועזת ברמת {heat}.",
+      "en": "Choose a player for a bold task at the {heat} level.",
+      "ru": "Выбери игрока для смелого задания уровня «{heat}»."
+    },
+    "truth_equals_question": {
+      "he": "אמת = שאלה · חובה = משימה",
+      "en": "Truth = Question · Dare = Task",
+      "ru": "Правда = Вопрос · Действие = Задание"
+    },
+    "truth_question": {
+      "he": "אמת — שאלה",
+      "en": "Truth — Question",
+      "ru": "Правда — Вопрос"
+    },
+    "dare_task": {
+      "he": "חובה — משימה",
+      "en": "Dare — Task",
+      "ru": "Действие — Задание"
+    },
+    "choose_before_reveal": {
+      "he": "בחר לפני שהקלף נחשף.",
+      "en": "Choose before the card is revealed.",
+      "ru": "Выбери до того, как карта откроется."
+    },
+    "moved_to_tile": {
+      "he": "{player} עבר/ה ל-{title}.",
+      "en": "{player} moved to {title}.",
+      "ru": "Игрок {player} переместился на «{title}»."
+    },
+    "extra_turn_after_action_alt": {
+      "he": "בסיום הפעולה יהיה תור נוסף ל-{player}.",
+      "en": "After this action, {player} gets another turn.",
+      "ru": "После этого действия игрок {player} получает ещё один ход."
+    },
+    "all_title_heat": {
+      "he": "הכל · {heat}",
+      "en": "All · {heat}",
+      "ru": "Всё · {heat}"
+    }
+  }
+};

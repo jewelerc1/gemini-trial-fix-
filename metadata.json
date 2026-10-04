@@ -1,0 +1,8 @@
+{
+  "name": "הכל או כלום",
+  "description": "משחק שולחן דיגיטלי למבוגרים (18+) - לוח, גלגל, קוביות ומשימות",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

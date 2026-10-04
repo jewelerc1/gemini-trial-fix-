@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Background -->
+    <path
+        android:fillColor="#160b1c"
+        android:pathData="M0,0h48v48h-48z"/>
+    <!-- Outer Glow -->
+    <path
+        android:fillColor="#33ff4b9a"
+        android:pathData="M24,7 A17,17 0 1,0 24,41 A17,17 0 1,0 24,7 Z"/>
+    <!-- Wheel Outer Ring -->
+    <path
+        android:strokeColor="#ff4b9a"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M24,9 A15,15 0 1,0 24,39 A15,15 0 1,0 24,9 Z"/>
+    <!-- Wheel Inner Gold Ring -->
+    <path
+        android:strokeColor="#ffe09a"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M24,12 A12,12 0 1,0 24,36 A12,12 0 1,0 24,12 Z"/>
+    <!-- Dice Diamond -->
+    <path
+        android:fillColor="#ff3385"
+        android:pathData="M22,17 L29,20.5 L22,24 L15,20.5 Z"/>
+    <path
+        android:fillColor="#b80058"
+        android:pathData="M15,20.5 L22,24 L22,32 L15,28.5 Z"/>
+    <path
+        android:fillColor="#e6006f"
+        android:pathData="M22,24 L29,20.5 L29,28.5 L22,32 Z"/>
+    <!-- Pip on top -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M22,20.5 A1,1 0 1,0 22,20.51 Z"/>
+    <!-- Star shimmer -->
+    <path
+        android:fillColor="#ffe09a"
+        android:pathData="M31,14 L32,16 L34,17 L32,18 L31,20 L30,18 L28,17 L30,16 Z"/>
+</vector>
